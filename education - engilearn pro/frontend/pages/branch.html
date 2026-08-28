@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Branch-wise EngiLearn study hub with semester subjects, notes, and video lectures.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://engilearn-edu.vercel.app/pages/branch.html">
+    <title>Branch Study Hub - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="Branch navigation">
+            <a class="logo" href="../index.html#home"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#branches">Branches</a></li>
+                <li><a href="../index.html#videos">Videos</a></li>
+                <li><a href="../index.html#pyq">PYQ/IMP</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" type="button">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="branch-detail-page">
+        <section class="branch-detail-hero">
+            <div>
+                <a class="branch-back-link" href="../index.html#branches"><i class="fas fa-arrow-left"></i> All branches</a>
+                <span class="pyq-kicker" id="branchRank">Branch Hub</span>
+                <h1 id="branchTitle">Engineering Branch</h1>
+                <p id="branchSummary">Semester-wise subjects, notes, and lectures are loading for this branch.</p>
+                <div class="branch-detail-actions">
+                    <a href="#subjects" class="pyq-btn"><i class="fas fa-layer-group"></i> Subjects</a>
+                    <a href="#videos" class="pyq-btn secondary"><i class="fas fa-play"></i> Videos</a>
+                    <a href="#branchPyq" class="pyq-btn secondary"><i class="fas fa-file-pdf"></i> PYQ PDFs</a>
+                </div>
+            </div>
+            <div class="branch-detail-stats" id="branchStats"></div>
+        </section>
+
+        <section class="branch-detail-layout">
+            <aside class="branch-detail-panel branch-filter-panel">
+                <h2>Study Filter</h2>
+                <label>
+                    Semester
+                    <select id="branchSemesterFilter"></select>
+                </label>
+                <label>
+                    Subject
+                    <select id="branchSubjectFilter"></select>
+                </label>
+                <label>
+                    Search
+                    <input id="branchSearchInput" type="search" placeholder="Search subject, notes, video">
+                </label>
+                <div class="branch-content-type-control" aria-label="Content type shortcuts">
+                    <span>Content Type</span>
+                    <div class="branch-content-type-options">
+                        <a class="branch-content-type-btn" href="#notes">Notes</a>
+                        <a class="branch-content-type-btn" href="#subjects">Syllabus</a>
+                        <a class="branch-content-type-btn active" href="#branchPyq">PYQ</a>
+                    </div>
+                </div>
+                <button class="video-btn" id="branchResetFilters" type="button"><i class="fas fa-rotate-left"></i> Reset</button>
+            </aside>
+
+            <section class="branch-detail-content">
+                <section class="branch-detail-panel" id="subjects">
+                    <div class="branch-section-head">
+                        <div>
+                            <span class="pyq-kicker">Syllabus</span>
+                            <h2>Semester Subjects</h2>
+                        </div>
+                        <p id="subjectCountText"></p>
+                    </div>
+                    <div class="branch-semester-grid" id="branchSemesterGrid"></div>
+                </section>
+
+                <section class="branch-detail-panel" id="videos">
+                    <div class="branch-section-head">
+                        <div>
+                            <span class="pyq-kicker">Videos</span>
+                            <h2>Branch Lectures</h2>
+                        </div>
+                        <a class="pyq-btn secondary" id="openVideoLibrary" href="../pages/lecture.html"><i class="fas fa-up-right-from-square"></i> Full library</a>
+                    </div>
+                    <div class="branch-resource-grid" id="branchVideoGrid"></div>
+                </section>
+
+                <section class="branch-detail-panel" id="branchPyq">
+                    <div class="branch-section-head">
+                        <div>
+                            <span class="pyq-kicker">PYQ PDF</span>
+                            <h2>Previous Year Question Papers</h2>
+                        </div>
+                        <a class="pyq-btn secondary" id="openPyqLibrary" href="../pages/pyq.html"><i class="fas fa-table-list"></i> Open PYQ Library</a>
+                    </div>
+                    <div class="branch-resource-grid" id="branchPyqGrid"></div>
+                </section>
+
+                <section class="branch-detail-panel" id="notes">
+                    <div class="branch-section-head">
+                        <div>
+                            <span class="pyq-kicker">Notes</span>
+                            <h2>Notes & Uploaded Content</h2>
+                        </div>
+                    </div>
+                    <div class="branch-resource-grid" id="branchNotesGrid"></div>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/branch-page.js?v=7"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

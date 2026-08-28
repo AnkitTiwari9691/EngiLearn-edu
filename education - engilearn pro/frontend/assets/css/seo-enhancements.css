@@ -1,0 +1,4 @@
+﻿.skip-to-content{position:fixed;left:1rem;top:-4rem;z-index:99999;background:#050505;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:.75rem 1rem;font-weight:800;text-decoration:none;transition:top .2s ease}
+.skip-to-content:focus{top:1rem}
+:focus-visible{outline:3px solid #ef233c;outline-offset:3px}
+img,video,iframe{max-width:100%}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse RGPV PYQ by branch, semester, subject code, subject, and year inside EngiLearn.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://engilearn-edu.vercel.app/pages/pyq.html">
+    <title>PYQ Library - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="../assets/css/responsive.css?v=52">
+    
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="PYQ navigation">
+            <a class="logo" href="../index.html#home"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#branches">Branches</a></li>
+                <li><a href="../index.html#videos">Videos</a></li>
+                <li><a href="../index.html#pyq">PYQ/IMP</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" type="button"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pyq-library-page">
+        <section class="pyq-library-hero">
+            <div>
+                <span class="pyq-kicker">RGPV Paper Bank</span>
+                <h1>Previous Year Question Papers</h1>
+                <p>Find papers by branch, semester, subject, subject code, and year without leaving EngiLearn.</p>
+            </div>
+            <div class="pyq-library-stats" id="pyqLibraryStats"></div>
+        </section>
+
+        <section class="pyq-step-flow" id="pyqStepFlow" aria-label="PYQ step selection">
+            <div class="pyq-step-flow-head">
+                <div>
+                    <span class="pyq-kicker">PYQ Selection</span>
+                    <h2 id="pyqStepTitle">Select Branch</h2>
+                    <p id="pyqStepText">Choose your branch to continue with semester and subject-code selection.</p>
+                </div>
+                <div class="pyq-step-crumbs" id="pyqStepCrumbs"></div>
+            </div>
+            <div class="pyq-step-picklists" id="pyqStepPicklists"></div>
+            <div class="pyq-step-grid" id="pyqStepGrid"></div>
+        </section>
+
+    </main>
+
+    <dialog class="pyq-detail-dialog" id="pyqDetailDialog">
+        <button class="tool-close" id="closePyqDetails" type="button" aria-label="Close">&times;</button>
+        <div id="pyqDetailContent"></div>
+    </dialog>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+    <script src="../assets/js/subject-similarity.js?v=1"></script>
+    <script src="../assets/js/pyq-page.js?v=64"></script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

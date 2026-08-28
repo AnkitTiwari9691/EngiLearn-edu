@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email OTP Verification - EngiLearn</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="auth-page auth-login-nothing" data-theme="light">
+    <main class="auth-shell">
+        <section class="auth-copy">
+            <span class="auth-kicker">Real Email OTP</span>
+            <h1>Verify an email with a short-lived OTP.</h1>
+            <p>Enter an email, receive a Gmail OTP, then confirm the 6-digit code before it expires.</p>
+        </section>
+
+        <section class="auth-card">
+            <h2>Email OTP Verification</h2>
+            <p id="otpStepText">Start by sending an OTP to your email.</p>
+            <div id="authAlert"></div>
+
+            <form class="auth-form" id="emailOtpForm">
+                <label>Email
+                    <input id="email" type="email" placeholder="you@example.com" required>
+                </label>
+                <button class="auth-submit" id="sendOtpBtn" type="submit">
+                    <i class="fas fa-paper-plane"></i> Send OTP
+                </button>
+            </form>
+
+            <form class="auth-form" id="verifyOtpForm" hidden>
+                <label>6-digit OTP
+                    <input id="otp" type="text" inputmode="numeric" maxlength="6" placeholder="123456" required>
+                </label>
+                <button class="auth-submit" id="verifyOtpBtn" type="submit">
+                    <i class="fas fa-shield-halved"></i> Verify OTP
+                </button>
+                <button class="auth-secondary" id="changeEmailBtn" type="button">Change Email</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="assets/js/api.js?v=53"></script>
+    <script src="assets/js/theme-engine.js?v=7"></script>
+    <script src="js/auth.js?v=39"></script>
+    <script src="js/otpVerification.js?v=1"></script>
+  <script src="assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

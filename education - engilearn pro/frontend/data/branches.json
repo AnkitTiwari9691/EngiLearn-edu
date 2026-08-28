@@ -1,0 +1,97 @@
+[
+  {
+    "id": "cse",
+    "rank": 1,
+    "name": "Computer Science & Engineering",
+    "subjects": [
+      "ES-301 Energy & Environmental Engineering",
+      "CS-302 Discrete Structure",
+      "CS-303 Data Structure",
+      "CS-304 Digital Systems",
+      "CS-305 Object Oriented Programming & Methodology",
+      "BT-401 Mathematics III",
+      "CS-402 Analysis & Design of Algorithms (ADA)",
+      "CS-403 Software Engineering",
+      "CS-404 Computer Organization & Architecture (COA)",
+      "CS-405 Operating Systems (OS)",
+      "CS-501 Theory of Computation (TOC)",
+      "CS-502 Database Management Systems (DBMS)"
+    ]
+  },
+  {
+    "id": "it",
+    "rank": 2,
+    "name": "Information Technology",
+    "subjects": [
+      "BT-101 Engineering Chemistry",
+      "BT-102 Mathematics-I",
+      "BT-103 English for Communication",
+      "BT-104 Basic Electrical & Electronics Engineering",
+      "BT-105 Engineering Graphics",
+      "BT-201 Engineering Physics",
+      "BT-202 Mathematics-II",
+      "BT-203 Basic Mechanical Engineering",
+      "BT-204 Basic Civil Engineering & Mechanics",
+      "BT-205 Basic Computer Engineering",
+      "ES-301 Energy & Environmental Engineering",
+      "IT-302 Discrete Structure"
+    ]
+  },
+  {
+    "id": "ece",
+    "rank": 3,
+    "name": "Electronics & Communication",
+    "subjects": [
+      "BT-101 Engineering Chemistry",
+      "BT-102 Mathematics-I",
+      "BT-103 English for Communication",
+      "BT-104 Basic Electrical & Electronics Engineering",
+      "BT-105 Engineering Graphics",
+      "BT-201 Engineering Physics",
+      "BT-202 Mathematics-II",
+      "BT-203 Basic Mechanical Engineering",
+      "BT-204 Basic Civil Engineering & Mechanics",
+      "BT-205 Basic Computer Engineering",
+      "BT-301 Mathematics-III",
+      "EC-302 Electronic Measurement & Instrumentation"
+    ]
+  },
+  {
+    "id": "mech",
+    "rank": 4,
+    "name": "Mechanical Engineering",
+    "subjects": [
+      "BT-101 Engineering Chemistry",
+      "BT-102 Mathematics-I",
+      "BT-103 English for Communication",
+      "BT-104 Basic Electrical & Electronics Engineering",
+      "BT-105 Engineering Graphics",
+      "BT-201 Engineering Physics",
+      "BT-202 Mathematics-II",
+      "BT-203 Basic Mechanical Engineering",
+      "BT-204 Basic Civil Engineering & Mechanics",
+      "BT-205 Basic Computer Engineering",
+      "ME-301 Thermodynamics",
+      "ME-302 Material Science"
+    ]
+  },
+  {
+    "id": "civil",
+    "rank": 5,
+    "name": "Civil Engineering",
+    "subjects": [
+      "BT-101 Engineering Chemistry",
+      "BT-102 Mathematics-I",
+      "BT-103 English for Communication",
+      "BT-104 Basic Electrical & Electronics Engineering",
+      "BT-105 Engineering Graphics",
+      "BT-201 Engineering Physics",
+      "BT-202 Mathematics-II",
+      "BT-203 Basic Mechanical Engineering",
+      "BT-204 Basic Civil Engineering & Mechanics",
+      "BT-205 Basic Computer Engineering",
+      "CE-301 Strength of Materials",
+      "CE-302 Building Materials"
+    ]
+  }
+]

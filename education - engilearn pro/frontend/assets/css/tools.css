@@ -1,0 +1,1024 @@
+.toolbox-dock {
+    align-items: center;
+    bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    position: fixed;
+    right: 1.5rem;
+    z-index: 1100;
+}
+
+.dock-center,
+.dock-tool {
+    align-items: center;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.dock-center {
+    background: var(--white);
+    color: var(--primary);
+    height: 56px;
+    width: 56px;
+}
+
+.dock-tool {
+    color: white;
+    height: 44px;
+    opacity: 0;
+    transform: translateY(20px) scale(0.85);
+    width: 44px;
+}
+
+.toolbox-dock.open .dock-tool,
+.toolbox-dock:hover .dock-tool {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.dock-center:hover,
+.dock-tool:hover {
+    transform: translateY(-5px) scale(1.08);
+}
+
+.stopwatch-btn {
+    background: linear-gradient(135deg, var(--primary), #1d4ed8);
+}
+
+.notes-btn {
+    background: linear-gradient(135deg, var(--success), #047857);
+}
+
+.calculator-btn {
+    background: linear-gradient(135deg, var(--purple), #6d28d9);
+}
+
+.todo-btn {
+    background: linear-gradient(135deg, var(--orange), #c2410c);
+}
+
+.pomodoro-btn {
+    background: linear-gradient(135deg, #d71920, #7f1d1d);
+}
+
+.converter-btn {
+    background: linear-gradient(135deg, #0891b2, #155e75);
+}
+
+.formula-btn {
+    background: linear-gradient(135deg, #111827, #374151);
+}
+
+.cgpa-btn {
+    background: linear-gradient(135deg, #16a34a, #166534);
+}
+
+.attendance-btn {
+    background: linear-gradient(135deg, #f59e0b, #92400e);
+}
+
+.tool-modal {
+    background: rgba(15, 23, 42, 0.58);
+    backdrop-filter: blur(8px);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2100;
+}
+
+.tool-modal.open {
+    display: block;
+}
+
+.tool-modal-content {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 25px 60px rgba(15, 23, 42, 0.3);
+    color: var(--dark);
+    margin: 3vh auto;
+    max-height: 94vh;
+    max-width: 500px;
+    overflow: auto;
+    padding: 1.5rem;
+    position: relative;
+    width: min(95%, 500px);
+}
+
+.tool-close {
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    color: var(--gray);
+    cursor: pointer;
+    font-size: 1.8rem;
+    height: 38px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 38px;
+}
+
+.tool-close:hover {
+    background: rgba(100, 116, 139, 0.12);
+}
+
+.modal-header {
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.modal-icon {
+    color: var(--primary);
+    display: block;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-header p {
+    color: var(--gray);
+    font-size: 0.95rem;
+}
+
+.stopwatch-content,
+.notes-content,
+.todo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#stopwatchDisplay {
+    align-items: center;
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    border: 3px solid rgba(59, 130, 246, 0.2);
+    border-radius: 8px;
+    color: var(--primary);
+    display: flex;
+    font-family: "Courier New", monospace;
+    font-size: clamp(2.2rem, 9vw, 3.2rem);
+    font-weight: 800;
+    justify-content: center;
+    min-height: 110px;
+}
+
+.control-buttons,
+.notes-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.control-btn,
+.action-btn,
+.add-todo-btn {
+    align-items: center;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    font: inherit;
+    font-weight: 700;
+    gap: 0.4rem;
+    justify-content: center;
+    min-width: 110px;
+    padding: 0.85rem 1rem;
+}
+
+.control-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.start-btn,
+.save-btn {
+    background: var(--success);
+}
+
+.pause-btn {
+    background: var(--accent);
+}
+
+.reset-btn,
+.clear-btn {
+    background: var(--danger);
+}
+
+#notesTextarea {
+    background: var(--light);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    color: var(--dark);
+    font: inherit;
+    min-height: 210px;
+    padding: 1rem;
+    resize: vertical;
+}
+
+.success-msg {
+    align-items: center;
+    background: rgba(16, 185, 129, 0.12);
+    border-radius: 8px;
+    color: var(--success);
+    display: none;
+    font-weight: 700;
+    gap: 0.5rem;
+    padding: 0.7rem;
+}
+
+.success-msg.open {
+    display: flex;
+}
+
+.calculator-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-display {
+    align-items: center;
+    background: #0f172a;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-family: "Courier New", monospace;
+    font-size: 2rem;
+    font-weight: 800;
+    grid-column: 1 / -1;
+    justify-content: flex-end;
+    min-height: 68px;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.calc-btn {
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.25rem;
+    font-weight: 800;
+    min-height: 55px;
+}
+
+.calc-number {
+    background: var(--light);
+    color: var(--dark);
+}
+
+.calc-operator {
+    background: var(--primary);
+    color: white;
+}
+
+.calc-clear {
+    background: var(--danger);
+    color: white;
+}
+
+.calc-equals {
+    background: var(--success);
+    color: white;
+    grid-column: span 2;
+}
+
+.todo-input-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#todoInput {
+    background: var(--light);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    color: var(--dark);
+    flex: 1;
+    font: inherit;
+    padding: 0.85rem;
+}
+
+.todo-list-container {
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.todo-item {
+    align-items: center;
+    background: var(--light);
+    border-radius: 8px;
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+}
+
+.todo-item.completed span {
+    color: var(--gray);
+    text-decoration: line-through;
+}
+
+.todo-delete-btn {
+    background: var(--danger);
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0.35rem 0.5rem;
+}
+
+/* v23: Nothing-inspired tools hub */
+.toolbox-dock {
+    gap: 0.55rem;
+}
+
+.dock-center,
+.dock-tool {
+    border: 1px solid rgba(16, 16, 16, 0.12);
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+    transition: transform 0.22s ease, opacity 0.22s ease, background 0.22s ease, color 0.22s ease;
+}
+
+.dock-center {
+    background: #101010;
+    color: white;
+    height: 58px;
+    width: 58px;
+}
+
+.dock-tool {
+    background: rgba(255, 255, 255, 0.94);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.18) 1px, transparent 1px);
+    background-size: 8px 8px;
+    color: #101010;
+    height: 42px;
+    transform: translateY(12px) scale(0.82);
+    width: 42px;
+}
+
+.dock-center:hover,
+.dock-tool:hover {
+    background: #101010;
+    color: white;
+    transform: translateY(-4px) scale(1.06);
+}
+
+.tool-modal-content {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 248, 251, 0.98)),
+        radial-gradient(rgba(0, 0, 0, 0.14) 1px, transparent 1px);
+    background-size: auto, 14px 14px;
+    border: 1px solid rgba(16, 16, 16, 0.12);
+    box-shadow: 0 28px 80px rgba(15, 23, 42, 0.28);
+}
+
+.modal-icon {
+    background: #101010;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.35rem;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 auto 0.75rem;
+    width: 48px;
+}
+
+.pomodoro-content,
+.converter-content,
+.formula-content,
+.cgpa-content,
+.attendance-tool {
+    display: grid;
+    gap: 1rem;
+}
+
+.pomodoro-mode {
+    color: #5f6673;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pomodoro-display,
+.converter-result,
+.attendance-result {
+    align-items: center;
+    background: #101010;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-family: "Courier New", monospace;
+    font-size: clamp(2rem, 8vw, 3rem);
+    font-weight: 800;
+    justify-content: center;
+    min-height: 104px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.converter-result {
+    font-size: clamp(1.2rem, 5vw, 1.75rem);
+    min-height: 76px;
+}
+
+.attendance-result {
+    align-items: start;
+    display: grid;
+    gap: 0.35rem;
+    min-height: 92px;
+}
+
+.attendance-result strong {
+    font-size: clamp(2rem, 8vw, 3rem);
+    line-height: 1;
+}
+
+.attendance-result span {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 0.92rem;
+    font-weight: 800;
+}
+
+.attendance-result.danger {
+    background: #d71920;
+}
+
+.pomodoro-settings,
+.converter-grid {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.converter-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.attendance-tool {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.attendance-tool .attendance-result {
+    grid-column: 1 / -1;
+}
+
+.pomodoro-settings label,
+.attendance-tool label,
+.converter-content label,
+.formula-content label {
+    color: #5f6673;
+    display: grid;
+    font-size: 0.78rem;
+    font-weight: 800;
+    gap: 0.35rem;
+    text-transform: uppercase;
+}
+
+.pomodoro-settings input,
+.attendance-tool input,
+.converter-content input,
+.converter-content select,
+.formula-content select,
+.cgpa-row input {
+    background: white;
+    border: 1px solid rgba(16, 16, 16, 0.12);
+    border-radius: 8px;
+    color: #101010;
+    font: inherit;
+    min-height: 42px;
+    padding: 0.65rem 0.75rem;
+}
+
+.formula-list {
+    display: grid;
+    gap: 0.65rem;
+}
+
+.formula-item {
+    background: white;
+    border: 1px solid rgba(16, 16, 16, 0.1);
+    border-radius: 8px;
+    display: grid;
+    gap: 0.35rem;
+    padding: 0.8rem;
+}
+
+.formula-item code {
+    background: #101010;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    overflow-x: auto;
+    padding: 0.55rem;
+}
+
+.cgpa-row {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: minmax(0, 1.4fr) 0.7fr 0.7fr auto;
+    margin-bottom: 0.55rem;
+}
+
+.cgpa-row button {
+    background: #101010;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    min-height: 42px;
+    width: 42px;
+}
+
+@media (max-width: 560px) {
+    .toolbox-dock {
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+    .converter-grid,
+    .pomodoro-settings,
+    .attendance-tool,
+    .cgpa-row {
+        grid-template-columns: 1fr;
+    }
+
+    .cgpa-row button {
+        width: 100%;
+    }
+}
+
+.toolbox-dock[hidden] {
+    display: none !important;
+}
+
+.toolbox-dock.paid-locked .dock-center {
+    background: #101010;
+    color: #fff;
+}
+
+.toolbox-dock.paid-locked .dock-center::after {
+    align-items: center;
+    background: #d71920;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    color: #fff;
+    content: "PAY";
+    display: flex;
+    font-size: 0.52rem;
+    font-weight: 900;
+    height: 20px;
+    justify-content: center;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 26px;
+}
+
+.toolhub-pay-card {
+    max-width: 520px;
+}
+
+.toolhub-payment-box {
+    display: grid;
+    gap: 1rem;
+}
+
+.toolhub-price {
+    background: #101010;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    padding: 0.9rem;
+    text-align: center;
+}
+
+body.dark-mode .toolhub-price,
+[data-theme-mode="dark"] .toolhub-price {
+    background: #fff;
+    color: #101010;
+}
+
+.toolhub-order-summary {
+    background: #fff;
+    border: 1px solid rgba(16, 16, 16, 0.12);
+    border-radius: 8px;
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: 1fr auto;
+    padding: 0.85rem;
+}
+
+.toolhub-order-summary > div:first-child {
+    display: grid;
+    gap: 0.15rem;
+}
+
+.toolhub-order-summary > div:first-child strong {
+    color: #101010;
+    font-size: 1.55rem;
+}
+
+.toolhub-order-summary span,
+.toolhub-order-meta strong {
+    font-size: 0.76rem;
+}
+
+.toolhub-order-summary b {
+    align-self: start;
+    background: #e7f7ed;
+    border-radius: 999px;
+    color: #166534;
+    font-size: 0.7rem;
+    padding: 0.35rem 0.55rem;
+}
+
+.toolhub-order-meta {
+    border-top: 1px solid rgba(16, 16, 16, 0.1);
+    display: flex;
+    grid-column: 1 / -1;
+    justify-content: space-between;
+    padding-top: 0.45rem;
+}
+
+.toolhub-method-grid {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.toolhub-method {
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgba(16, 16, 16, 0.14);
+    border-radius: 8px;
+    color: #101010;
+    display: flex;
+    gap: 0.55rem;
+    min-height: 54px;
+    padding: 0.6rem;
+    text-align: left;
+}
+
+.toolhub-method.active {
+    border-color: #d71920;
+    box-shadow: inset 3px 0 #d71920;
+}
+
+.toolhub-method span,
+.toolhub-method strong,
+.toolhub-method small {
+    display: block;
+}
+
+.toolhub-method small {
+    color: #5f6673;
+    font-size: 0.68rem;
+    margin-top: 0.1rem;
+}
+
+.toolhub-method-panel {
+    display: none;
+    gap: 0.5rem;
+}
+
+.toolhub-method-panel.active {
+    display: grid;
+}
+
+.toolhub-method-panel input,
+.toolhub-method-panel select {
+    background: #fff;
+    border: 1px solid rgba(16, 16, 16, 0.14);
+    border-radius: 8px;
+    color: #101010;
+    font: inherit;
+    min-height: 44px;
+    padding: 0.65rem;
+    width: 100%;
+}
+
+.toolhub-upi-verify,
+.toolhub-split-inputs {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr auto;
+}
+
+.toolhub-upi-verify button {
+    background: #101010;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 800;
+    padding: 0.65rem 0.8rem;
+}
+
+.toolhub-split-inputs {
+    grid-template-columns: 1fr 1fr;
+}
+
+.toolhub-method-status {
+    color: #5f6673;
+    font-size: 0.76rem;
+    font-weight: 700;
+    min-height: 1rem;
+}
+
+.toolhub-method-status.success {
+    color: #166534;
+}
+.toolhub-pay-now {
+    align-items: center;
+    background: #101010;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    min-height: 46px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.toolhub-gateway-pay {
+    background: #d71920;
+    color: #fff;
+    min-height: 48px;
+    width: 100%;
+}
+
+.toolhub-method-panel p {
+    background: rgba(16, 16, 16, 0.04);
+    border: 1px solid rgba(16, 16, 16, 0.1);
+    border-radius: 8px;
+    color: #5f6673;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0.7rem;
+}
+
+.toolhub-pay-now:hover,
+.toolhub-pay-now:focus-visible {
+    background: #d71920;
+    color: #fff;
+}
+
+.toolhub-pay-now.disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+    pointer-events: auto;
+}
+
+.toolhub-upi-apps {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#toolHubPayNowBtn[hidden],
+#toolHubUpiApps[hidden] {
+    display: none !important;
+}
+
+.toolhub-upi-app {
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgba(16, 16, 16, 0.14);
+    border-radius: 8px;
+    color: #101010;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    font-weight: 900;
+    gap: 0.35rem;
+    justify-content: center;
+    min-height: 58px;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.toolhub-upi-app i {
+    font-size: 1.2rem;
+}
+
+.toolhub-upi-app:hover,
+.toolhub-upi-app:focus-visible {
+    background: #d71920;
+    border-color: #d71920;
+    color: #fff;
+}
+
+.toolhub-upi-app.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: auto;
+}
+
+body.dark-mode .toolhub-upi-app,
+[data-theme-mode="dark"] .toolhub-upi-app {
+    background: #101010;
+    border-color: rgba(255,255,255,0.18);
+    color: #fff;
+}
+
+body.dark-mode .toolhub-order-summary,
+body.dark-mode .toolhub-method,
+body.dark-mode .toolhub-method-panel input,
+body.dark-mode .toolhub-method-panel select,
+[data-theme-mode="dark"] .toolhub-order-summary,
+[data-theme-mode="dark"] .toolhub-method,
+[data-theme-mode="dark"] .toolhub-method-panel input,
+[data-theme-mode="dark"] .toolhub-method-panel select {
+    background: #101010;
+    border-color: rgba(255,255,255,0.18);
+    color: #fff;
+}
+
+body.dark-mode .toolhub-order-summary > div:first-child strong,
+[data-theme-mode="dark"] .toolhub-order-summary > div:first-child strong {
+    color: #fff;
+}
+
+/* v31: Tool Hub theme fixes for EngiLearn light/dark mode */
+.tool-modal-content,
+.toolhub-pay-card {
+    background: var(--white) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--dark) !important;
+}
+
+.toolhub-payment-box,
+.toolhub-method-panel {
+    color: var(--dark) !important;
+}
+
+.toolhub-order-summary,
+.toolhub-method,
+.toolhub-method-panel input,
+.toolhub-method-panel select,
+.toolhub-method-panel p,
+.toolhub-upi-app {
+    background: var(--white) !important;
+    border-color: var(--border) !important;
+    color: var(--dark) !important;
+}
+
+.toolhub-order-summary > div:first-child strong,
+.toolhub-method strong,
+.toolhub-method span {
+    color: var(--dark) !important;
+}
+
+.toolhub-method small,
+.toolhub-method-status,
+.toolhub-method-panel p,
+.toolhub-order-summary span,
+.toolhub-order-meta strong {
+    color: var(--gray) !important;
+}
+
+.toolhub-order-meta {
+    border-top-color: var(--border) !important;
+}
+
+.toolhub-price,
+.toolhub-pay-now,
+.toolhub-upi-verify button {
+    background: #101010 !important;
+    color: #fff !important;
+}
+
+.toolhub-gateway-pay {
+    background: #d71920 !important;
+    color: #fff !important;
+}
+
+.toolhub-method.active {
+    background: color-mix(in srgb, var(--white) 88%, #d71920 12%) !important;
+    border-color: #d71920 !important;
+    box-shadow: inset 3px 0 #d71920 !important;
+}
+
+.toolhub-method-status.success {
+    color: var(--success) !important;
+}
+
+body[data-theme="dark"] .tool-modal-content,
+body[data-theme="dark"] .toolhub-pay-card {
+    background: #101010 !important;
+    border-color: rgba(255, 255, 255, 0.16) !important;
+    color: #f8fafc !important;
+}
+
+body[data-theme="dark"] .toolhub-payment-box,
+body[data-theme="dark"] .toolhub-method-panel,
+body[data-theme="dark"] .toolhub-order-summary,
+body[data-theme="dark"] .toolhub-method,
+body[data-theme="dark"] .toolhub-method-panel input,
+body[data-theme="dark"] .toolhub-method-panel select,
+body[data-theme="dark"] .toolhub-method-panel p,
+body[data-theme="dark"] .toolhub-upi-app {
+    background: #171717 !important;
+    border-color: rgba(255, 255, 255, 0.16) !important;
+    color: #f8fafc !important;
+}
+
+body[data-theme="dark"] .toolhub-order-summary > div:first-child strong,
+body[data-theme="dark"] .toolhub-method strong,
+body[data-theme="dark"] .toolhub-method span {
+    color: #f8fafc !important;
+}
+
+body[data-theme="dark"] .toolhub-method small,
+body[data-theme="dark"] .toolhub-method-status,
+body[data-theme="dark"] .toolhub-method-panel p,
+body[data-theme="dark"] .toolhub-order-summary span,
+body[data-theme="dark"] .toolhub-order-meta strong {
+    color: #cbd5e1 !important;
+}
+
+body[data-theme="dark"] .toolhub-order-meta {
+    border-top-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+body[data-theme="dark"] .toolhub-price,
+body[data-theme="dark"] .toolhub-pay-now,
+body[data-theme="dark"] .toolhub-upi-verify button {
+    background: #fff !important;
+    color: #101010 !important;
+}
+
+body[data-theme="dark"] .toolhub-method.active {
+    background: rgba(215, 25, 32, 0.16) !important;
+    border-color: #d71920 !important;
+    box-shadow: inset 3px 0 #d71920 !important;
+}
+
+body[data-theme="dark"] .toolhub-method-status.success {
+    color: #86efac !important;
+}
+
+body[data-theme="dark"] .tool-close {
+    color: #e2e8f0 !important;
+}
+
+body[data-ui-theme="nothing-os"] .tool-modal-content,
+body[data-ui-theme="nothing-os"] .toolhub-pay-card {
+    border-radius: 8px !important;
+}
+
+@media (max-width: 560px) {
+    .toolbox-dock {
+        bottom: 1rem !important;
+        right: max(0.85rem, env(safe-area-inset-right)) !important;
+    }
+
+    .toolbox-dock.paid-locked .dock-center::after {
+        border-width: 2px;
+        font-size: 0.46rem;
+        height: 18px;
+        right: 2px;
+        top: 2px;
+        width: 24px;
+    }
+
+    .toolhub-pay-card {
+        margin: 0.5rem auto;
+        max-height: calc(100dvh - 1rem);
+        padding: 0.85rem;
+        width: calc(100% - 1rem);
+    }
+
+    .toolhub-pay-card .modal-header {
+        margin-bottom: 0.65rem;
+    }
+
+    .toolhub-payment-box {
+        gap: 0.6rem;
+    }
+
+    .toolhub-price {
+        font-size: 1.25rem;
+        padding: 0.55rem;
+    }
+
+    .toolhub-pay-now {
+        min-height: 46px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+[
+  { "id": "cse-dsa", "branch": "cse", "title": "DSA | RGPV CSE", "duration": "3:45:20", "rating": 4.9 },
+  { "id": "ai-ml", "branch": "ai", "title": "Machine Learning | RGPV AI", "duration": "4:30:15", "rating": 4.9 },
+  { "id": "cyber-ethical", "branch": "cyber", "title": "Ethical Hacking | RGPV Cyber", "duration": "3:55:20", "rating": 4.9 }
+]

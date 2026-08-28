@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View RGPV PYQ papers inside EngiLearn.">
+    <title>PYQ PDF Viewer - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+    <style>
+        body {
+            min-height: 100vh;
+            background:
+                radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.08) 1px, transparent 0) 0 0 / 18px 18px,
+                var(--bg-primary, #f8fafc);
+            color: var(--text-primary, #111827);
+        }
+
+        .pdf-viewer-page {
+            width: min(1500px, calc(100% - 32px));
+            margin: 118px auto 28px;
+        }
+
+        .pdf-viewer-shell {
+            overflow: hidden;
+            min-height: calc(100vh - 150px);
+            border: 1px solid var(--border-color, #d9d9d9);
+            border-radius: 24px;
+            background: var(--card-bg, #fff);
+            box-shadow: 0 22px 60px rgba(15, 23, 42, 0.12);
+        }
+
+        .pdf-viewer-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 18px;
+            border-bottom: 1px solid var(--border-color, #e5e7eb);
+            background: rgba(255, 255, 255, 0.86);
+            backdrop-filter: blur(14px);
+        }
+
+        [data-theme="dark"] .pdf-viewer-head {
+            background: rgba(12, 12, 12, 0.9);
+        }
+
+        .pdf-viewer-title {
+            min-width: 0;
+        }
+
+        .pdf-viewer-title span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+            color: var(--accent-color, #ef233c);
+            font-size: 0.74rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .pdf-viewer-title h1 {
+            margin: 0;
+            overflow: hidden;
+            font-size: clamp(1.3rem, 2.2vw, 2.1rem);
+            line-height: 1.1;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .pdf-viewer-actions {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 12px;
+            justify-content: flex-end;
+        }
+
+        .pdf-viewer-actions .lms-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-width: 0;
+            min-height: 42px;
+            padding: 0 16px;
+            border-radius: 999px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .pdf-viewer-actions .lms-btn i {
+            flex: 0 0 auto;
+            margin: 0;
+            font-size: 0.95em;
+            line-height: 1;
+        }
+
+        .pdf-frame-wrap {
+            position: relative;
+            min-height: calc(100vh - 250px);
+            background: #f2f4f7;
+        }
+
+        [data-theme="dark"] .pdf-frame-wrap {
+            background: #050505;
+        }
+
+        .pdf-frame {
+            display: block;
+            width: 100%;
+            height: calc(100vh - 250px);
+            min-height: 680px;
+            border: 0;
+            background: #fff;
+        }
+
+        .pdf-viewer-state {
+            display: grid;
+            place-items: center;
+            min-height: 360px;
+            padding: 32px;
+            text-align: center;
+        }
+
+        .pdf-viewer-state i {
+            display: grid;
+            place-items: center;
+            width: 62px;
+            height: 62px;
+            margin: 0 auto 14px;
+            border-radius: 18px;
+            background: #0b0b0b;
+            color: #fff;
+        }
+
+        @media (max-width: 720px) {
+            .pdf-viewer-page {
+                width: min(100% - 16px, 100%);
+                margin-top: 96px;
+            }
+
+            .pdf-viewer-head {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
+            .pdf-viewer-actions .btn,
+            .pdf-viewer-actions .lms-btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .pdf-viewer-title h1 {
+                white-space: normal;
+            }
+
+            .pdf-frame {
+                height: calc(100vh - 300px);
+                min-height: 520px;
+            }
+        }
+
+        /* Keep the PDF reader as a single fitted workspace: no outer page scroll. */
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            min-height: 100dvh;
+        }
+
+        .pdf-viewer-page {
+            display: flex;
+            height: calc(100dvh - 112px);
+            margin: 96px auto 16px;
+        }
+
+        .pdf-viewer-shell {
+            display: flex;
+            flex: 1 1 auto;
+            flex-direction: column;
+            height: 100%;
+            min-height: 0;
+        }
+
+        .pdf-viewer-head {
+            flex: 0 0 auto;
+        }
+
+        .pdf-frame-wrap {
+            flex: 1 1 auto;
+            min-height: 0;
+            overflow: hidden;
+        }
+
+        .pdf-frame {
+            height: 100%;
+            min-height: 0;
+        }
+
+        @media (max-width: 720px) {
+            .pdf-viewer-page {
+                height: calc(100dvh - 96px);
+                margin: 88px auto 8px;
+            }
+
+            .pdf-frame {
+                height: 100%;
+                min-height: 0;
+            }
+        }
+    </style>
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="PDF viewer navigation">
+            <a class="logo" href="../index.html#home"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="pyq.html">PYQ Library</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" type="button"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pdf-viewer-page">
+        <section class="pdf-viewer-shell">
+            <div class="pdf-viewer-head">
+                <div class="pdf-viewer-title">
+                    <span><i class="fas fa-file-pdf"></i> In-Website PYQ Viewer</span>
+                    <h1 id="pdfViewerTitle">PYQ Paper</h1>
+                </div>
+                <div class="pdf-viewer-actions">
+                    <button class="lms-btn secondary" id="pdfBackBtn" type="button"><i class="fas fa-arrow-left"></i> Back</button>
+                    <a class="lms-btn" href="pyq.html" id="pdfLibraryBtn"><i class="fas fa-table-list"></i> PYQ Library</a>
+                </div>
+            </div>
+            <div class="pdf-frame-wrap" id="pdfFrameWrap"></div>
+        </section>
+    </main>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+    <script>
+        (function initPdfViewer() {
+            const params = new URLSearchParams(window.location.search);
+            const file = params.get("file") || "";
+            const title = params.get("title") || "PYQ Paper";
+            const titleNode = document.getElementById("pdfViewerTitle");
+            const frameWrap = document.getElementById("pdfFrameWrap");
+            const backButton = document.getElementById("pdfBackBtn");
+
+            titleNode.textContent = title;
+            document.title = `${title} | EngiLearn`;
+            backButton.addEventListener("click", () => {
+                if (history.length > 1) history.back();
+                else window.location.href = "pyq.html";
+            });
+
+            const isHostedPyqDeploy = () => {
+                const host = String(window.location.hostname || "").toLowerCase();
+                return host.endsWith(".vercel.app") || host.includes("devtunnels.ms");
+            };
+
+            const lookupHostedPyqFile = async (url) => {
+                if (!isHostedPyqDeploy() || !/^\/pyq-files\//i.test(url.pathname)) return "";
+                try {
+                    const response = await fetch("../assets/data/pyq-index.json?v=viewer-fallback", { cache: "force-cache" });
+                    if (!response.ok) return "";
+                    const records = await response.json();
+                    const wanted = url.pathname.replace(/^\//, "").toLowerCase();
+                    const match = Array.isArray(records) ? records.find((item) => {
+                        return [item.url, item.fileUrl, item.filePath]
+                            .map((value) => String(value || "").replace(/^\//, "").toLowerCase())
+                            .includes(wanted);
+                    }) : null;
+                    const hostedUrl = String(match?.downloadUrl || match?.sourceUrl || match?.remoteUrl || "").trim();
+                    return /^https?:\/\//i.test(hostedUrl) ? hostedUrl : "";
+                } catch (error) {
+                    return "";
+                }
+            };
+
+            const resolveAllowedFile = async () => {
+                if (!file) return "";
+                try {
+                    const url = new URL(file, window.location.href);
+                    const path = url.pathname;
+                    if (/^https?:\/\/www\.rgpvonline\.com\//i.test(url.href)) return url.href;
+                    const hostedPyqUrl = await lookupHostedPyqFile(url);
+                    if (hostedPyqUrl) return hostedPyqUrl;
+                    const localHost = ["localhost", "127.0.0.1", "::1"].includes(url.hostname);
+                    const sameOrigin = url.origin === window.location.origin;
+                    const devTunnel = /\.devtunnels\.ms$/i.test(url.hostname);
+                    const allowedHost = sameOrigin || localHost || devTunnel;
+                    const allowedPath = /^\/(?:pyq-files|uploads)\//i.test(path) || /^\/api\/pyq\/[^/]+\/download/i.test(path);
+                    return allowedHost && allowedPath ? url.href : "";
+                } catch (error) {
+                    return "";
+                }
+            };
+
+            frameWrap.innerHTML = `<div class="pdf-viewer-state"><div><i class="fas fa-spinner fa-spin"></i><h2>Opening paper...</h2><p>Please wait while EngiLearn prepares the PYQ viewer.</p></div></div>`;
+            resolveAllowedFile().then((allowedFile) => {
+                if (!allowedFile) {
+                    frameWrap.innerHTML = `<div class="pdf-viewer-state"><div><i class="fas fa-triangle-exclamation"></i><h2>Paper cannot be opened here</h2><p>Admin can upload this paper for direct in-website access.</p></div></div>`;
+                    return;
+                }
+                const frame = document.createElement("iframe");
+                frame.className = "pdf-frame";
+                frame.src = allowedFile;
+                frame.title = title;
+                frameWrap.replaceChildren(frame);
+            });
+        })();
+    </script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>

@@ -1,0 +1,774 @@
+{
+  "generatedAt": "2026-07-16T04:02:15.283Z",
+  "repeatedPath": "C:\\Users\\Lenovo\\Desktop\\project\\education - engilearn pro\\frontend\\assets\\data\\repeated-questions.csv",
+  "optionsPath": "C:\\Users\\Lenovo\\OneDrive\\ドキュメント\\New project\\btech-all-branches-pyq\\branch-subject-options.csv",
+  "pyqIndexPath": "C:\\Users\\Lenovo\\OneDrive\\ドキュメント\\New project\\btech-all-branches-pyq\\branch-subject-index.csv",
+  "beforeRows": 19782,
+  "pyqSubjectTargets": 2095,
+  "updatedYearRows": 13753,
+  "addedRows": 70451,
+  "finalRows": 90233,
+  "addedByBranch": {
+    "3DAG": 1206,
+    "AB": 449,
+    "AD": 2775,
+    "AI": 2067,
+    "AIML": 1652,
+    "AUTO": 2643,
+    "CD": 3083,
+    "CHEMICAL": 495,
+    "CIVIL": 3204,
+    "COMMON": 777,
+    "CSBS": 1260,
+    "CSE": 6112,
+    "CSE-IOT": 934,
+    "CSIT": 1989,
+    "CY": 1965,
+    "E-ALL": 16119,
+    "FT": 1421,
+    "IO": 2334,
+    "IS": 3224,
+    "IT": 8747,
+    "ME": 3629,
+    "MI": 294,
+    "MM": 198,
+    "OTHERS": 1354,
+    "RM": 1176,
+    "SD": 1146,
+    "TX": 198
+  },
+  "finalBranchCounts": {
+    "3DAG": 1206,
+    "AB": 449,
+    "AD": 2775,
+    "AI": 2067,
+    "AIML": 3680,
+    "ALL": 951,
+    "AUTO": 2643,
+    "CD": 3083,
+    "CHEMICAL": 495,
+    "CIVIL": 6911,
+    "COMMON": 777,
+    "CSBS": 1260,
+    "CSE": 8360,
+    "CSE-IOT": 934,
+    "CSIT": 3601,
+    "CY": 1965,
+    "E-ALL": 19569,
+    "ECE": 2844,
+    "FT": 1421,
+    "IO": 2334,
+    "IS": 3224,
+    "IT": 8747,
+    "ME": 6571,
+    "MI": 294,
+    "MM": 198,
+    "OTHERS": 1354,
+    "RM": 1176,
+    "SD": 1146,
+    "TX": 198
+  },
+  "unmatchedTargets": 1460,
+  "unmatchedTargetSamples": [
+    {
+      "branch": "3DAG",
+      "semester": "Semester 4",
+      "subjectCode": "BT-401",
+      "subject": "Mathematics- III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "3DAG",
+      "semester": "Semester 4",
+      "subjectCode": "IT-402",
+      "subject": "Computer Architecture",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "3DAG",
+      "semester": "Semester 4",
+      "subjectCode": "VERIFYFROMRGPV",
+      "subject": "Mathematics III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 3",
+      "subjectCode": "BT-301",
+      "subject": "Mathematics-III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 3",
+      "subjectCode": "RM-302",
+      "subject": "Thermo fluid Engineering",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 3",
+      "subjectCode": "RM-303",
+      "subject": "Kinematics of Machines",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 3",
+      "subjectCode": "RM-304",
+      "subject": "Strength of Material",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 4",
+      "subjectCode": "AB-402",
+      "subject": "Robotics Engineering",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 4",
+      "subjectCode": "AB-403",
+      "subject": "Industrial Automation",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 4",
+      "subjectCode": "AB-404",
+      "subject": "Machine Drawing and Design",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 4",
+      "subjectCode": "AB-405",
+      "subject": "Materials Technology",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 7",
+      "subjectCode": "AB-701",
+      "subject": "Computer Integrated Manufacturing",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 7",
+      "subjectCode": "AB-702-A",
+      "subject": "Farm Automation",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AB",
+      "semester": "Semester 7",
+      "subjectCode": "AB-703-B",
+      "subject": "Industry 4",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 3",
+      "subjectCode": "AD-302",
+      "subject": "Introduction to Probability and Statistics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 3",
+      "subjectCode": "AD-302",
+      "subject": "Probability and Statistics for Data Science",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 3",
+      "subjectCode": "AD-303",
+      "subject": "Data Structure and Algorithms",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 3",
+      "subjectCode": "BT-301",
+      "subject": "Mathematics-III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 3",
+      "subjectCode": "SD-302",
+      "subject": "Discrete Structure",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 4",
+      "subjectCode": "AD-403",
+      "subject": "Software Engineering with Agile Methodology",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 4",
+      "subjectCode": "AD-404",
+      "subject": "Data Science",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 4",
+      "subjectCode": "BT-401",
+      "subject": "Mathematics- III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 4",
+      "subjectCode": "VERIFYFROMRGPV",
+      "subject": "Mathematics III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 6",
+      "subjectCode": "AD-603-A",
+      "subject": "Data Mining and Warehousing",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 7",
+      "subjectCode": "AD-701",
+      "subject": "For Computer Vision",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 7",
+      "subjectCode": "AD-703-A",
+      "subject": "Data Visualization",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 8",
+      "subjectCode": "AD-801",
+      "subject": "Big Data",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 8",
+      "subjectCode": "AD-802-B",
+      "subject": "Reinforcement Learning",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AD",
+      "semester": "Semester 8",
+      "subjectCode": "AD-803",
+      "subject": "Managing Innovation and Entrepreneurship",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AI",
+      "semester": "Semester 3",
+      "subjectCode": "AI-302",
+      "subject": "Introduction to Probability and Statistics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AI",
+      "semester": "Semester 3",
+      "subjectCode": "AI-303",
+      "subject": "Data Structure and Algorithms",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AI",
+      "semester": "Semester 3",
+      "subjectCode": "AI-304",
+      "subject": "Introduction to Artificial Intelligence",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AI",
+      "semester": "Semester 3",
+      "subjectCode": "BT-301",
+      "subject": "Mathematics-III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AI",
+      "semester": "Semester 3",
+      "subjectCode": "SD-302",
+      "subject": "Discrete Structure",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AI",
+      "semester": "Semester 4",
+      "subjectCode": "AI-401",
+      "subject": "Introduction to Discrete Structure",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 3",
+      "subjectCode": "AL-302",
+      "subject": "Introduction to Probability and Statistics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 3",
+      "subjectCode": "BT-301",
+      "subject": "Mathematics-III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 3",
+      "subjectCode": "SD-302",
+      "subject": "Discrete Structure",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 4",
+      "subjectCode": "AL-401",
+      "subject": "Introduction to Discrete Structure",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 5",
+      "subjectCode": "AL-503",
+      "subject": "Verify_from_rgpv",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 5",
+      "subjectCode": "AL-504-A",
+      "subject": "In Health Care",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-701",
+      "subject": "Computer Vision",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-702-A",
+      "subject": "In Gaming",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-702-B",
+      "subject": "Advanced Machine Learning",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-702-C",
+      "subject": "Predictive Analytics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-702-D",
+      "subject": "Machine Learning for Data Science",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-703-B",
+      "subject": "Augmented and Virtual Reality",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 7",
+      "subjectCode": "AL-703-C",
+      "subject": "Agile Software Development",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 8",
+      "subjectCode": "AL-801",
+      "subject": "Business Intelligence",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 8",
+      "subjectCode": "AL-802-A",
+      "subject": "Blockchain Technologies",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 8",
+      "subjectCode": "AL-803",
+      "subject": "Managing Innovation and Entrepreneurship",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AIML",
+      "semester": "Semester 8",
+      "subjectCode": "AL-803-A",
+      "subject": "Introduction to IoT",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-222",
+      "subject": "Theory of Machines and Mechanisms",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-224",
+      "subject": "Manufacturing Processes",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-3003",
+      "subject": "Theory of Machines and Mechanisms",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-302",
+      "subject": "Production Process",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-302",
+      "subject": "Strength and Mechanics of Materials",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-302",
+      "subject": "Thermodynamics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-303",
+      "subject": "Materials Technology",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-303",
+      "subject": "Production Process",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-303",
+      "subject": "Production Processes",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-303",
+      "subject": "Strength and Mechanics of Materials",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-304",
+      "subject": "Strength of Material",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-305",
+      "subject": "Machine Drawing and Design",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "AU-305",
+      "subject": "Manufacturing Process",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "BT-301",
+      "subject": "Mathematics-III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "ES-220",
+      "subject": "Material Science",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 3",
+      "subjectCode": "ES-3001",
+      "subject": "Energy, Environment, Ecology and Society",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-225",
+      "subject": "Manufacturing Process",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-226",
+      "subject": "Machine Drawing and CAD",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-227",
+      "subject": "Energy Conversion",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-228",
+      "subject": "Machine Design 1",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-3001",
+      "subject": "Mathematics- III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-4003",
+      "subject": "Machine Drawing and CAD",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-4004",
+      "subject": "Energy Conversion",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-4005",
+      "subject": "Machine Design",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-401",
+      "subject": "Material Science and Metallurgy",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-402",
+      "subject": "Energy, Environment, Ethics and Society",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-402",
+      "subject": "Intrumentation and Control",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-402",
+      "subject": "Material Science and Metallurgy",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-403",
+      "subject": "Theory of Machines and Mechanisms",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "AU-404",
+      "subject": "Automotive Engines",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 4",
+      "subjectCode": "BT-401",
+      "subject": "Mathematics- III",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-5002",
+      "subject": "Measurement and Control",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-5003",
+      "subject": "Automotive Transmission System",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-5005",
+      "subject": "3 Engineering Economics and Management",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-5005",
+      "subject": "4 Mechatronics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-5005",
+      "subject": "Entrepreneurship and Management",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-501",
+      "subject": "Automotive Engines",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-502",
+      "subject": "Automotive Chassis System",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-503",
+      "subject": "Metrology Measurement and Control",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-503-A",
+      "subject": "Automotive Transmission System",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-503-B",
+      "subject": "Fault Diagnosis and Trouble Shooting",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-504-A",
+      "subject": "Entrepreneurship and Management",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-504-B",
+      "subject": "Engineering Economics and Management",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 5",
+      "subjectCode": "AU-505",
+      "subject": "Automotive Transmission",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 6",
+      "subjectCode": "AU-6002",
+      "subject": "Automotive Design and Assembly Drawing",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 6",
+      "subjectCode": "AU-6003",
+      "subject": "Automotive Electricals and Electronics",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 6",
+      "subjectCode": "AU-6004",
+      "subject": "Two and Three Wheelers",
+      "reason": "no extracted question text for this subject name"
+    },
+    {
+      "branch": "AUTO",
+      "semester": "Semester 6",
+      "subjectCode": "AU-6005",
+      "subject": "1 Total Quality Management and Statistical Quality Control",
+      "reason": "no extracted question text for this subject name"
+    }
+  ]
+}

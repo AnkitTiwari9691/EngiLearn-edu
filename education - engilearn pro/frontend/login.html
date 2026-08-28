@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EngiLearn</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="css/style.css?v=50">
+    
+    <link rel="stylesheet" href="./assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="auth-page auth-v2-page auth-login-nothing" data-theme="light">
+    <main class="auth-v2-shell">
+        <section class="auth-v2-panel">
+            <a class="auth-brand auth-v2-brand" href="index.html"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <div class="auth-v2-copy">
+                <span class="auth-kicker">JWT + Refresh Token</span>
+                <h1>Secure access for every dashboard.</h1>
+                <p>Role-aware login, automatic verified-account activation, OTP recovery, token rotation, lockout protection, and audit logging are wired into one gateway.</p>
+            </div>
+            <div class="auth-v2-metrics">
+                <span><strong>5m</strong> OTP expiry</span>
+                <span><strong>60s</strong> resend lock</span>
+                <span><strong>5x</strong> attempt guard</span>
+            </div>
+        </section>
+
+        <section class="auth-v2-card" aria-label="Login form">
+            <div class="auth-card-head">
+                <span class="auth-card-icon"><i class="fas fa-fingerprint"></i></span>
+                <div>
+                    <h2>Welcome back</h2>
+                    <p>Use email or mobile number only.</p>
+                </div>
+            </div>
+            <div id="authAlert"></div>
+            <form class="auth-form" id="loginForm">
+                <label>Role
+                    <select name="role" aria-describedby="roleHelp">
+                        <option value="">Automatic role detection</option>
+                        <option>Student</option>
+                        <option>Teacher</option>
+                        <option>Admin</option>
+                    </select>
+                </label>
+                <label>Email or Mobile
+                    <input name="identifier" required autocomplete="off" placeholder="email@example.com or mobile number">
+                </label>
+                <label>Password
+                    <div class="password-wrap">
+                        <input data-password name="password" type="password" required autocomplete="current-password" placeholder="Enter password">
+                        <button data-toggle-password type="button" aria-label="Show password"><i class="fas fa-eye"></i></button>
+                    </div>
+                </label>
+                <button class="auth-submit" type="submit"><i class="fas fa-arrow-right-to-bracket"></i> Login Securely</button>
+            </form>
+            <div class="auth-v2-actions">
+                <a href="login-otp.html"><i class="fas fa-key"></i> OTP login</a>
+                <a href="forgot-password.html"><i class="fas fa-unlock-keyhole"></i> Forgot password</a>
+                <a href="signup.html"><i class="fas fa-user-plus"></i> Create account</a>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/api.js?v=53"></script>
+    <script src="js/toast.js?v=1"></script>
+    <script src="js/auth.js?v=53"></script>
+    <script src="js/login.js?v=59"></script>
+    <script src="./assets/js/theme-engine.js?v=7"></script>
+  <script src="assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

@@ -1,0 +1,371 @@
+{
+  "base": "https://engilearn-edu.vercel.app",
+  "generatedAt": "2026-07-16T08:59:04.134Z",
+  "deployment": "current-production",
+  "total": 36,
+  "pass": 36,
+  "fail": 0,
+  "slow": [],
+  "tests": [
+    {
+      "name": "Home page",
+      "route": "/",
+      "status": "PASS",
+      "code": 200,
+      "ms": 475,
+      "bytes": 32361,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Index page",
+      "route": "/index.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 86,
+      "bytes": 32361,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Login page",
+      "route": "/login.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 3768,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "OTP login page",
+      "route": "/login-otp.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 4152,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Signup page",
+      "route": "/signup.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 107,
+      "bytes": 6643,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Reset password page",
+      "route": "/reset-password.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 97,
+      "bytes": 4350,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Admin page",
+      "route": "/pages/admin.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 104,
+      "bytes": 85517,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Student dashboard page",
+      "route": "/pages/dashboard.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 101,
+      "bytes": 8096,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Teacher dashboard page",
+      "route": "/pages/teacher.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 104,
+      "bytes": 7893,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Lecture page",
+      "route": "/pages/lecture.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 5536,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Subscriber videos page",
+      "route": "/pages/subscriber-videos.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 101,
+      "bytes": 5067,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "PYQ page",
+      "route": "/pages/pyq.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 3680,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Repeated questions page",
+      "route": "/pages/repeated-questions.html",
+      "status": "PASS",
+      "code": 200,
+      "ms": 104,
+      "bytes": 3870,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Branch page",
+      "route": "/pages/branch.html?branch=cse",
+      "status": "PASS",
+      "code": 200,
+      "ms": 101,
+      "bytes": 6913,
+      "type": "text/html; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Manifest",
+      "route": "/manifest.json",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 1031,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Robots",
+      "route": "/robots.txt",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 397,
+      "type": "text/plain; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Sitemap",
+      "route": "/sitemap.xml",
+      "status": "PASS",
+      "code": 200,
+      "ms": 520,
+      "bytes": 1995,
+      "type": "application/xml",
+      "note": ""
+    },
+    {
+      "name": "Service worker",
+      "route": "/sw.js",
+      "status": "PASS",
+      "code": 200,
+      "ms": 93,
+      "bytes": 2152,
+      "type": "application/javascript; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/health",
+      "route": "/api/health",
+      "status": "PASS",
+      "code": 200,
+      "ms": 615,
+      "bytes": 621,
+      "type": "application/json; charset=utf-8",
+      "note": "mongodb"
+    },
+    {
+      "name": "API /api/ready",
+      "route": "/api/ready",
+      "status": "PASS",
+      "code": 200,
+      "ms": 573,
+      "bytes": 186,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/performance",
+      "route": "/api/performance",
+      "status": "PASS",
+      "code": 200,
+      "ms": 350,
+      "bytes": 2275,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/public/settings",
+      "route": "/api/public/settings",
+      "status": "PASS",
+      "code": 200,
+      "ms": 102,
+      "bytes": 977,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/otp/providers",
+      "route": "/api/otp/providers",
+      "status": "PASS",
+      "code": 200,
+      "ms": 109,
+      "bytes": 483,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/ai-tools",
+      "route": "/api/ai-tools",
+      "status": "PASS",
+      "code": 200,
+      "ms": 93,
+      "bytes": 10996,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/lectures",
+      "route": "/api/lectures",
+      "status": "PASS",
+      "code": 200,
+      "ms": 106,
+      "bytes": 42,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "API /api/content Mongo PYQ list",
+      "route": "/api/content",
+      "status": "PASS",
+      "code": 200,
+      "ms": 321,
+      "bytes": 4820500,
+      "type": "application/json; charset=utf-8",
+      "note": "5559 content records from Mongo"
+    },
+    {
+      "name": "Static repeated questions data",
+      "route": "/assets/data/repeated-questions.compact.json?v=live-report3",
+      "status": "PASS",
+      "code": 200,
+      "ms": 984,
+      "bytes": 30119476,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Static PYQ index data",
+      "route": "/assets/data/pyq-index.json?v=live-report3",
+      "status": "PASS",
+      "code": 200,
+      "ms": 175,
+      "bytes": 13299096,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Known PYQ API PDF opens",
+      "route": "/api/pyq/1/download",
+      "status": "PASS",
+      "code": 200,
+      "ms": 2167,
+      "bytes": 106857,
+      "type": "application/pdf",
+      "note": ""
+    },
+    {
+      "name": "Known PYQ file route opens",
+      "route": "/pyq-files/all-files/be-101-engineering-chemistry-dec-2010.pdf",
+      "status": "PASS",
+      "code": 200,
+      "ms": 1642,
+      "bytes": 106857,
+      "type": "application/pdf",
+      "note": ""
+    },
+    {
+      "name": "Admin dashboard protected",
+      "route": "/api/admin/dashboard",
+      "status": "PASS",
+      "code": 401,
+      "ms": 400,
+      "bytes": 28,
+      "type": "application/json; charset=utf-8",
+      "note": "Expected auth protection"
+    },
+    {
+      "name": "Student dashboard protected",
+      "route": "/api/student/dashboard",
+      "status": "PASS",
+      "code": 401,
+      "ms": 511,
+      "bytes": 28,
+      "type": "application/json; charset=utf-8",
+      "note": "Expected auth protection"
+    },
+    {
+      "name": "Teacher dashboard protected",
+      "route": "/api/teacher/dashboard",
+      "status": "PASS",
+      "code": 401,
+      "ms": 306,
+      "bytes": 28,
+      "type": "application/json; charset=utf-8",
+      "note": "Expected auth protection"
+    },
+    {
+      "name": "Invalid login rejected",
+      "route": "/api/auth/login",
+      "status": "PASS",
+      "code": 401,
+      "ms": 512,
+      "bytes": 39,
+      "type": "application/json; charset=utf-8",
+      "note": "Expected invalid login rejection"
+    },
+    {
+      "name": "Visit tracking accepts POST",
+      "route": "/api/visits",
+      "status": "PASS",
+      "code": 201,
+      "ms": 510,
+      "bytes": 42,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    },
+    {
+      "name": "Contact form accepts POST",
+      "route": "/api/contact",
+      "status": "PASS",
+      "code": 201,
+      "ms": 719,
+      "bytes": 233,
+      "type": "application/json; charset=utf-8",
+      "note": ""
+    }
+  ]
+}

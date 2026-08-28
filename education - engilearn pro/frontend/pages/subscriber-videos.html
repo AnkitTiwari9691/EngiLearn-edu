@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch all EngiLearn subscriber video lectures inside the website.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://engilearn-edu.vercel.app/pages/subscriber-videos.html">
+    <title>Subscriber Video Library - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=46">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body data-theme="light" data-library-mode="subscriber">
+    <header class="header">
+        <nav class="nav-container" aria-label="Subscriber video navigation">
+            <a class="logo" href="../index.html#home"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#videos">Videos</a></li>
+                <li><a href="lecture.html">Full Library</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" type="button"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="lecture-page">
+        <section class="lecture-hero">
+            <div>
+                <span class="pyq-kicker">Subscriber Access</span>
+                <h1 id="subscriberLibraryTitle">Subscriber Video Library</h1>
+                <p id="subscriberLibraryDescription">Browse and watch all subscriber-ready lectures inside EngiLearn.</p>
+            </div>
+            <div class="lecture-hero-stats" id="lectureStats"></div>
+        </section>
+
+        <section class="lecture-layout">
+            <aside class="lecture-filter-panel">
+                <label>Branch<select id="libraryBranch"></select></label>
+                <label>Semester<select id="librarySemester"></select></label>
+                <label>Subject<select id="librarySubject"></select></label>
+                <label>Teacher<select id="libraryTeacher"></select></label>
+                <label>Search<input id="librarySearch" type="search" placeholder="Title, chapter, teacher"></label>
+                <button class="video-btn" id="clearLectureFilters" type="button"><i class="fas fa-rotate-left"></i> Reset Filters</button>
+            </aside>
+
+            <section class="lecture-main-panel">
+                <div class="lecture-player-card" id="lecturePlayer">
+                    <div class="lecture-player-empty">
+                        <i class="fas fa-play-circle"></i>
+                        <h2>Select a subscriber lecture</h2>
+                        <p>Choose any lecture below to watch it inside this page.</p>
+                    </div>
+                </div>
+                <div class="lecture-toolbar">
+                    <div>
+                        <h2>Subscriber Videos</h2>
+                        <p id="lectureResultText">Loading subscriber lectures...</p>
+                    </div>
+                    <div class="lecture-view-tabs" aria-label="Video source">
+                        <button class="active" type="button" data-source-view="all"><i class="fas fa-layer-group"></i> All</button>
+                        <button type="button" data-source-view="youtube"><i class="fab fa-youtube"></i> Suggested</button>
+                        <button type="button" data-source-view="own"><i class="fas fa-folder-open"></i> EngiLearn</button>
+                    </div>
+                    <div class="lecture-view-tabs" aria-label="Lecture layout">
+                        <button class="active" type="button" data-view="grid"><i class="fas fa-grip"></i> Grid</button>
+                        <button type="button" data-view="list"><i class="fas fa-list"></i> List</button>
+                    </div>
+                </div>
+                <div class="lecture-grid" id="lectureGrid"></div>
+                <button class="video-btn lecture-load-more" id="lectureLoadMore" type="button" hidden>Load More</button>
+            </section>
+        </section>
+    </main>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+    <script src="../assets/js/videos-page.js?v=16"></script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

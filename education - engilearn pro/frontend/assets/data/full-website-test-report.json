@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-07-05T03:45:17.333Z",
+  "summary": {
+    "failed": 0,
+    "warnings": 0,
+    "passed": 12
+  },
+  "metrics": [
+    {
+      "label": "feature checks passed",
+      "value": "12/12",
+      "status": "pass"
+    },
+    {
+      "label": "warnings",
+      "value": 0,
+      "status": "pass"
+    },
+    {
+      "label": "JS syntax errors",
+      "value": 0,
+      "status": "pass"
+    },
+    {
+      "label": "broken local refs",
+      "value": 0,
+      "status": "pass"
+    },
+    {
+      "label": "JSON parse errors",
+      "value": 0,
+      "status": "pass"
+    },
+    {
+      "label": "PYQ records",
+      "value": 5779,
+      "status": "pass"
+    },
+    {
+      "label": "PYQ PDF files",
+      "value": 5779,
+      "status": "pass"
+    },
+    {
+      "label": "missing PYQ files",
+      "value": 0,
+      "status": "pass"
+    },
+    {
+      "label": "PYQ groups covered",
+      "value": "2095/2095",
+      "status": "pass"
+    },
+    {
+      "label": "extra PYQ groups",
+      "value": 71,
+      "status": "pass"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Homepage",
+      "status": "pass",
+      "message": "Main website entry file exists."
+    },
+    {
+      "name": "Authentication Pages",
+      "status": "pass",
+      "message": "Login, signup, forgot password, and reset password pages are present."
+    },
+    {
+      "name": "Admin Dashboard",
+      "status": "pass",
+      "message": "Admin dashboard page is present."
+    },
+    {
+      "name": "Backend/API Client",
+      "status": "pass",
+      "message": "Backend server and frontend API client are present."
+    },
+    {
+      "name": "JavaScript Syntax",
+      "status": "pass",
+      "message": "16 JS files parsed successfully."
+    },
+    {
+      "name": "HTML Local References",
+      "status": "pass",
+      "message": "39 HTML files have valid local references."
+    },
+    {
+      "name": "JSON Data",
+      "status": "pass",
+      "message": "4 JSON files parsed successfully."
+    },
+    {
+      "name": "PYQ Website Data",
+      "status": "pass",
+      "message": "5779 PYQ records, 5779 PDF files, 0 missing live files."
+    },
+    {
+      "name": "PYQ Branch/Semester/Subject Coverage",
+      "status": "pass",
+      "message": "2095/2095 expected groups available."
+    },
+    {
+      "name": "Most Repeated Questions",
+      "status": "pass",
+      "message": "Most repeated questions page is present."
+    },
+    {
+      "name": "Video Lectures",
+      "status": "pass",
+      "message": "Video lecture page is present."
+    },
+    {
+      "name": "Service Worker",
+      "status": "pass",
+      "message": "Service worker file checked."
+    }
+  ],
+  "brokenReferences": [],
+  "jsErrors": [],
+  "jsonErrors": [],
+  "pyq": {
+    "records": 5779,
+    "files": 5779,
+    "missingFiles": []
+  }
+}

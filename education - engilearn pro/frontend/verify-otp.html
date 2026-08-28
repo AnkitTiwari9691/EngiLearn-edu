@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Verify OTP - EngiLearn</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"><link rel="stylesheet" href="assets/css/main.css?v=scrollfix1"><link rel="stylesheet" href="css/style.css?v=34">
+    <link rel="stylesheet" href="assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="auth-page auth-login-nothing" data-theme="light">
+    <main class="auth-shell"><section class="auth-copy"><h1>Verify your signup OTP.</h1><p>Your code expires in 5 minutes and is stored only as a hash on the backend.</p></section>
+        <section class="auth-card"><h2>OTP Verification</h2><p>Enter the 6-digit code sent to email.</p><div id="authAlert"></div>
+            <form class="auth-form" id="otpForm"><label>Email<input id="email" type="email" required></label><label>Account Type<select id="role"><option value="Student">Student</option><option value="Teacher">Teacher</option></select></label><div class="otp-grid"><input data-otp maxlength="1"><input data-otp maxlength="1"><input data-otp maxlength="1"><input data-otp maxlength="1"><input data-otp maxlength="1"><input data-otp maxlength="1"></div><button class="auth-submit" type="submit"><i class="fas fa-shield-halved"></i> Verify Account</button></form>
+            <button class="auth-secondary" id="resendOtp" type="button">Resend OTP</button>
+            <button class="auth-secondary" id="cancelRequest" type="button">Cancel Request</button>
+            <div class="auth-links"><a href="signup.html">Change email</a><a href="login.html">Login</a></div>
+        </section></main>
+    <script src="assets/js/theme-engine.js?v=7"></script><script src="assets/js/api.js?v=53"></script><script src="js/auth.js?v=38"></script><script src="js/verifyOtp.js?v=32"></script>
+  <script src="assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

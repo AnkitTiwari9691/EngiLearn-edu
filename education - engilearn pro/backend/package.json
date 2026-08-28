@@ -1,0 +1,30 @@
+{
+  "name": "engilearn-backend-root",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "sync-mongo": "node backend/scripts/sync-mongodb.js",
+    "import-pyq": "node backend/scripts/import-pyq-library.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.4.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^9.0.3",
+    "nodemon": "^3.0.1",
+    "pdfkit": "^0.17.2",
+    "twilio": "^6.0.2"
+  }
+}

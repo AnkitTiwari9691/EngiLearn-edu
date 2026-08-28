@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin LMS Dashboard - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="../assets/css/lms.css?v=59">
+    
+    <link rel="stylesheet" href="../assets/css/admin-dashboard.css?v=16">
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="lms-body" data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="Admin navigation">
+            <a class="logo" href="../index.html"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="lms-shell">
+        <aside class="lms-sidebar">
+            <div class="lms-user">
+                <strong id="adminName">Admin</strong>
+                <span>Secure LMS control center</span>
+            </div>
+            <span class="lms-sidebar-label">Learning</span>
+            <button class="lms-tab active" data-lms-tab="overview" type="button"><i class="fas fa-chart-line"></i> Overview</button>
+            <button class="lms-tab" data-lms-tab="lectures" type="button"><i class="fas fa-video"></i> Lectures</button>
+            <button class="lms-tab" data-lms-tab="subscriber-videos-admin" type="button"><i class="fas fa-crown"></i> Subscriber Videos</button>
+            <button class="lms-tab" data-lms-tab="subjects" type="button"><i class="fas fa-book"></i> Subjects</button>
+            <button class="lms-tab" data-lms-tab="repeated-questions-manager" type="button"><i class="fas fa-bullseye"></i> Most Repeated Questions</button>
+            <button class="lms-tab" data-lms-tab="assignments" type="button"><i class="fas fa-file-pen"></i> Assignments</button>
+            <button class="lms-tab" data-lms-tab="notifications" type="button"><i class="fas fa-bell"></i> Notifications</button>
+            <button class="lms-tab" data-lms-tab="live" type="button"><i class="fas fa-tower-broadcast"></i> Live Classes</button>
+
+            <span class="lms-sidebar-label">Account</span>
+            <button class="lms-tab" data-lms-tab="account-hub" type="button"><i class="fas fa-address-card"></i> Account Overview</button>
+            <button class="lms-tab" data-lms-tab="students" type="button"><i class="fas fa-users"></i> Accounts</button>
+            <button class="lms-tab" data-lms-tab="contacts" type="button"><i class="fas fa-envelope-open-text"></i> Support Messages</button>
+            <button class="lms-tab" data-lms-tab="admin-control" type="button"><i class="fas fa-user-shield"></i> Admin Control</button>
+            <button class="lms-tab" data-lms-tab="activity-logs" type="button"><i class="fas fa-clock-rotate-left"></i> Activity Logs</button>
+            <button class="lms-tab" data-lms-tab="visitors" type="button"><i class="fas fa-chart-simple"></i> Visitor Details</button>
+            <button class="lms-tab" data-lms-tab="settings" type="button"><i class="fas fa-gear"></i> Admin Settings</button>
+
+            <span class="lms-sidebar-label">Website Settings</span>
+            <button class="lms-tab website-control-main-tab" data-lms-tab="website-settings" type="button"><i class="fas fa-sliders"></i> Website Settings</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="website" type="button"><i class="fas fa-eye"></i> Section Visibility</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="advertising" type="button"><i class="fas fa-bullhorn"></i> Advertising</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="video-section-admin" type="button"><i class="fas fa-video"></i> Video Section</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="ai-section-admin" type="button"><i class="fas fa-layer-group"></i> Complete AI Tools Section</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="ai-tools-admin" type="button"><i class="fas fa-brain"></i> AI Tool Manager</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="tool-hub-access" type="button"><i class="fas fa-toolbox"></i> Tool Hub Access</button>
+            <button class="lms-tab website-setting-tab" data-lms-tab="repeated-questions-access" type="button"><i class="fas fa-eye"></i> Repeated Questions Visibility</button>
+            <button class="lms-tab" id="adminLogout" type="button"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </aside>
+
+        <main class="lms-main">
+            <section class="lms-hero">
+                <div>
+                    <p class="lms-kicker">Admin Dashboard</p>
+                    <h1>Learning, Accounts & Website Control</h1>
+                    <p>Manage learning content, account access, admin controls, section visibility, and AI tools from three organized areas.</p>
+                    <div class="admin-hero-badges" aria-label="Admin control areas">
+                        <span><i class="fas fa-graduation-cap"></i> Learning</span>
+                        <span><i class="fas fa-user-shield"></i> Accounts</span>
+                        <span><i class="fas fa-sliders"></i> Website Settings</span>
+                    </div>
+                </div>
+                <div class="lms-actions">
+                    <button class="lms-btn light" data-lms-tab-target="lectures" type="button"><i class="fas fa-upload"></i> Upload Lecture</button>
+                    <button class="lms-btn light" data-lms-tab-target="notifications" type="button"><i class="fas fa-bullhorn"></i> Announce</button>
+                    <button class="lms-btn light" id="adminThemeToggle" type="button"><i class="fas fa-circle-half-stroke"></i> Theme</button>
+                </div>
+            </section>
+
+            <section class="lms-stats" aria-label="Admin analytics">
+                <div class="lms-stat"><span>Students</span><strong id="adminStudents">0</strong></div>
+                <div class="lms-stat"><span>Videos</span><strong id="adminVideos">0</strong></div>
+                <div class="lms-stat"><span>Subjects</span><strong id="adminSubjects">0</strong></div>
+                <div class="lms-stat" hidden><span>Requests</span><strong id="adminRequests">0</strong></div>
+            </section>
+
+            <div class="admin-page-bar" id="adminPageBar" hidden>
+                <div><p class="lms-kicker" id="adminPageCategory">Admin Dashboard</p><h2 id="adminPageTitle">Section</h2></div>
+                <button class="lms-btn secondary" data-lms-tab-target="overview" type="button"><i class="fas fa-arrow-left"></i> Back to Overview</button>
+            </div>
+
+            <section class="lms-section active" id="overview">
+                <div class="admin-command-strip" aria-label="Admin quick control format">
+                    <button type="button" data-lms-tab-target="lectures"><i class="fas fa-video"></i><span>Learning Upload</span></button>
+                    <button type="button" data-lms-tab-target="students"><i class="fas fa-users"></i><span>Account Access</span></button>
+                    <button type="button" data-lms-tab-target="website-settings"><i class="fas fa-sliders"></i><span>Website Control</span></button>
+                    <button type="button" data-lms-tab-target="ai-tools-admin"><i class="fas fa-brain"></i><span>AI Tool Manager</span></button>
+                </div>
+                <div class="admin-stack-board" aria-label="Stacked admin dashboard">
+                    <article class="admin-stack-category">
+                        <header>
+                            <span>01</span>
+                            <div>
+                                <p>Learning</p>
+                                <h2>Academic Command Stack</h2>
+                            </div>
+                        </header>
+                        <div class="admin-stack-list">
+                            <button data-lms-tab-target="overview" type="button"><i class="fas fa-chart-line"></i><span>Overview</span></button>
+                            <button data-lms-tab-target="lectures" type="button"><i class="fas fa-video"></i><span>Lectures</span></button>
+                            <button data-lms-tab-target="subscriber-videos-admin" type="button"><i class="fas fa-crown"></i><span>Subscriber Videos</span></button>
+                            <button data-lms-tab-target="subjects" type="button"><i class="fas fa-book"></i><span>Subjects</span></button>
+                            <button data-lms-tab-target="pyq-manager" type="button"><i class="fas fa-file-pdf"></i><span>PYQ Manager</span></button>
+                            <button data-lms-tab-target="repeated-questions-manager" type="button"><i class="fas fa-bullseye"></i><span>Add/Edit Repeated Questions</span></button>
+                            <button data-lms-tab-target="assignments" type="button"><i class="fas fa-file-pen"></i><span>Assignments</span></button>
+                            <button data-lms-tab-target="notifications" type="button"><i class="fas fa-bell"></i><span>Notifications</span></button>
+                            <button data-lms-tab-target="live" type="button"><i class="fas fa-tower-broadcast"></i><span>Live Classes</span></button>
+                        </div>
+                    </article>
+
+                    <article class="admin-stack-category">
+                        <header>
+                            <span>02</span>
+                            <div>
+                                <p>Account</p>
+                                <h2>Access Control Stack</h2>
+                            </div>
+                        </header>
+                        <div class="admin-stack-list">
+                            <button data-lms-tab-target="students" type="button"><i class="fas fa-users"></i><span>Accounts</span></button>
+                            <button data-lms-tab-target="contacts" type="button"><i class="fas fa-envelope-open-text"></i><span>Support Messages</span></button>
+                            <button data-lms-tab-target="admin-control" type="button"><i class="fas fa-user-shield"></i><span>Admin Control</span></button>
+                            <button data-lms-tab-target="activity-logs" type="button"><i class="fas fa-clock-rotate-left"></i><span>Activity Logs</span></button>
+                            <button data-lms-tab-target="visitors" type="button"><i class="fas fa-chart-simple"></i><span>Visitor Details</span></button>
+                            <button data-lms-tab-target="settings" type="button"><i class="fas fa-gear"></i><span>Admin Settings</span></button>
+                        </div>
+                    </article>
+
+                    <article class="admin-stack-category">
+                        <header>
+                            <span>03</span>
+                            <div>
+                                <p>Website Settings</p>
+                                <h2>Website Control Stack</h2>
+                            </div>
+                        </header>
+                        <div class="admin-stack-list">
+                            <button data-lms-tab-target="website-settings" type="button"><i class="fas fa-sliders"></i><span>Website Settings</span></button>
+                            <button data-lms-tab-target="website" type="button"><i class="fas fa-eye"></i><span>Section Visibility</span></button>
+                            <button data-lms-tab-target="advertising" type="button"><i class="fas fa-bullhorn"></i><span>Advertising</span></button>
+                            <button data-lms-tab-target="video-section-admin" type="button"><i class="fas fa-video"></i><span>Video Section</span></button>
+                            <button data-lms-tab-target="ai-section-admin" type="button"><i class="fas fa-layer-group"></i><span>Complete AI Tools Section</span></button>
+                            <button data-lms-tab-target="ai-tools-admin" type="button"><i class="fas fa-brain"></i><span>AI Tool Manager</span></button>
+                            <button data-lms-tab-target="tool-hub-access" type="button"><i class="fas fa-toolbox"></i><span>Tool Hub Access</span></button>
+                            <button data-lms-tab-target="repeated-questions-access" type="button"><i class="fas fa-eye"></i><span>Repeated Questions Visibility</span></button>
+                        </div>
+                    </article>
+                </div>
+                <div class="lms-panel"><h2>Most Watched Lectures</h2><div class="lms-grid" id="mostWatchedGrid"></div></div>
+            </section>
+
+
+            <section class="lms-section" id="account-hub">
+                <div class="lms-panel">
+                    <p class="lms-kicker">Account</p>
+                    <h2>Account Control Center</h2>
+                    <p class="lms-meta">Open each account-management feature as a separate dashboard page.</p>
+                    <div class="admin-section-launcher">
+                        <button data-lms-tab-target="students" type="button"><i class="fas fa-users"></i><span><strong>Accounts</strong><small>Students, teachers, and admins</small></span></button>
+                        <button data-lms-tab-target="contacts" type="button"><i class="fas fa-envelope-open-text"></i><span><strong>Support Messages</strong><small>Read and resolve messages</small></span></button>
+                        <button data-lms-tab-target="admin-control" type="button"><i class="fas fa-user-shield"></i><span><strong>Admin Control</strong><small>Manage admin access</small></span></button>
+                        <button data-lms-tab-target="activity-logs" type="button"><i class="fas fa-clock-rotate-left"></i><span><strong>Activity Logs</strong><small>Review admin history</small></span></button>
+                        <button data-lms-tab-target="visitors" type="button"><i class="fas fa-chart-simple"></i><span><strong>Visitor Details</strong><small>Website visitor information</small></span></button>
+                        <button data-lms-tab-target="settings" type="button"><i class="fas fa-gear"></i><span><strong>Admin Settings</strong><small>Profile and security</small></span></button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="activity-logs">
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div>
+                            <p class="lms-kicker">Admin History</p>
+                            <h2>Admin Activity Logs</h2>
+                            <p class="lms-meta">Full admin work history with action, detail, admin name, and exact date/time.</p>
+                        </div>
+                        <button class="lms-btn secondary" data-lms-tab-target="overview" type="button"><i class="fas fa-arrow-left"></i> Back Overview</button>
+                    </div>
+                    <div class="lms-filters admin-date-filter" data-admin-date-filter="activityLogs">
+                        <input id="activityLogSearch" type="search" placeholder="Search action, detail, or admin" aria-label="Search admin activity logs">
+                        <select id="activityLogsDateMode" data-admin-date-filter-field="activityLogs" aria-label="Activity log date filter">
+                            <option value="all">All dates</option>
+                            <option value="day">Select day</option>
+                            <option value="month">Select month</option>
+                            <option value="year">Select year</option>
+                        </select>
+                        <input id="activityLogsDateDay" data-admin-date-filter-field="activityLogs" type="date" aria-label="Activity log day">
+                        <input id="activityLogsDateMonth" data-admin-date-filter-field="activityLogs" type="month" aria-label="Activity log month">
+                        <input id="activityLogsDateYear" data-admin-date-filter-field="activityLogs" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                        <span class="lms-filter-summary" id="activityLogsDateSummary">Showing all activity logs</span>
+                    </div>
+                    <div class="lms-filters admin-bulk-actions">
+                        <button class="lms-btn danger" id="deleteSelectedActivityLogs" type="button"><i class="fas fa-trash"></i> Delete Selected</button>
+                    </div>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th><input id="selectAllActivityLogs" type="checkbox" aria-label="Select all activity logs"></th><th>Action</th><th>Detail</th><th>Admin</th><th>Date / Time</th></tr></thead><tbody id="activityLogRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="visitors">
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div>
+                            <p class="lms-kicker">Website Analytics</p>
+                            <h2>Visitor Details</h2>
+                            <p class="lms-meta">Every website visit is listed with page, account, device, browser, screen, network, IP, theme, and exact date/time.</p>
+                        </div>
+                        <button class="lms-btn secondary" data-lms-tab-target="overview" type="button"><i class="fas fa-arrow-left"></i> Back Overview</button>
+                    </div>
+                    <div class="lms-grid visitor-stats" id="visitorStats"></div>
+                    <div class="lms-filters admin-date-filter" data-admin-date-filter="visitors">
+                        <input id="visitorSearch" type="search" placeholder="Search visitor, account, page, device, IP, theme" aria-label="Search visitor details">
+                        <select id="visitorsDateMode" data-admin-date-filter-field="visitors" aria-label="Visitor date filter">
+                            <option value="all">All dates</option>
+                            <option value="day">Select day</option>
+                            <option value="month">Select month</option>
+                            <option value="year">Select year</option>
+                        </select>
+                        <input id="visitorsDateDay" data-admin-date-filter-field="visitors" type="date" aria-label="Visitor day">
+                        <input id="visitorsDateMonth" data-admin-date-filter-field="visitors" type="month" aria-label="Visitor month">
+                        <input id="visitorsDateYear" data-admin-date-filter-field="visitors" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                        <span class="lms-filter-summary" id="visitorsDateSummary">Showing all visitor records</span>
+                    </div>
+                    <div class="lms-filters admin-bulk-actions">
+                        <button class="lms-btn danger" id="deleteSelectedVisitors" type="button"><i class="fas fa-trash"></i> Delete Selected</button>
+                    </div>
+                    <div class="lms-table-wrap visitor-table-wrap">
+                        <table class="lms-table visitor-table">
+                            <thead>
+                                <tr>
+                                    <th><input id="selectAllVisitors" type="checkbox" aria-label="Select all visitor records"></th>
+                                    <th>Visitor / Session</th>
+                                    <th>Account</th>
+                                    <th>Page / Referrer</th>
+                                    <th>Device</th>
+                                    <th>Screen / Theme</th>
+                                    <th>IP / Network</th>
+                                    <th>Date / Time</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="visitorRows"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section class="lms-section" id="requests" hidden aria-hidden="true">
+                <select id="requestRoleFilter" hidden><option value="all">All</option></select>
+                <table hidden><tbody id="requestRows"></tbody></table>
+            </section>
+
+            <section class="lms-section" id="lectures">
+                <div class="lms-panel">
+                    <h2>Upload Lecture</h2>
+                    <form class="lms-form" id="lectureForm">
+                        <label>Title<input name="title" required></label>
+                        <label>Teacher<input name="teacherName" required></label>
+                        <label>Course<input name="course" required></label>
+                        <label>Branch<input name="branch" value="Computer Science & Engineering" required></label>
+                        <label>Semester<input name="semester" value="3" required></label>
+                        <label>Subject<input name="subject" value="Data Structure" required></label>
+                        <label>Chapter<input name="chapter" placeholder="Unit 1"></label>
+                        <label>Source Type<select name="sourceType"><option value="youtube">YouTube</option><option value="drive">Google Drive</option><option value="mp4">MP4 Upload</option></select></label>
+                        <label class="wide">Video URL<input name="videoUrl" placeholder="YouTube embed URL, Drive link, or leave blank for MP4 upload"></label>
+                        <label>MP4 Video<input name="videoFile" type="file" accept=".mp4,.webm,.mov"></label>
+                        <label>PDF / Notes / PPT<input name="resourceFile" type="file" accept=".pdf,.doc,.docx,.ppt,.pptx"></label>
+                        <label class="wide">Description<textarea name="description"></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-cloud-arrow-up"></i> Save Lecture</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <div class="lms-filters"><input type="search" id="adminLectureSearch" placeholder="Search lectures"></div>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th>Title</th><th>Scope</th><th>Teacher</th><th>Type</th><th>Views</th><th>Actions</th></tr></thead><tbody id="lectureRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="subscriber-videos-admin">
+                <div class="lms-panel">
+                    <p class="lms-kicker">Subscriber Access</p>
+                    <h2>Library Settings</h2>
+                    <form class="lms-form" id="subscriberLibrarySettingsForm">
+                        <label>Library Status<select id="subscriberLibraryStatusInput" name="videos"><option value="true">Active and visible</option><option value="false">Disabled and hidden</option></select></label>
+                        <label class="wide">Library Title<input id="subscriberLibraryTitleInput" name="title" placeholder="Subscriber Video Library"></label>
+                        <label class="wide">Library Description<textarea id="subscriberLibraryDescriptionInput" name="description" placeholder="Premium learning videos for subscribers"></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save Subscriber Library Settings</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div>
+                            <p class="lms-kicker">Learning</p>
+                            <h2>Subscriber Video Library</h2>
+                            <p class="lms-meta">Upload premium lectures, control individual video status, and manage what appears on the subscriber page.</p>
+                        </div>
+                        <a class="lms-btn secondary" href="subscriber-videos.html" target="_blank" rel="noopener"><i class="fas fa-eye"></i> Preview Library</a>
+                    </div>
+                    <form class="lms-form" id="subscriberLectureForm">
+                        <input name="isSubscriber" type="hidden" value="true">
+                        <label>Title<input name="title" required></label>
+                        <label>Teacher<input name="teacherName" required></label>
+                        <label>Course<input name="course" value="Subscriber Learning Library" required></label>
+                        <label>Branch<input name="branch" value="Computer Science & Engineering" required></label>
+                        <label>Semester<input name="semester" value="3" required></label>
+                        <label>Subject<input name="subject" value="Data Structure" required></label>
+                        <label>Chapter<input name="chapter" placeholder="Unit 1"></label>
+                        <label>Status<select name="isActive"><option value="true">Active</option><option value="false">Disabled</option></select></label>
+                        <label>Source Type<select name="sourceType"><option value="youtube">YouTube</option><option value="drive">Google Drive</option><option value="mp4">MP4 Upload</option></select></label>
+                        <label class="wide">Video URL<input name="videoUrl" placeholder="YouTube embed URL, Drive link, or leave blank for MP4 upload"></label>
+                        <label>MP4 Video<input name="videoFile" type="file" accept=".mp4,.webm,.mov"></label>
+                        <label>PDF / Notes / PPT<input name="resourceFile" type="file" accept=".pdf,.doc,.docx,.ppt,.pptx"></label>
+                        <label>Thumbnail<input name="thumbnail" type="file" accept="image/*"></label>
+                        <label class="wide">Description<textarea name="description" placeholder="What subscribers will learn"></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-cloud-arrow-up"></i> Add Subscriber Video</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div><h2>Manage Subscriber Videos</h2><p class="lms-meta">Active videos appear immediately in the Subscriber Video Library.</p></div>
+                        <button class="lms-btn secondary" data-lms-tab-target="lectures" type="button"><i class="fas fa-video"></i> Manage All Lectures</button>
+                    </div>
+                    <div class="lms-filters admin-date-filter" data-admin-date-filter="subscriberVideos">
+                        <input type="search" id="subscriberLectureSearch" placeholder="Search subscriber videos">
+                        <select id="subscriberVideosDateMode" data-admin-date-filter-field="subscriberVideos" aria-label="Subscriber video date filter">
+                            <option value="all">All dates</option>
+                            <option value="day">Select day</option>
+                            <option value="month">Select month</option>
+                            <option value="year">Select year</option>
+                        </select>
+                        <input id="subscriberVideosDateDay" data-admin-date-filter-field="subscriberVideos" type="date" aria-label="Subscriber video day">
+                        <input id="subscriberVideosDateMonth" data-admin-date-filter-field="subscriberVideos" type="month" aria-label="Subscriber video month">
+                        <input id="subscriberVideosDateYear" data-admin-date-filter-field="subscriberVideos" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                        <span class="lms-filter-summary" id="subscriberVideosDateSummary">Showing all subscriber videos</span>
+                    </div>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th>Video</th><th>Scope</th><th>Teacher</th><th>Status</th><th>Added</th><th>Actions</th></tr></thead><tbody id="subscriberLectureRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="subjects">
+                <div class="lms-panel">
+                    <h2>Manage Subjects & Classes</h2>
+                    <form class="lms-form" id="subjectForm">
+                        <label>Subject<input name="name" required></label>
+                        <label>Teacher<input name="teacher"></label>
+                        <label>Course<input name="course" required></label>
+                        <label>Branch<input name="branch" value="Computer Science & Engineering" required></label>
+                        <label>Semester<input name="semester" value="3" required></label>
+                        <button class="lms-btn" type="submit"><i class="fas fa-plus"></i> Add Subject</button>
+                    </form>
+                </div>
+                <div class="lms-grid" id="subjectGrid"></div>
+            </section>
+
+            <section class="lms-section" id="pyq-manager">
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div>
+                            <p class="lms-kicker">Academic Operations</p>
+                            <h2>RGPV PYQ Manager</h2>
+                            <p class="lms-meta">Main Admin, Academic Admin, and Content Admin can manage the deduplicated all-branches RGPV PYQ collection.</p>
+                        </div>
+                        <div class="lms-actions">
+                            <a class="lms-btn secondary" href="pyq.html" target="_blank" rel="noopener"><i class="fas fa-eye"></i> Open PYQ Library</a>
+                            <button class="lms-btn" id="downloadAllPyqBtn" type="button"><i class="fas fa-download"></i> Download All</button>
+                        </div>
+                    </div>
+                    <div class="lms-grid" id="pyqAdminStats"></div>
+                    <div class="lms-panel-head">
+                        <div>
+                            <h3>Bulk Dataset Import</h3>
+                            <p class="lms-meta">Imports all RGPV B.Tech branches, semesters, subjects, and subject codes while skipping duplicate papers.</p>
+                        </div>
+                        <button class="lms-btn" id="importPyqDatasetBtn" type="button"><i class="fas fa-file-import"></i> Replace and Import All PYQ</button>
+                    </div>
+                </div>
+                <div class="lms-panel">
+                    <h2>Upload Individual PYQ</h2>
+                    <form class="lms-form" id="pyqUploadForm">
+                        <label>Branch<input name="branch" value="Computer Science & Engineering" required></label>
+                        <label>Branch ID<input name="branchId" value="cse" required></label>
+                        <label>Semester<select name="semester" required><option value="1">Semester 1</option><option value="2">Semester 2</option><option value="3">Semester 3</option><option value="4">Semester 4</option><option value="5">Semester 5</option><option value="6">Semester 6</option><option value="7">Semester 7</option><option value="8">Semester 8</option></select></label>
+                        <label>Subject<input name="subject" required></label>
+                        <label>Subject Code<input name="subjectCode" required></label>
+                        <label>Year<input name="year" type="number" min="2000" max="2100" required></label>
+                        <label>Session<select name="session"><option value="Jun">Jun</option><option value="Dec">Dec</option><option value="Nov">Nov</option><option value="May">May</option><option value="Feb">Feb</option></select></label>
+                        <label>PDF File<input name="file" type="file" accept=".pdf" required></label>
+                        <label class="wide">Description<textarea name="topic" placeholder="RGPV question paper details"></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-cloud-arrow-up"></i> Upload PYQ</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div><h2>Imported PYQ Papers</h2><p class="lms-meta">Search by subject, code, semester, or year.</p></div>
+                        <input id="adminPyqSearch" type="search" placeholder="Search PYQ records">
+                    </div>
+                    <div class="lms-table-wrap">
+                        <table class="lms-table">
+                            <thead><tr><th>Subject</th><th>Code</th><th>Semester</th><th>Year</th><th>Session</th><th>File</th><th>Actions</th></tr></thead>
+                            <tbody id="adminPyqRows"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="students">
+                <div class="lms-panel">
+                    <div class="lms-filters">
+                        <input type="search" id="studentSearch" placeholder="Search student or teacher account">
+                        <select id="accountRoleFilter">
+                            <option value="all">All accounts</option>
+                            <option value="Student">Students only</option>
+                            <option value="Teacher">Teachers only</option>
+                            <option value="Admin">Admins only</option>
+                        </select>
+                    </div>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th>Name</th><th>Contact</th><th>Academic</th><th>Learning</th><th>About</th><th>Status</th><th>Actions</th></tr></thead><tbody id="studentRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="contacts">
+                <div class="lms-panel">
+                    <h2>Contact EngiLearn Messages</h2>
+                    <p class="lms-meta">Messages submitted from Contact EngiLearn appear here for admin follow-up. Support email: engilearn.edu@gmail.com.</p>
+                    <div class="lms-filters admin-date-filter" data-admin-date-filter="contacts">
+                        <input id="contactSearch" type="search" placeholder="Search name, email, topic, or message" aria-label="Search support messages">
+                        <select id="contactsDateMode" data-admin-date-filter-field="contacts" aria-label="Contact message date filter">
+                            <option value="all">All dates</option>
+                            <option value="day">Select day</option>
+                            <option value="month">Select month</option>
+                            <option value="year">Select year</option>
+                        </select>
+                        <input id="contactsDateDay" data-admin-date-filter-field="contacts" type="date" aria-label="Contact message day">
+                        <input id="contactsDateMonth" data-admin-date-filter-field="contacts" type="month" aria-label="Contact message month">
+                        <input id="contactsDateYear" data-admin-date-filter-field="contacts" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                        <span class="lms-filter-summary" id="contactsDateSummary">Showing all contact messages</span>
+                    </div>
+                    <div class="lms-filters admin-bulk-actions">
+                        <button class="lms-btn" id="resolveSelectedContacts" type="button"><i class="fas fa-check"></i> Resolve Selected</button>
+                        <button class="lms-btn secondary" id="unresolveSelectedContacts" type="button"><i class="fas fa-rotate-left"></i> Unresolve Selected</button>
+                        <button class="lms-btn danger" id="deleteSelectedContacts" type="button"><i class="fas fa-trash"></i> Delete Selected</button>
+                    </div>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th><input id="selectAllContacts" type="checkbox" aria-label="Select all support messages"></th><th>Name</th><th>Contact</th><th>Topic</th><th>Message</th><th>Status</th><th>Received</th><th>Actions</th></tr></thead><tbody id="contactRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="assignments">
+                <div class="lms-panel">
+                    <h2>Upload Assignment</h2>
+                    <form class="lms-form" id="assignmentForm">
+                        <label>Title<input name="title" required></label>
+                        <label>Subject<input name="subject" value="Data Structure" required></label>
+                        <label>Course<input name="course"></label>
+                        <label>Branch<input name="branch" value="Computer Science & Engineering"></label>
+                        <label>Semester<input name="semester" value="3"></label>
+                        <label>Deadline<input name="deadline" type="date" required></label>
+                        <label class="wide">File<input name="file" type="file" accept=".pdf,.doc,.docx,.ppt,.pptx"></label>
+                        <label class="wide">Description<textarea name="description"></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-upload"></i> Publish Assignment</button>
+                    </form>
+                </div>
+                <div class="lms-grid" id="assignmentGrid"></div>
+                <div class="lms-panel">
+                    <h2>Student Submissions</h2>
+                    <div class="lms-filters admin-date-filter" data-admin-date-filter="submissions">
+                        <input id="submissionSearch" type="search" placeholder="Search student, assignment, or status" aria-label="Search student submissions">
+                        <select id="submissionsDateMode" data-admin-date-filter-field="submissions" aria-label="Student submission date filter">
+                            <option value="all">All dates</option>
+                            <option value="day">Select day</option>
+                            <option value="month">Select month</option>
+                            <option value="year">Select year</option>
+                        </select>
+                        <input id="submissionsDateDay" data-admin-date-filter-field="submissions" type="date" aria-label="Student submission day">
+                        <input id="submissionsDateMonth" data-admin-date-filter-field="submissions" type="month" aria-label="Student submission month">
+                        <input id="submissionsDateYear" data-admin-date-filter-field="submissions" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                        <span class="lms-filter-summary" id="submissionsDateSummary">Showing all submissions</span>
+                    </div>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th>Student</th><th>Assignment</th><th>Status</th><th>Work</th><th>Submitted</th></tr></thead><tbody id="submissionRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="notifications">
+                <div class="lms-panel">
+                    <h2>Send Notification</h2>
+                    <form class="lms-form" id="notificationForm">
+                        <label>Title<input name="title" required></label>
+                        <label>Audience<select name="audience"><option>All Students</option><option>Specific Course</option></select></label>
+                        <label class="wide">Message<textarea name="message" required></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-paper-plane"></i> Send Notification</button>
+                    </form>
+                </div>
+                <div class="lms-grid" id="notificationGrid"></div>
+            </section>
+
+            <section class="lms-section" id="live">
+                <div class="lms-panel">
+                    <h2>Schedule Live Class</h2>
+                    <form class="lms-form" id="liveForm">
+                        <label>Title<input name="title" required></label>
+                        <label>Teacher<input name="teacherName"></label>
+                        <label>Subject<input name="subject" value="Data Structure"></label>
+                        <label>Course<input name="course"></label>
+                        <label>Branch<input name="branch" value="Computer Science & Engineering"></label>
+                        <label>Semester<input name="semester" value="3"></label>
+                        <label>Timing<input name="startsAt" type="datetime-local" required></label>
+                        <label>Meet / Zoom Link<input name="meetingUrl" type="url" required></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-calendar-plus"></i> Schedule Class</button>
+                    </form>
+                </div>
+                <div class="lms-grid" id="liveGrid"></div>
+            </section>
+
+            <section class="lms-section" id="website-settings">
+                <div class="website-settings-hub website-settings-redesign">
+                    <div class="website-settings-head">
+                        <div>
+                            <span class="lms-kicker">Website Settings</span>
+                            <h2>Website Control Center</h2>
+                            <p>Manage public visibility, section active/disabled state, AI tools, and the full Theme Engine from one organized control panel.</p>
+                        </div>
+                        <div class="website-settings-status">
+                            <span><strong id="websiteToolCount">0</strong> AI tools</span>
+                            <span><strong id="websiteVisibleCount">0</strong> active sections</span>
+                        </div>
+                    </div>
+
+                    <div class="website-control-grid website-control-grid-redesign">
+                        <article class="website-control-tile primary">
+                            <div class="website-control-icon"><i class="fas fa-toggle-on"></i></div>
+                            <div>
+                                <span>Visibility</span>
+                                <h3>Website Section Visibility</h3>
+                                <p>Control Active/Disabled and Show/Hide status for AI Tools, Video Section, and PYQ Section.</p>
+                            </div>
+                            <button class="lms-btn" data-lms-tab-target="website" type="button">Manage Visibility</button>
+                        </article>
+                        <article class="website-control-tile">
+                            <div class="website-control-icon"><i class="fas fa-brain"></i></div>
+                            <div>
+                                <span>AI Tools</span>
+                                <h3>AI Tool Management</h3>
+                                <p>Add, remove, edit, activate, deactivate, show, and hide AI tools and AI categories.</p>
+                            </div>
+                            <button class="lms-btn secondary" data-lms-tab-target="ai-tools-admin" type="button">Manage AI Tools</button>
+                        </article>
+                        <article class="website-control-tile theme-link-card">
+                            <div class="website-control-icon"><i class="fas fa-palette"></i></div>
+                            <div>
+                                <span>Main Admin</span>
+                                <h3>Theme Engine</h3>
+                                <p>Apply full website UI themes, default theme, preview mode, import, and export theme settings.</p>
+                            </div>
+                            <button class="lms-btn secondary" type="button" onclick="document.getElementById('themeManagerPanel')?.scrollIntoView({behavior:'smooth', block:'start'})">Open Theme Engine</button>
+                        </article>
+                    </div>
+
+                    <div class="website-section-status-board" id="websiteSectionStatusBoard"></div>
+                    <div class="website-settings-strip">
+                        <span><i class="fas fa-ban"></i> Disabled means users cannot open that section</span>
+                        <span><i class="fas fa-eye-slash"></i> Hidden means removed from user navigation</span>
+                        <span><i class="fas fa-user-shield"></i> Admin can still manage everything</span>
+                    </div>
+                </div>
+                <div class="theme-manager-panel" id="themeManagerPanel">
+                    <div class="theme-manager-head">
+                        <div>
+                            <span class="lms-kicker">Main Admin Theme Engine</span>
+                            <h2>Dynamic Multi-Theme Engine</h2>
+                            <p>Preview, apply, export, and import complete UI/UX themes for the full website without a page reload.</p>
+                        </div>
+                        <span class="lms-badge" id="themeEngineStatus">Loading theme engine</span>
+                    </div>
+                    <div class="theme-manager-grid">
+                        <label>Website Theme
+                            <select id="themeEngineSelect"></select>
+                        </label>
+                        <label>Default Theme
+                            <select id="themeDefaultSelect"></select>
+                        </label>
+                        <label>User Preference
+                            <select id="themeUserPreferenceInput">
+                                <option value="true">Allow users to choose</option>
+                                <option value="false">Force website default</option>
+                            </select>
+                        </label>
+                        <label>Preview Mode
+                            <select id="themePreviewInput">
+                                <option value="true">Preview enabled</option>
+                                <option value="false">Preview disabled</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="theme-preview-grid" id="themePreviewGrid"></div>
+                    <div class="theme-manager-actions">
+                        <button class="lms-btn" id="themePreviewBtn" type="button"><i class="fas fa-eye"></i> Preview Theme</button>
+                        <button class="lms-btn" id="themeApplyBtn" type="button"><i class="fas fa-save"></i> Apply Website Theme</button>
+                        <button class="lms-btn secondary" id="themeExportBtn" type="button"><i class="fas fa-file-export"></i> Export</button>
+                        <button class="lms-btn secondary" id="themeImportBtn" type="button"><i class="fas fa-file-import"></i> Import</button>
+                    </div>
+                    <textarea id="themeImportExportBox" class="theme-import-export" placeholder="Theme JSON import/export appears here"></textarea>
+                </div>
+            </section>
+
+            <section class="lms-section" id="ai-tools-admin">
+                <div class="lms-panel">
+                    <h2>AI Tool Management</h2>
+                    <p class="lms-meta">This is a dedicated website settings section for adding, editing, hiding, activating, and deactivating AI tools.</p>
+                </div>
+                <div class="lms-panel">
+                    <h2>Add / Edit AI Tool</h2>
+                    <form class="lms-form" id="aiToolForm">
+                        <input type="hidden" name="id" id="aiToolId">
+                        <label>Name<input name="name" required placeholder="ChatGPT"></label>
+                        <label>Category<input name="category" required placeholder="Study Assistant"></label>
+                        <label>Icon<input name="icon" value="fas fa-robot" placeholder="fas fa-robot"></label>
+                        <label>Color<input name="color" type="color" value="#2563eb"></label>
+                        <label>Tool Type<select name="toolType"><option value="chat">Chat</option><option value="video">Video</option><option value="prompt">Prompt</option><option value="workspace">Workspace</option></select></label>
+                        <label>Status<select name="isActive"><option value="true">Active</option><option value="false">Deactivated</option></select></label>
+                        <label>Visibility<select name="isVisible"><option value="true">Visible to users</option><option value="false">Hidden from users</option></select></label>
+                        <label class="wide">Embed URL<input name="embedUrl" placeholder="Leave blank for providers that block embedding"></label>
+                        <label class="wide">Provider URL<input name="toolUrl" placeholder="https://chatgpt.com/"></label>
+                        <label class="wide">Description<textarea name="description" required></textarea></label>
+                        <label class="wide">Prompt Placeholder<textarea name="promptPlaceholder" placeholder="Ask this AI tool..."></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save AI Tool</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <h2>All AI Tools</h2>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th>Tool</th><th>Category</th><th>Status</th><th>Visibility</th><th>Actions</th></tr></thead><tbody id="aiToolRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="website">
+                <div class="visibility-board">
+                    <div class="visibility-board-head">
+                        <div>
+                            <p class="lms-kicker">Website Settings</p>
+                            <h2>Section Visibility Console</h2>
+                            <p>Control what normal users can open across the website. Admin still sees hidden and disabled areas for management.</p>
+                        </div>
+                        <div class="visibility-leds" aria-label="Visibility rule summary">
+                            <span><i class="fas fa-user-shield"></i> Admin always sees all</span>
+                            <span><i class="fas fa-user"></i> Users follow these switches</span>
+                        </div>
+                    </div>
+
+                    <form class="visibility-console" id="websiteSettingsForm">
+                        <article class="visibility-tile tools">
+                            <div class="visibility-tile-head">
+                                <i class="fas fa-brain"></i>
+                                <div>
+                                    <span>AI Tools</span>
+                                    <h3>Complete AI Tools Section</h3>
+                                </div>
+                            </div>
+                            <p>Enable the AI tools area and decide whether normal users can see it.</p>
+                            <div class="visibility-control-row">
+                                <label>Section Status<select id="websiteToolsSectionInput" name="toolsSection"><option value="true">Active</option><option value="false">Disabled</option></select></label>
+                                <label>User Visibility<select id="websiteToolsVisibilityInput" name="toolsVisibility"><option value="true">Shown to users</option><option value="false">Hidden from users</option></select></label>
+                            </div>
+                        </article>
+
+                        <article class="visibility-tile videos">
+                            <div class="visibility-tile-head">
+                                <i class="fas fa-video"></i>
+                                <div>
+                                    <span>Video Library</span>
+                                    <h3>Video Section</h3>
+                                </div>
+                            </div>
+                            <p>Controls video pages, branch lecture access, and video links shown to users.</p>
+                            <div class="visibility-control-row">
+                                <label>Section Status<select id="websiteVideoSectionInput" name="videoSection"><option value="true">Active</option><option value="false">Disabled</option></select></label>
+                                <label>User Visibility<select id="websiteVideoVisibilityInput" name="videoVisibility"><option value="true">Shown to users</option><option value="false">Hidden from users</option></select></label>
+                            </div>
+                        </article>
+
+                        <article class="visibility-tile pyq">
+                            <div class="visibility-tile-head">
+                                <i class="fas fa-file-lines"></i>
+                                <div>
+                                    <span>PYQ Access</span>
+                                    <h3>PYQ Section</h3>
+                                </div>
+                            </div>
+                            <p>Controls previous year question pages, branch links, and PYQ navigation visibility.</p>
+                            <div class="visibility-control-row">
+                                <label>Section Status<select id="websitePyqSectionInput" name="pyqSection"><option value="true">Active</option><option value="false">Disabled</option></select></label>
+                                <label>User Visibility<select id="websitePyqVisibilityInput" name="pyqVisibility"><option value="true">Shown to users</option><option value="false">Hidden from users</option></select></label>
+                            </div>
+                        </article>
+
+                        <div class="visibility-save-bar">
+                            <div>
+                                <strong>Visibility changes apply website-wide</strong>
+                                <span>Navigation, branch pages, cards, and user-facing sections follow this control.</span>
+                            </div>
+                            <button class="lms-btn" type="submit"><i class="fas fa-save"></i> Save Website Visibility</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="lms-panel visibility-category-panel">
+                    <h2>AI Category Show / Hide</h2>
+                    <p class="lms-meta">Category visibility is separate from the complete AI tools section. Admin can still view and edit every category.</p>
+                    <div class="lms-grid" id="websiteAiCategoryGrid"></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="admin-control">
+                <div class="lms-panel">
+                    <h2>Admin Control & Activity</h2>
+                    <p class="lms-meta">Main Admin can monitor Academic Admin and Content Admin work, and block or unblock their access.</p>
+                    <div class="lms-grid" id="adminControlGrid"></div>
+                </div>
+                <div class="lms-panel">
+                    <h2>Admin Work Logs</h2>
+                    <div class="lms-table-wrap"><table class="lms-table"><thead><tr><th>Action</th><th>Detail</th><th>Admin</th><th>Time</th></tr></thead><tbody id="adminControlLogRows"></tbody></table></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="video-section-admin">
+                <div class="lms-panel">
+                    <p class="lms-kicker">Website Settings</p>
+                    <h2>Video Section Control</h2>
+                    <p class="lms-meta">Control video pages, branch lecture access, navigation links, and visibility for normal users.</p>
+                    <form class="lms-form" id="videoSectionAdminForm">
+                        <label>Section Status<select id="dedicatedVideoSectionInput" name="section"><option value="true">Active</option><option value="false">Disabled</option></select></label>
+                        <label>User Visibility<select id="dedicatedVideoVisibilityInput" name="visibility"><option value="true">Shown to users</option><option value="false">Hidden from users</option></select></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save Video Section</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="lms-section" id="ai-section-admin">
+                <div class="lms-panel">
+                    <p class="lms-kicker">Website Settings</p>
+                    <h2>Complete AI Tools Section</h2>
+                    <p class="lms-meta">Enable or disable the complete AI Tools area and control whether normal users can see it.</p>
+                    <form class="lms-form" id="aiSectionAdminForm">
+                        <label>Section Status<select id="dedicatedAiSectionInput" name="section"><option value="true">Active</option><option value="false">Disabled</option></select></label>
+                        <label>User Visibility<select id="dedicatedAiVisibilityInput" name="visibility"><option value="true">Shown to users</option><option value="false">Hidden from users</option></select></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save AI Tools Section</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <h2>AI Tool Management</h2>
+                    <p class="lms-meta">Add, edit, activate, deactivate, show, or hide individual AI tools.</p>
+                    <button class="lms-btn" data-lms-tab-target="ai-tools-admin" type="button"><i class="fas fa-brain"></i> Open AI Tool Manager</button>
+                </div>
+            </section>
+
+            <section class="lms-section" id="tool-hub-access">
+                <div class="lms-panel">
+                    <p class="lms-kicker">Website Settings</p>
+                    <h2>Tool Hub Access</h2>
+                    <form class="lms-form" id="toolHubSettingsForm">
+                        <label>Tool Hub Visibility<select id="toolHubVisibleInput" name="toolHubVisible"><option value="true">Show Tool Hub</option><option value="false">Hide Tool Hub</option></select></label>
+                        <label>Student Access<select id="toolHubAccessInput" name="toolHubAccess"><option value="free">Free for students</option><option value="paid" selected>Paid access</option></select></label>
+                        <label>Price (INR)<input id="toolHubPriceInput" name="toolHubPrice" type="number" min="0" step="1" placeholder="100"></label>
+                        <label>UPI ID<input id="toolHubUpiInput" name="toolHubUpi" placeholder="yourupi@bank"></label>
+                        <label>Payee Name<input id="toolHubPayeeInput" name="toolHubPayee" placeholder="EngiLearn"></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save Tool Hub Access</button>
+                    </form>
+                </div>
+                <div class="lms-panel toolhub-payments-card">
+                    <div class="lms-panel-head toolhub-history-head">
+                        <div>
+                            <p class="lms-kicker">Payment History</p>
+                            <h2>Tool Hub Payments</h2>
+                            <p class="lms-meta">Click the history button to view full Razorpay order, student, payment, access, and date information.</p>
+                        </div>
+                        <div class="toolhub-history-actions">
+                            <button class="lms-btn secondary" id="toggleToolHubPaymentHistory" type="button"><i class="fas fa-clock-rotate-left"></i> Show Payment History</button>
+                            <button class="lms-btn secondary" id="refreshToolHubPayments" type="button"><i class="fas fa-rotate"></i> Refresh</button>
+                            <button class="lms-btn danger" id="deleteSelectedToolHubPayments" type="button"><i class="fas fa-trash"></i> Delete Selected</button>
+                        </div>
+                    </div>
+                    <div class="toolhub-history-panel" id="toolHubPaymentHistoryPanel" hidden>
+                        <div class="toolhub-history-summary" id="toolHubPaymentHistorySummary" aria-live="polite"></div>
+                        <div class="lms-filters admin-date-filter" data-admin-date-filter="payments">
+                            <input id="toolHubPaymentSearch" type="search" placeholder="Search student, order, payment, or status" aria-label="Search Tool Hub payments">
+                            <select id="paymentsDateMode" data-admin-date-filter-field="payments" aria-label="Tool Hub payment date filter">
+                                <option value="all">All dates</option>
+                                <option value="day">Select day</option>
+                                <option value="month">Select month</option>
+                                <option value="year">Select year</option>
+                            </select>
+                            <input id="paymentsDateDay" data-admin-date-filter-field="payments" type="date" aria-label="Tool Hub payment day">
+                            <input id="paymentsDateMonth" data-admin-date-filter-field="payments" type="month" aria-label="Tool Hub payment month">
+                            <input id="paymentsDateYear" data-admin-date-filter-field="payments" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                            <span class="lms-filter-summary" id="paymentsDateSummary">Showing all Tool Hub payments</span>
+                        </div>
+                        <div class="lms-table-wrap">
+                            <table class="lms-table toolhub-payment-table">
+                                <thead><tr><th><input id="selectAllToolHubPayments" type="checkbox" aria-label="Select all Tool Hub payments"></th><th>Student</th><th>Contact</th><th>Order ID</th><th>Payment / UTR</th><th>Provider</th><th>Amount</th><th>Status</th><th>Access</th><th>Date / Time</th><th>Slip</th><th>Remove</th></tr></thead>
+                                <tbody id="toolHubGatewayPaymentRows"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="advertising">
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div>
+                            <p class="lms-kicker">Website Settings</p>
+                            <h2>Advertising</h2>
+                            <p class="lms-meta">Control advertising banners inside EngiLearn. Admin decides active status, visibility, placement, message, image, and link.</p>
+                        </div>
+                        <span class="lms-badge" id="advertisingStatusBadge">Advertising settings</span>
+                    </div>
+                    <form class="lms-form" id="advertisingSettingsForm">
+                        <label>Advertising Status
+                            <select id="advertisingSectionInput" name="enabled">
+                                <option value="true">Active</option>
+                                <option value="false">Disabled</option>
+                            </select>
+                        </label>
+                        <label>User Visibility
+                            <select id="advertisingVisibilityInput" name="visible">
+                                <option value="true">Shown to users</option>
+                                <option value="false">Hidden from users</option>
+                            </select>
+                        </label>
+                        <label>Placement
+                            <select id="advertisingPlacementInput" name="placement">
+                                <option value="home">Homepage</option>
+                                <option value="pyq">PYQ Section</option>
+                                <option value="videos">Video Section</option>
+                                <option value="branches">Branch Section</option>
+                                <option value="all">All main pages</option>
+                            </select>
+                        </label>
+                        <label>Ad Title<input id="advertisingTitleInput" name="title" placeholder="Example: Admission open"></label>
+                        <label>Ad Link<input id="advertisingLinkInput" name="linkUrl" type="url" placeholder="https://example.com"></label>
+                        <label>Ad Image URL<input id="advertisingImageInput" name="imageUrl" type="url" placeholder="https://example.com/banner.jpg"></label>
+                        <label class="wide">Ad Message<textarea id="advertisingMessageInput" name="message" rows="3" placeholder="Write a clear message users will understand."></textarea></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save Advertising</button>
+                    </form>
+                </div>
+                <div class="lms-panel advertising-preview-card" id="advertisingPreviewCard">
+                    <p class="lms-kicker">Live Preview</p>
+                    <div class="advertising-preview-shell">
+                        <div class="advertising-preview-media" id="advertisingPreviewMedia"><i class="fas fa-bullhorn"></i></div>
+                        <div>
+                            <span class="lms-badge" id="advertisingPreviewPlacement">Homepage</span>
+                            <h3 id="advertisingPreviewTitle">Advertising Preview</h3>
+                            <p id="advertisingPreviewMessage">Saved advertising will preview here.</p>
+                            <a id="advertisingPreviewLink" href="#" target="_blank" rel="noopener">Open linked page</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lms-section" id="repeated-questions-access">
+                <div class="lms-panel">
+                    <p class="lms-kicker">Website Settings</p>
+                    <h2>Most Repeated Questions Access</h2>
+                    <p class="lms-meta">Choose free access or require a verified Razorpay payment. A student purchase unlocks only the selected branch and semester; administrators retain all-branch and all-semester access.</p>
+                    <form class="lms-form" id="repeatedQuestionsSettingsForm">
+                        <label>Visibility<select id="repeatedQuestionsVisibleInput" name="visible"><option value="true" selected>Visible to students</option><option value="false">Hidden from students</option></select></label>
+                        <label>Student Access<select id="repeatedQuestionsAccessInput" name="accessMode"><option value="free">Free for students</option><option value="paid" selected>Paid access</option></select></label>
+                        <label>Price (INR)<input id="repeatedQuestionsPriceInput" name="price" type="number" min="0" step="1" placeholder="100"></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save Repeated Questions Access</button>
+                    </form>
+                </div>
+                <div class="lms-panel toolhub-payments-card">
+                    <div class="lms-panel-head toolhub-history-head">
+                        <div>
+                            <p class="lms-kicker">Payment History</p>
+                            <h2>Repeated Questions Payments</h2>
+                            <p class="lms-meta">History loads only after you open it, keeping the dashboard fast.</p>
+                        </div>
+                        <div class="toolhub-history-actions">
+                            <button class="lms-btn secondary" id="toggleRepeatedPaymentHistory" type="button"><i class="fas fa-clock-rotate-left"></i> Show Payment History</button>
+                            <button class="lms-btn secondary" id="refreshRepeatedPayments" type="button"><i class="fas fa-rotate"></i> Refresh</button>
+                            <button class="lms-btn danger" id="deleteSelectedRepeatedPayments" type="button"><i class="fas fa-trash"></i> Delete Selected</button>
+                        </div>
+                    </div>
+                    <div class="toolhub-history-panel" id="repeatedPaymentHistoryPanel" hidden>
+                        <div class="toolhub-history-summary" id="repeatedPaymentHistorySummary" aria-live="polite"></div>
+                        <div class="lms-filters admin-date-filter" data-admin-date-filter="repeatedPayments">
+                            <input id="repeatedPaymentSearch" type="search" placeholder="Search student, order, payment, or status" aria-label="Search repeated-question payments">
+                            <select id="repeatedPaymentsDateMode" data-admin-date-filter-field="repeatedPayments" aria-label="Repeated-question payment date filter">
+                                <option value="all">All dates</option><option value="day">Select day</option><option value="month">Select month</option><option value="year">Select year</option>
+                            </select>
+                            <input id="repeatedPaymentsDateDay" data-admin-date-filter-field="repeatedPayments" type="date" aria-label="Repeated-question payment day">
+                            <input id="repeatedPaymentsDateMonth" data-admin-date-filter-field="repeatedPayments" type="month" aria-label="Repeated-question payment month">
+                            <input id="repeatedPaymentsDateYear" data-admin-date-filter-field="repeatedPayments" type="number" min="2000" max="2100" step="1" placeholder="Year">
+                            <span class="lms-filter-summary" id="repeatedPaymentsDateSummary">Showing all repeated-question payments</span>
+                        </div>
+                        <div class="lms-table-wrap"><table class="lms-table toolhub-payment-table">
+                            <thead><tr><th><input id="selectAllRepeatedPayments" type="checkbox" aria-label="Select all repeated-question payments"></th><th>Student</th><th>Contact</th><th>Order ID</th><th>Payment / UTR</th><th>Provider</th><th>Amount</th><th>Status</th><th>Branch / Semester Access</th><th>Date / Time</th><th>Slip</th><th>Remove</th></tr></thead>
+                            <tbody id="repeatedPaymentRows"></tbody>
+                        </table></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="repeated-questions-manager">
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div>
+                            <p class="lms-kicker">Question Management</p>
+                            <h2>Add or Edit Most Repeated Questions</h2>
+                            <p class="lms-meta">Questions saved here appear in the public Most Repeated Questions section.</p>
+                        </div>
+                        <a class="lms-btn secondary" href="repeated-questions.html" target="_blank" rel="noopener"><i class="fas fa-eye"></i> Open Question Library</a>
+                    </div>
+                    <form class="lms-form" id="repeatedQuestionForm">
+                        <input id="repeatedQuestionId" name="id" type="hidden">
+                        <label>Branch<input id="repeatedQuestionBranch" name="branch" value="Computer Science & Engineering" required></label>
+                        <label>Branch ID<input id="repeatedQuestionBranchId" name="branchId" value="cse" required></label>
+                        <label>Semester<select id="repeatedQuestionSemester" name="semester" required><option value="1">Semester 1</option><option value="2">Semester 2</option><option value="3">Semester 3</option><option value="4">Semester 4</option><option value="5">Semester 5</option><option value="6">Semester 6</option><option value="7">Semester 7</option><option value="8">Semester 8</option></select></label>
+                        <label>Subject<input id="repeatedQuestionSubject" name="subject" required></label>
+                        <label>Subject Code<input id="repeatedQuestionSubjectCode" name="subjectCode" placeholder="CS-402" required></label>
+                        <label>Unit<select id="repeatedQuestionUnit" name="unit"><option value="1">Unit 1</option><option value="2">Unit 2</option><option value="3">Unit 3</option><option value="4">Unit 4</option><option value="5">Unit 5</option><option value="extra">Extra Questions</option></select></label>
+                        <label>Repeated Times<input id="repeatedQuestionCount" name="repeatCount" type="number" min="1" value="1" required></label>
+                        <label>Years<input id="repeatedQuestionYears" name="years" placeholder="2025, 2024, 2023"></label>
+                        <label>Status<select id="repeatedQuestionStatus" name="isActive"><option value="true">Active</option><option value="false">Hidden</option></select></label>
+                        <label class="wide">Question<textarea id="repeatedQuestionText" name="question" rows="4" required></textarea></label>
+                        <div class="lms-actions wide">
+                            <button class="lms-btn" id="saveRepeatedQuestionBtn" type="submit"><i class="fas fa-plus"></i> Add Question</button>
+                            <button class="lms-btn secondary" id="cancelRepeatedQuestionEdit" type="button" hidden><i class="fas fa-xmark"></i> Cancel Edit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <div class="lms-panel-head">
+                        <div><h2>Admin Added Questions</h2><p class="lms-meta">Search, edit, show/hide, or delete questions uploaded by Admin.</p></div>
+                        <input id="adminRepeatedQuestionSearch" type="search" placeholder="Search branch, subject, code, unit, or question">
+                    </div>
+                    <div class="lms-table-wrap">
+                        <table class="lms-table repeated-question-admin-table">
+                            <thead><tr><th>Question</th><th>Academic</th><th>Unit</th><th>Repeated</th><th>Years</th><th>Status</th><th>Actions</th></tr></thead>
+                            <tbody id="adminRepeatedQuestionRows"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="settings">
+                <div class="lms-panel">
+                    <h2>Admin Profile</h2>
+                    <div class="lms-grid" id="adminProfileSummary"></div>
+                </div>
+                <div class="lms-panel">
+                    <h2>Admin Settings</h2>
+                    <form class="lms-form" id="settingsForm">
+                        <label class="wide">Announcement Banner<input name="announcement" placeholder="Dashboard announcement"></label>
+                        <label>Subscription Videos<select id="subscriptionVideoInput" name="subscriptionVideo"><option value="true">Show button</option><option value="false">Hide button</option></select></label>
+                        <label class="wide">Subscription Title<input id="subscriptionTitleInput" name="subscriptionTitle" placeholder="Subscriber Video Library"></label>
+                        <label>Current Password<input name="currentPassword" type="password"></label>
+                        <label>New Password<input name="newPassword" type="password" minlength="6"></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save Settings</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="lms-modal" id="studentDetailModal" aria-hidden="true"></div>
+    <div class="lms-modal" id="pyqEditModal" aria-hidden="true">
+        <article class="lms-modal-card admin-edit-modal-card">
+            <div class="lms-panel-head">
+                <div><p class="lms-kicker">PYQ Manager</p><h2>Edit Uploaded PYQ</h2></div>
+                <button class="lms-btn secondary" id="closePyqEditModal" type="button" aria-label="Close PYQ editor"><i class="fas fa-xmark"></i></button>
+            </div>
+            <form class="lms-form" id="pyqEditForm">
+                <input id="pyqEditId" name="id" type="hidden">
+                <label>Branch<input id="pyqEditBranch" name="branch" required></label>
+                <label>Branch ID<input id="pyqEditBranchId" name="branchId" required></label>
+                <label>Semester<select id="pyqEditSemester" name="semester" required><option value="1">Semester 1</option><option value="2">Semester 2</option><option value="3">Semester 3</option><option value="4">Semester 4</option><option value="5">Semester 5</option><option value="6">Semester 6</option><option value="7">Semester 7</option><option value="8">Semester 8</option></select></label>
+                <label>Subject<input id="pyqEditSubject" name="subject" required></label>
+                <label>Subject Code<input id="pyqEditSubjectCode" name="subjectCode" required></label>
+                <label>Year<input id="pyqEditYear" name="year" type="number" min="2000" max="2100" required></label>
+                <label>Session<select id="pyqEditSession" name="session"><option value="Jun">Jun</option><option value="Dec">Dec</option><option value="Nov">Nov</option><option value="May">May</option><option value="Feb">Feb</option></select></label>
+                <label class="wide">Description<textarea id="pyqEditTopic" name="topic"></textarea></label>
+                <button class="lms-btn wide" type="submit"><i class="fas fa-save"></i> Save PYQ Changes</button>
+            </form>
+        </article>
+    </div>
+
+    <script src="../assets/js/api.js?v=54-account-refresh"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+    <script src="../assets/js/lms-admin.js?v=87-teacher-approval"></script>
+    <script>
+        if ("caches" in window) {
+            caches.keys().then((keys) => keys.filter((key) => key.startsWith("engilearn-v") && key !== "engilearn-v66").forEach((key) => caches.delete(key)));
+        }
+    </script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

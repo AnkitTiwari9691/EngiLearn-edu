@@ -1,0 +1,13 @@
+[auth:login] Repaired main admin password hash {
+  id: 1,
+  role: 'Admin',
+  identifier: 'ankitboss9691@gmail.com',
+  mustSetPassword: false,
+  ownPasswordCreated: true,
+  passwordCreated: true,
+  isPasswordSet: true,
+  hasPassword: true,
+  firstLogin: false,
+  hasHash: true
+}
+[auth:supabase] disabled (401); create engilearn_kv table and set Supabase service role key in Vercel

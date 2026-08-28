@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student LMS Dashboard - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="../assets/css/lms.css?v=60">
+    
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="lms-body student-dashboard-page" data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="Student navigation">
+            <a class="logo" href="../index.html"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview" data-lms-tab-target="overview">Dashboard</a></li>
+                <li><a href="#profile" data-lms-tab-target="profile">Profile</a></li>
+                <li><a href="#" id="studentTopLogout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="lms-shell">
+        <aside class="lms-sidebar">
+            <div class="lms-user student-summary-trigger" id="studentSummaryTrigger" role="button" tabindex="0" aria-haspopup="dialog" aria-controls="studentSummaryPopup" title="Open student profile summary">
+                <strong id="studentName">Student</strong>
+                <span id="studentScope">Course access loading...</span>
+            </div>
+            <button class="lms-tab active" data-lms-tab="overview" type="button"><i class="fas fa-chart-line"></i> Overview</button>
+            <button class="lms-tab" data-lms-tab="lectures" type="button"><i class="fas fa-video"></i> Lectures</button>
+            <button class="lms-tab" data-lms-tab="assignments" type="button"><i class="fas fa-file-pen"></i> Assignments</button>
+            <button class="lms-tab" data-lms-tab="notifications" type="button"><i class="fas fa-bell"></i> Notifications</button>
+            <button class="lms-tab" data-lms-tab="live" type="button"><i class="fas fa-tower-broadcast"></i> Live Classes</button>
+            <button class="lms-tab" data-lms-tab="aiSupport" type="button"><i class="fas fa-robot"></i> AI Support</button>
+            <button class="lms-tab" data-lms-tab="paymentSlips" type="button"><i class="fas fa-receipt"></i> Payment Slips</button>
+            <button class="lms-tab" id="profileTabBtn" data-lms-tab="profile" type="button"><i class="fas fa-user-gear"></i> Profile</button>
+            <button class="lms-tab" id="studentLogout" type="button"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </aside>
+
+        <main class="lms-main">
+            <section class="lms-hero">
+                <div>
+                    <p class="lms-kicker">Student Learning Space</p>
+                    <h1 id="studentGreeting">Welcome back</h1>
+                    <p id="announcementText">Loading announcements...</p>
+                </div>
+                <div class="lms-actions">
+                    <button class="lms-btn light" data-lms-tab-target="lectures" type="button"><i class="fas fa-play"></i> Continue Learning</button>
+                    <button class="lms-btn light" data-lms-tab-target="assignments" type="button"><i class="fas fa-upload"></i> Submit Work</button>
+                </div>
+            </section>
+
+            <section class="lms-stats" aria-label="Student progress stats">
+                <div class="lms-stat"><span>Lectures</span><strong id="statLectures">0</strong></div>
+                <div class="lms-stat"><span>Completed</span><strong id="statCompleted">0</strong></div>
+                <div class="lms-stat"><span>Assignments</span><strong id="statAssignments">0</strong></div>
+                <div class="lms-stat"><span>Progress</span><strong id="statProgress">0%</strong></div>
+            </section>
+
+            <section class="lms-section active" id="overview">
+                <div class="lms-panel">
+                    <h2>Continue Watching</h2>
+                    <div class="lms-grid" id="continueGrid"></div>
+                </div>
+                <div class="lms-panel">
+                    <h2>Watch History</h2>
+                    <div class="lms-grid" id="watchHistoryGrid"></div>
+                </div>
+                <div class="lms-panel">
+                    <h2>Upcoming Live Classes</h2>
+                    <div class="lms-grid" id="overviewLiveGrid"></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="lectures">
+                <div class="lms-panel">
+                    <div class="lms-filters">
+                        <input type="search" id="lectureSearch" placeholder="Search topic, subject, teacher">
+                        <select id="subjectFilter"><option value="all">All subjects</option></select>
+                        <select id="teacherFilter"><option value="all">All teachers</option></select>
+                    </div>
+                </div>
+                <div class="lms-player lms-panel" id="lecturePlayer"></div>
+                <div class="lms-grid" id="lectureGrid"></div>
+            </section>
+
+            <section class="lms-section" id="assignments">
+                <div class="lms-grid" id="assignmentGrid"></div>
+            </section>
+
+            <section class="lms-section" id="notifications">
+                <div class="lms-grid" id="notificationGrid"></div>
+            </section>
+
+            <section class="lms-section" id="live">
+                <div class="lms-grid" id="liveGrid"></div>
+            </section>
+
+            <section class="lms-section" id="aiSupport">
+                <div class="lms-panel">
+                    <h2>AI Student Support</h2>
+                    <div id="aiChatLog" class="lms-grid"></div>
+                    <form class="lms-form" id="aiChatForm">
+                        <label class="wide">Ask a study question<input id="aiQuestion" placeholder="Example: How do I improve attendance or find DSA notes?"></label>
+                        <button class="lms-btn wide" type="submit"><i class="fas fa-paper-plane"></i> Ask</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="lms-section" id="profile">
+                <div class="lms-panel">
+                    <h2>Student Profile</h2>
+                    <div class="lms-grid" id="profileSummary"></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="paymentSlips">
+                <div class="lms-panel">
+                    <h2>Payment Slips</h2>
+                    <p class="lms-meta">Your saved Tool Hub, Most Repeated Questions, and premium access payments appear here for download.</p>
+                    <div class="lms-grid" id="paymentSlipGrid"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="student-summary-popover" id="studentSummaryPopup" aria-hidden="true"></div>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/lms-student.js?v=62"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

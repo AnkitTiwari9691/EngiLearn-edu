@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        if (window.location.protocol === "file:") {
+            window.location.replace(`https://engilearn-edu.vercel.app/pages/repeated-questions.html${window.location.search}${window.location.hash}`);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find RGPV most repeated questions by branch, semester, subject, subject code, unit, and year inside EngiLearn.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://engilearn-edu.vercel.app/pages/repeated-questions.html">
+    <title>Most Repeated Questions - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="../assets/css/responsive.css?v=52">
+    
+    <link rel="stylesheet" href="../assets/css/repeated-questions.css?v=24">
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+    <link rel="stylesheet" href="../assets/css/repeated-branch-cards.css?v=1">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body data-theme="light" class="repeat-flow-body">
+    <header class="header">
+        <nav class="nav-container" aria-label="Repeated questions navigation">
+            <a class="logo" href="../index.html#home"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#ai-tools">AI Tools</a></li>
+                <li><a href="../index.html#branches">Branches</a></li>
+                <li><a href="../index.html#videos">Videos</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" type="button"><i class="fas fa-moon"></i></button>
+                <a class="mini-btn login-mini" href="../login.html"><i class="fas fa-right-to-bracket"></i><span>Login</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="repeat-flow-page">
+        <section class="repeat-flow-hero">
+            <div class="repeat-hero-copy">
+                <span class="repeat-kicker"><i class="fas fa-bullseye"></i> RGPV Question Intelligence</span>
+                <h1>Most Repeated Questions</h1>
+                <p></p>
+            </div>
+            <div class="repeat-hero-stats" id="repeatHeroStats" aria-live="polite"></div>
+        </section>
+
+        <section class="repeat-flow-shell" id="repeatFlowShell" aria-live="polite">
+            <div class="repeat-flow-progress" id="repeatFlowProgress"></div>
+            <div class="repeat-flow-content" id="repeatFlowContent">
+                <div class="repeat-loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Opening repeated-question workspace...</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+    <script src="../assets/js/subject-similarity.js?v=1"></script>
+    <script src="../assets/js/repeated-questions.js?v=33-public-counts"></script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

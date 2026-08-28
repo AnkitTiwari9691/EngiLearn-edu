@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /backend/
+Disallow: /node_modules/
+Disallow: /pages/admin
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /pages/dashboard
+Disallow: /pages/teacher
+Disallow: /pages/profile
+Disallow: /login
+Disallow: /signup
+Disallow: /reset-password
+Disallow: /forgot-password
+Disallow: /otp-verification
+
+Sitemap: https://engilearn-edu.vercel.app/sitemap.xml

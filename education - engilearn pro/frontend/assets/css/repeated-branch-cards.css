@@ -1,0 +1,181 @@
+/* Nothing-inspired branch cards only. No flow, content, or access behavior lives here. */
+.repeat-flow-body .repeat-branch-grid {
+    gap: clamp(1rem, 1.4vw, 1.35rem) !important;
+}
+
+body.theme-engine-ready[data-ui-theme] .repeat-branch-card,
+.repeat-flow-body .repeat-branch-card {
+    align-items: stretch;
+    background-color: #fff !important;
+    background-image: radial-gradient(rgba(10, 10, 10, 0.075) 1px, transparent 1px) !important;
+    background-position: 0 0 !important;
+    background-size: 14px 14px !important;
+    border: 1px solid #111 !important;
+    border-radius: 18px !important;
+    box-shadow: 8px 8px 0 rgba(17, 17, 17, 0.1) !important;
+    color: #111 !important;
+    display: flex;
+    flex-direction: column;
+    isolation: isolate;
+    min-height: 330px;
+    overflow: hidden;
+    padding: clamp(1.15rem, 1.7vw, 1.5rem) !important;
+    position: relative;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.repeat-flow-body .repeat-branch-card::before {
+    background: linear-gradient(90deg, #111 0 24%, var(--repeat-grad-b, #d71920) 24% 43%, transparent 43% 100%);
+    content: "";
+    height: 6px;
+    inset: 0 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.repeat-flow-body .repeat-branch-card::after {
+    align-items: center;
+    background: #111;
+    border: 1px solid #111;
+    border-radius: 50%;
+    color: #fff;
+    content: "\2197";
+    display: flex;
+    font-size: 1rem;
+    font-weight: 900;
+    height: 38px;
+    justify-content: center;
+    opacity: 1;
+    position: absolute;
+    right: 1.15rem;
+    top: 1.25rem;
+    transform: none;
+    width: 38px;
+    z-index: 3;
+}
+
+.repeat-flow-body .repeat-branch-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.repeat-flow-body .repeat-branch-card .repeat-icon {
+    align-items: center;
+    background: #111 !important;
+    border: 1px solid #111 !important;
+    border-radius: 8px !important;
+    box-shadow: 5px 5px 0 var(--repeat-grad-b, #d71920);
+    color: #fff !important;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 1.3rem;
+    height: 58px;
+    justify-content: center;
+    margin: 0 0 clamp(2rem, 4vw, 3.15rem);
+    width: 58px;
+}
+
+body.theme-engine-ready[data-ui-theme] .repeat-branch-card h3,
+.repeat-flow-body .repeat-branch-card h3 {
+    color: #0a0a0a !important;
+    font-size: clamp(1.15rem, 1.55vw, 1.5rem) !important;
+    letter-spacing: -0.025em !important;
+    line-height: 1.12 !important;
+    margin: 0 0 0.65rem !important;
+    max-width: calc(100% - 0.25rem);
+}
+
+body.theme-engine-ready[data-ui-theme] .repeat-branch-card p,
+.repeat-flow-body .repeat-branch-card p {
+    color: rgba(17, 17, 17, 0.68) !important;
+    font-size: 0.9rem;
+    line-height: 1.55 !important;
+    margin: 0 !important;
+}
+
+.repeat-flow-body .repeat-branch-card .repeat-card-metrics {
+    border-top: 1px solid rgba(17, 17, 17, 0.16);
+    display: grid !important;
+    gap: 0.55rem !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: auto 0 0 !important;
+    padding-top: 1rem;
+}
+
+body.theme-engine-ready[data-ui-theme] .repeat-branch-card .repeat-card-metrics span,
+.repeat-flow-body .repeat-branch-card .repeat-card-metrics span {
+    align-items: center;
+    background: #f4f4f2 !important;
+    border: 1px solid #111 !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+    color: #111 !important;
+    display: flex;
+    font-size: clamp(0.72rem, 0.85vw, 0.82rem) !important;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0.55rem 0.6rem !important;
+    text-align: center;
+}
+
+body.theme-engine-ready[data-ui-theme] .repeat-branch-card .repeat-card-metrics span:first-child,
+.repeat-flow-body .repeat-branch-card .repeat-card-metrics span:first-child {
+    background: #111 !important;
+    color: #fff !important;
+}
+
+.repeat-flow-body .repeat-branch-card:hover,
+.repeat-flow-body .repeat-branch-card:focus-visible {
+    border-color: #111 !important;
+    box-shadow: 11px 11px 0 var(--repeat-grad-b, #d71920) !important;
+    outline: none;
+    transform: translate(-3px, -3px);
+}
+
+.repeat-flow-body .repeat-branch-card:hover::after,
+.repeat-flow-body .repeat-branch-card:focus-visible::after {
+    background: var(--repeat-grad-b, #d71920);
+    border-color: var(--repeat-grad-b, #d71920);
+}
+
+body[data-theme="dark"].theme-engine-ready[data-ui-theme] .repeat-branch-card,
+body[data-theme="dark"].repeat-flow-body .repeat-branch-card {
+    background-color: #0b0b0c !important;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px) !important;
+    border-color: rgba(255, 255, 255, 0.76) !important;
+    box-shadow: 8px 8px 0 rgba(255, 255, 255, 0.09) !important;
+    color: #fff !important;
+}
+
+body[data-theme="dark"].theme-engine-ready[data-ui-theme] .repeat-branch-card h3,
+body[data-theme="dark"].repeat-flow-body .repeat-branch-card h3 {
+    color: #fff !important;
+}
+
+body[data-theme="dark"].theme-engine-ready[data-ui-theme] .repeat-branch-card p,
+body[data-theme="dark"].repeat-flow-body .repeat-branch-card p {
+    color: rgba(255, 255, 255, 0.66) !important;
+}
+
+body[data-theme="dark"].repeat-flow-body .repeat-branch-card .repeat-card-metrics {
+    border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+@media (max-width: 640px) {
+    body.theme-engine-ready[data-ui-theme] .repeat-branch-card,
+    .repeat-flow-body .repeat-branch-card {
+        border-radius: 14px !important;
+        min-height: 292px;
+        padding: 1rem !important;
+    }
+
+    .repeat-flow-body .repeat-branch-card::after {
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .repeat-flow-body .repeat-branch-card .repeat-icon {
+        margin-bottom: 1.75rem;
+    }
+}

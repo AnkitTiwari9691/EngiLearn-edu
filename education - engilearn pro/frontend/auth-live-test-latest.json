@@ -1,0 +1,56 @@
+[
+    {
+        "Test":  "Health",
+        "Status":  200,
+        "Ms":  18302,
+        "Message":  "EngiLearn backend is running"
+    },
+    {
+        "Test":  "Login page",
+        "Status":  null,
+        "Ms":  695,
+        "Message":  null
+    },
+    {
+        "Test":  "OTP page",
+        "Status":  null,
+        "Ms":  870,
+        "Message":  null
+    },
+    {
+        "Test":  "Forgot page",
+        "Status":  null,
+        "Ms":  324,
+        "Message":  null
+    },
+    {
+        "Test":  "Signup page",
+        "Status":  null,
+        "Ms":  325,
+        "Message":  null
+    },
+    {
+        "Test":  "Admin OTP mobile",
+        "Status":  502,
+        "Ms":  1175,
+        "Message":  null
+    },
+    {
+        "Test":  "Admin forgot mobile",
+        "Status":  502,
+        "Ms":  17194,
+        "Message":  null
+    },
+    {
+        "Test":  "Admin forgot email",
+        "Status":  502,
+        "Ms":  1854,
+        "Message":  null
+    },
+    {
+        "Test":  "Password login wrong pwd",
+        "Status":  403,
+        "Ms":  1739,
+        "Message":  null
+    }
+]

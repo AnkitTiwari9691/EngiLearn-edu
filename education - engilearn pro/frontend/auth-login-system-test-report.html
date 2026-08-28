@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EngiLearn Auth Test Report</title><style>body{font-family:Arial,sans-serif;background:#f7f7f5;color:#111;margin:24px}.wrap{max-width:1180px;margin:auto;background:white;border:1px solid #ddd;border-radius:14px;padding:24px}h1{font-size:34px;margin:0 0 8px}.meta{color:#555;margin-bottom:20px}table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid #e4e4e4;padding:12px;text-align:left;vertical-align:top}.pass{background:#eefbf2}.fail{background:#fff2f2}.pill{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:8px 14px;margin:4px 0}</style></head><body><div class="wrap"><span class="pill">LIVE DEPLOYED AUTH TEST</span><h1>EngiLearn Login System Test Report</h1><div class="meta">Generated: 2026-07-16 21:08:03 IST<br>Live site: <a href="https://engilearn-edu.vercel.app">https://engilearn-edu.vercel.app</a><br>Deployment: dpl_GFwKrtimiSPcMrvTAc3ULaxCvuLp</div><table><thead><tr><th>Feature</th><th>Method</th><th>Status</th><th>Result</th><th>Response summary</th></tr></thead><tbody><tr class="pass"><td>Login page</td><td>GET</td><td>200</td><td>PASS</td><td>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=</td></tr>
+<tr class="pass"><td>OTP login page</td><td>GET</td><td>200</td><td>PASS</td><td>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=</td></tr>
+<tr class="pass"><td>Forgot password page</td><td>GET</td><td>200</td><td>PASS</td><td>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=</td></tr>
+<tr class="pass"><td>Create account page</td><td>GET</td><td>200</td><td>PASS</td><td>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=</td></tr>
+<tr class="pass"><td>Backend health + Mongo</td><td>GET</td><td>200</td><td>PASS</td><td>{&quot;ok&quot;:true,&quot;message&quot;:&quot;EngiLearn backend is running&quot;,&quot;port&quot;:&quot;5021&quot;,&quot;database&quot;:&quot;mongodb&quot;,&quot;databases&quot;:[&quot;mongodb&quot;],&quot;storage&quot;:{&quot;sourceOfTruth&quot;:&quot;m</td></tr>
+<tr class="fail"><td>Admin OTP lookup by mobile</td><td>POST</td><td>404</td><td>CHECK</td><td>The remote server returned an error: (404) Not Found.</td></tr>
+<tr class="fail"><td>Admin forgot password by mobile</td><td>POST</td><td>404</td><td>CHECK</td><td>The remote server returned an error: (404) Not Found.</td></tr>
+<tr class="fail"><td>Admin forgot password by email</td><td>POST</td><td>404</td><td>CHECK</td><td>The remote server returned an error: (404) Not Found.</td></tr>
+<tr class="pass"><td>Password login wrong password guard</td><td>POST</td><td>401</td><td>PASS</td><td>The remote server returned an error: (401) Unauthorized.</td></tr>
+<tr class="pass"><td>Create account validation route</td><td>POST</td><td>400</td><td>PASS</td><td>The remote server returned an error: (400) Bad Request.</td></tr></tbody></table><p><b>Note:</b> OTP send endpoints may return 429 cooldown or 503 provider issue and still prove the account lookup is fixed. They should not return 404 Account not found for the default admin.</p></div></body></html>

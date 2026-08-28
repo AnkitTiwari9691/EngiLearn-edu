@@ -1,0 +1,97 @@
+{
+    "generatedAt":  "2026-07-16T03:37:08.835Z",
+    "source":  "C:\\Users\\Lenovo\\OneDrive\\ドキュメント\\New project\\reports\\imp-questions-btech-extracted\\all-important-questions.csv",
+    "target":  "C:\\Users\\Lenovo\\Desktop\\project\\education - engilearn pro\\frontend\\assets\\data\\repeated-questions.csv",
+    "beforeRows":  10861,
+    "sourceRows":  10981,
+    "addedRows":  8949,
+    "afterRows":  19810,
+    "skippedRows":  2,
+    "addedByBranchSemester":  {
+                                  "AIML | Semester 3":  274,
+                                  "AIML | Semester 4":  8,
+                                  "AIML | Semester 5":  196,
+                                  "AIML | Semester 6":  238,
+                                  "ALL | Semester 1":  71,
+                                  "ALL | Semester 2":  406,
+                                  "CIVIL | Semester 3":  500,
+                                  "CIVIL | Semester 4":  110,
+                                  "CIVIL | Semester 5":  372,
+                                  "CIVIL | Semester 6":  391,
+                                  "CIVIL | Semester 7":  240,
+                                  "CIVIL | Semester 8":  149,
+                                  "CSE | Semester 3":  285,
+                                  "CSE | Semester 4":  2,
+                                  "CSE | Semester 5":  326,
+                                  "CSE | Semester 6":  306,
+                                  "CSIT | Semester 3":  400,
+                                  "CSIT | Semester 4":  3,
+                                  "CSIT | Semester 5":  143,
+                                  "CSIT | Semester 6":  44,
+                                  "E-ALL | Semester 3":  321,
+                                  "E-ALL | Semester 4":  325,
+                                  "E-ALL | Semester 5":  285,
+                                  "E-ALL | Semester 6":  322,
+                                  "E-ALL | Semester 7":  217,
+                                  "E-ALL | Semester 8":  263,
+                                  "ECE | Semester 3":  453,
+                                  "ECE | Semester 4":  405,
+                                  "ECE | Semester 5":  303,
+                                  "ECE | Semester 6":  269,
+                                  "ME | Semester 4":  117,
+                                  "ME | Semester 5":  314,
+                                  "ME | Semester 6":  186,
+                                  "ME | Semester 7":  349,
+                                  "ME | Semester 8":  356
+                              },
+    "skippedSamples":  [
+                           {
+                               "branch":  "Artificial Intelligence and Machine Learning",
+                               "semester":  "Semester IV",
+                               "subject_code":  "AL-402",
+                               "reason":  "missing required metadata"
+                           },
+                           {
+                               "branch":  "Artificial Intelligence and Machine Learning",
+                               "semester":  "Semester IV",
+                               "subject_code":  "AL-402",
+                               "reason":  "missing required metadata"
+                           }
+                       ],
+    "finalRowsAfterDedupe":  19782,
+    "duplicateRowsRemoved":  28,
+    "finalBranchCounts":  [
+                              {
+                                  "branch":  "AIML",
+                                  "count":  2028
+                              },
+                              {
+                                  "branch":  "ALL",
+                                  "count":  951
+                              },
+                              {
+                                  "branch":  "CIVIL",
+                                  "count":  3707
+                              },
+                              {
+                                  "branch":  "CSE",
+                                  "count":  2248
+                              },
+                              {
+                                  "branch":  "CSIT",
+                                  "count":  1612
+                              },
+                              {
+                                  "branch":  "E-ALL",
+                                  "count":  3450
+                              },
+                              {
+                                  "branch":  "ECE",
+                                  "count":  2844
+                              },
+                              {
+                                  "branch":  "ME",
+                                  "count":  2942
+                              }
+                          ]
+}

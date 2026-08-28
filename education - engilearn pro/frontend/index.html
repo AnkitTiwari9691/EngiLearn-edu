@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="description" content="EngiLearn is an engineering education platform with branch-wise lectures, RGPV PYQs, assignments, live classes, AI study tools, and LMS dashboards.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="evHPfg-74kovyxqo4MyqmU7-1NQMOMPcG49Ksg-rFxU" />
+    <title>EngiLearn - Complete Engineering Education Platform</title>
+    <link rel="canonical" href="https://engilearn-edu.vercel.app/">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="EngiLearn">
+    <meta property="og:title" content="EngiLearn - Complete Engineering Education Platform">
+    <meta property="og:description" content="Access engineering branches, video lectures, RGPV PYQs, AI study tools, and repeated-question practice inside EngiLearn.">
+    <meta property="og:url" content="https://engilearn-edu.vercel.app/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="EngiLearn - Complete Engineering Education Platform">
+    <meta name="twitter:description" content="Engineering learning platform with branches, videos, PYQs, AI tools, and repeated-question practice.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"EngiLearn","url":"https://engilearn-edu.vercel.app/","email":"engilearn.edu@gmail.com","description":"Engineering education platform for video lectures, RGPV previous year question papers, AI study tools, and repeated-question practice."}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"EngiLearn","url":"https://engilearn-edu.vercel.app/"}</script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="assets/css/auth.css?v=24">
+    <link rel="stylesheet" href="assets/css/tools.css?v=23">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=52">
+    
+    <script>
+        (function () {
+            if (!["5500", "5501"].includes(window.location.port) || !window.WebSocket) return;
+            const NativeWebSocket = window.WebSocket;
+            window.WebSocket = function EngiLearnWebSocket(url, protocols) {
+                const socket = protocols === undefined ? new NativeWebSocket(url) : new NativeWebSocket(url, protocols);
+                const target = String(url || "");
+                const isLiveReloadSocket = target.includes(window.location.host) || /five|live|reload|browser-sync/i.test(target);
+                if (isLiveReloadSocket) {
+                    socket.addEventListener("message", function (event) {
+                        const message = String(event.data || "");
+                        if (/reload|refresh|change|update/i.test(message)) {
+                            event.stopImmediatePropagation();
+                        }
+                    }, true);
+                }
+                return socket;
+            };
+            window.WebSocket.prototype = NativeWebSocket.prototype;
+            ["CONNECTING", "OPEN", "CLOSING", "CLOSED"].forEach((key) => {
+                Object.defineProperty(window.WebSocket, key, { value: NativeWebSocket[key] });
+            });
+        })();
+    </script>
+    <link rel="stylesheet" href="assets/css/theme-engine.css?v=45">
+  <link rel="stylesheet" href="assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="EngiLearn home">
+                <i class="fas fa-graduation-cap"></i> EngiLearn
+            </a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ai-tools">AI Tools</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#pyq">PYQ/IMP</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" type="button">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <aside class="auth-container" aria-label="Account controls">
+                <button class="mini-btn login-mini" id="loginBtn" type="button">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </button>
+                <button class="mini-btn profile-mini" id="profileBtn" type="button" hidden>
+                    <i class="fas fa-user"></i> <span id="profileName">Profile</span>
+                </button>
+                <button class="mini-btn profile-mini" id="dashboardBtn" type="button" hidden>
+                    <i class="fas fa-table-columns"></i> Dashboard
+                </button>
+                <button class="mini-btn logout-mini" id="logoutBtn" type="button" hidden>
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </aside>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Complete Engineering Education Platform</h1>
+                <p></p>
+                <div class="cta-buttons">
+                    <a href="#branches" class="cta-btn cta-primary">
+                        <i class="fas fa-rocket"></i> Explore Branches
+                    </a>
+                    <a href="#ai-tools" class="cta-btn cta-secondary">
+                        <i class="fas fa-brain"></i> AI Study Tools
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats container" aria-label="Platform stats">
+            <article class="stat-card fade-in">
+                <div class="stat-number">50K+</div>
+                <h3>Students</h3>
+            </article>
+            <article class="stat-card fade-in">
+                <div class="stat-number">28+</div>
+                <h3>Branches</h3>
+            </article>
+            <article class="stat-card fade-in">
+                <div class="stat-number">5000+</div>
+                <h3>Videos</h3>
+            </article>
+            <article class="stat-card fade-in">
+                <div class="stat-number">10+</div>
+                <h3>Live Batches</h3>
+            </article>
+        </section>
+
+        <section class="ai-tools ai-lab-section" id="ai-tools">
+            <div class="container">
+                <div class="ai-lab-header">
+                    <div>
+                        <span class="section-kicker">AI Study Lab</span>
+                        <h2>AI-Powered Study Tools & Compilers</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="ai-grid" id="aiToolsGrid"></div>
+            </div>
+        </section>
+
+        <section class="container section-block branch-showcase" id="branches">
+            <div class="branch-hero-panel">
+                <div>
+                    <span class="section-kicker">Branch Navigator</span>
+                    <h2>RGPV Complete Branches</h2>
+                    <p></p>
+                </div>
+                <div class="branch-tabs">
+                    <button class="branch-tab active" type="button">All Branches Ranked</button>
+                </div>
+            </div>
+            <div class="branches-grid" id="branchesGrid"></div>
+        </section>
+
+        <section class="container section-block" id="videos">
+            <div class="section-heading">
+                <h2>Video Lectures</h2>
+                <p></p>
+            </div>
+            <div class="video-panel video-studio fade-in">
+                <div class="video-controls">
+                    <label>
+                        Branch
+                        <select id="videoBranchSelect"></select>
+                    </label>
+                    <label>
+                        Semester
+                        <select id="videoSemesterSelect"></select>
+                    </label>
+                    <label>
+                        Subject
+                        <select id="videoSubjectSelect"></select>
+                    </label>
+                    <label>
+                        Teacher
+                        <select id="videoTeacherSelect">
+                            <option value="all">All Teachers</option>
+                        </select>
+                    </label>
+                    <label>
+                        Search
+                        <input id="videoSearchInput" type="search" placeholder="Lecture title, chapter, notes">
+                    </label>
+                </div>
+                <div class="video-summary" id="videoSummary"></div>
+                <div class="video-library-link">
+                    <a class="video-btn" href="pages/lecture.html"><i class="fas fa-table-list"></i> Open All Video Lectures</a>
+                    <span>Small cards, branch-wise filters, subject-wise lectures, and in-website player.</span>
+                </div>
+                <div class="video-grid" id="videoGrid"></div>
+            </div>
+            <div class="video-watch-modal" id="videoWatchModal" aria-hidden="true"></div>
+        </section>
+
+        <section class="container section-block" id="pyq">
+            <div class="pyq-header pyq-hero fade-in">
+                <div>
+                    <span class="pyq-kicker">Exam Paper Bank</span>
+                    <h2>RGPV PYQ 2018-2026</h2>
+                    <p></p>
+                </div>
+                <div class="pyq-hero-stats" aria-label="PYQ summary">
+                    <span><strong>28</strong> Branches</span>
+                    <span><strong>8</strong> Semesters</span>
+                    <span><strong>2018-2026</strong> Years</span>
+                </div>
+            </div>
+            <div class="pyq-controls pyq-filter-panel" aria-label="PYQ filters">
+                <label>
+                    Branch
+                    <select id="pyqBranch">
+                        <option value="all">All Branches</option>
+                    </select>
+                </label>
+                <label>
+                    Semester
+                    <select id="pyqSemester">
+                        <option value="all">All Semesters</option>
+                        <option value="1">Sem 1</option>
+                        <option value="2">Sem 2</option>
+                        <option value="3">Sem 3</option>
+                        <option value="4">Sem 4</option>
+                        <option value="5">Sem 5</option>
+                        <option value="6">Sem 6</option>
+                        <option value="7">Sem 7</option>
+                        <option value="8">Sem 8</option>
+                    </select>
+                </label>
+                <label>
+                    Subject
+                    <select id="pyqSubject">
+                        <option value="all">All Subjects</option>
+                    </select>
+                </label>
+                <label>
+                    Year
+                    <select id="pyqYear">
+                        <option value="all">All Years</option>
+                        <option value="2026">2026</option>
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </label>
+            </div>
+            <div class="pyq-results-bar" aria-live="polite">
+                <span id="pyqResultCount">Showing PYQ records</span>
+                <div class="pyq-result-actions">
+                    <button class="pyq-load-more" id="pyqOpenResults" type="button" hidden>Open All</button>
+                    <button class="pyq-load-more" id="pyqLoadMore" type="button" hidden>Load More</button>
+                </div>
+            </div>
+            <div class="branches-grid pyq-grid" id="pyqGrid"></div>
+        </section>
+
+        <section class="container section-block contact-section" id="contact">
+            <div class="section-heading">
+                <h2>Contact EngiLearn</h2>
+                <p></p>
+            </div>
+            <div class="contact-layout">
+                <article class="contact-panel">
+                    <span class="pyq-kicker">Support Desk</span>
+                    <h3>We help students, teachers, and admins faster.</h3>
+                    <p>Have a question, suggestion, or issue? Send us a message and our team will get back to you as soon as possible.</p>
+                    <div class="contact-points">
+                        <span><i class="fas fa-envelope"></i> engilearn.edu@gmail.com</span>
+                        <span><i class="fas fa-clock"></i> Response within 24 hours</span>
+                        <span><i class="fas fa-database"></i> Secure contact form</span>
+                    </div>
+                </article>
+                <form class="contact-form" id="contactForm">
+                    <label>Full Name<input name="name" placeholder="Your name" required></label>
+                    <label>Email<input name="email" type="email" placeholder="you@example.com" required></label>
+                    <label>Topic<select name="topic" required>
+                        <option value="Student Support">Student Support</option>
+                        <option value="Admin Support">Admin Support</option>
+                        <option value="Teacher Upload">Teacher Upload</option>
+                        <option value="Technical Issue">Technical Issue</option>
+                    </select></label>
+                    <label>Phone<input name="phone" placeholder="Optional mobile number"></label>
+                    <label class="wide">Message<textarea name="message" placeholder="Write your message..." required></textarea></label>
+                    <button class="video-btn wide" type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <div class="contact-status wide" id="contactStatus" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="toolbox-dock" aria-label="Study tools">
+        <button class="dock-tool stopwatch-btn" title="Study Timer" data-tool-open="stopwatchModal" type="button">
+            <i class="fas fa-stopwatch"></i>
+        </button>
+        <button class="dock-tool pomodoro-btn" title="Focus Pomodoro" data-tool-open="pomodoroModal" type="button">
+            <i class="fas fa-hourglass-half"></i>
+        </button>
+        <button class="dock-tool notes-btn" title="Quick Notes" data-tool-open="notesModal" type="button">
+            <i class="fas fa-sticky-note"></i>
+        </button>
+        <button class="dock-tool calculator-btn" title="Calculator" data-tool-open="calculatorModal" type="button">
+            <i class="fas fa-calculator"></i>
+        </button>
+        <button class="dock-tool converter-btn" title="Unit Converter" data-tool-open="converterModal" type="button">
+            <i class="fas fa-right-left"></i>
+        </button>
+        <button class="dock-tool formula-btn" title="Formula Sheet" data-tool-open="formulaModal" type="button">
+            <i class="fas fa-square-root-variable"></i>
+        </button>
+        <button class="dock-tool cgpa-btn" title="SGPA Calculator" data-tool-open="cgpaModal" type="button">
+            <i class="fas fa-chart-simple"></i>
+        </button>
+        <button class="dock-tool attendance-btn" title="Attendance Planner" data-tool-open="attendanceModal" type="button">
+            <i class="fas fa-user-check"></i>
+        </button>
+        <button class="dock-tool todo-btn" title="To-Do List" data-tool-open="todoModal" type="button">
+            <i class="fas fa-tasks"></i>
+        </button>
+        <button class="dock-center" id="dockCenter" title="Tools hub" type="button">
+            <i class="fas fa-tools"></i>
+        </button>
+    </div>
+
+    <div class="tool-modal" id="stopwatchModal" role="dialog" aria-modal="true" aria-labelledby="stopwatchTitle">
+        <div class="tool-modal-content">
+        <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-stopwatch modal-icon"></i>
+                <h2 id="stopwatchTitle">Study Stopwatch</h2>
+                <p>Track your focused engineering sessions.</p>
+            </div>
+            <div class="stopwatch-content">
+                <div id="stopwatchDisplay">00:00:00</div>
+                <div class="control-buttons">
+                    <button id="startBtn" class="control-btn start-btn" type="button"><i class="fas fa-play"></i> Start</button>
+                    <button id="pauseBtn" class="control-btn pause-btn" type="button" disabled><i class="fas fa-pause"></i> Pause</button>
+                    <button id="resetBtn" class="control-btn reset-btn" type="button"><i class="fas fa-redo"></i> Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="notesModal" role="dialog" aria-modal="true" aria-labelledby="notesTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-sticky-note modal-icon"></i>
+                <h2 id="notesTitle">Quick Notes</h2>
+                <p>Capture ideas while you study.</p>
+            </div>
+            <div class="notes-content">
+                <textarea id="notesTextarea" placeholder="Start typing your notes here..."></textarea>
+                <div class="notes-actions">
+                    <button class="action-btn save-btn" id="saveNotesBtn" type="button"><i class="fas fa-save"></i> Save</button>
+                    <button class="action-btn clear-btn" id="clearNotesBtn" type="button"><i class="fas fa-trash"></i> Clear</button>
+                </div>
+                <div id="successMsg" class="success-msg"><i class="fas fa-check-circle"></i><span>Saved</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="calculatorModal" role="dialog" aria-modal="true" aria-labelledby="calculatorTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-calculator modal-icon"></i>
+                <h2 id="calculatorTitle">Smart Calculator</h2>
+                <p>Quick engineering calculations.</p>
+            </div>
+            <div class="calculator-grid" id="calculatorGrid">
+                <div class="calc-display" id="calcDisplay">0</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="todoModal" role="dialog" aria-modal="true" aria-labelledby="todoTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-tasks modal-icon"></i>
+                <h2 id="todoTitle">To-Do List</h2>
+                <p>Keep your study tasks organized.</p>
+            </div>
+            <div class="todo-content">
+                <div class="todo-input-group">
+                    <input type="text" id="todoInput" placeholder="Add a new task...">
+                    <button class="todo-btn add-todo-btn" id="addTodoBtn" type="button"><i class="fas fa-plus"></i> Add</button>
+                </div>
+                <div class="todo-list-container" id="todoList"></div>
+                <button class="action-btn clear-btn" id="clearTodosBtn" type="button"><i class="fas fa-trash"></i> Clear All Tasks</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="pomodoroModal" role="dialog" aria-modal="true" aria-labelledby="pomodoroTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-hourglass-half modal-icon"></i>
+                <h2 id="pomodoroTitle">Focus Pomodoro</h2>
+                <p>Run focused study and break sessions.</p>
+            </div>
+            <div class="pomodoro-content">
+                <div class="pomodoro-mode" id="pomodoroMode">Focus Session</div>
+                <div class="pomodoro-display" id="pomodoroDisplay">25:00</div>
+                <div class="pomodoro-settings">
+                    <label>Focus minutes<input id="focusMinutes" type="number" min="1" max="180" value="25"></label>
+                    <label>Break minutes<input id="breakMinutes" type="number" min="1" max="60" value="5"></label>
+                </div>
+                <div class="control-buttons">
+                    <button id="pomodoroStartBtn" class="control-btn start-btn" type="button"><i class="fas fa-play"></i> Start</button>
+                    <button id="pomodoroPauseBtn" class="control-btn pause-btn" type="button" disabled><i class="fas fa-pause"></i> Pause</button>
+                    <button id="pomodoroResetBtn" class="control-btn reset-btn" type="button"><i class="fas fa-rotate-left"></i> Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="converterModal" role="dialog" aria-modal="true" aria-labelledby="converterTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-right-left modal-icon"></i>
+                <h2 id="converterTitle">Unit Converter</h2>
+                <p>Convert common engineering units quickly.</p>
+            </div>
+            <div class="converter-content">
+                <label>Type
+                    <select id="converterType">
+                        <option value="length">Length</option>
+                        <option value="mass">Mass</option>
+                        <option value="data">Data</option>
+                        <option value="temperature">Temperature</option>
+                    </select>
+                </label>
+                <div class="converter-grid">
+                    <label>Value<input id="converterValue" type="number" value="1" step="any"></label>
+                    <label>From<select id="converterFrom"></select></label>
+                    <label>To<select id="converterTo"></select></label>
+                </div>
+                <div class="converter-result" id="converterResult">0</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="formulaModal" role="dialog" aria-modal="true" aria-labelledby="formulaTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-square-root-variable modal-icon"></i>
+                <h2 id="formulaTitle">Formula Sheet</h2>
+                <p>Quick formulas for maths, physics, circuits, and CS.</p>
+            </div>
+            <div class="formula-content">
+                <label>Subject
+                    <select id="formulaSubject">
+                        <option value="maths">Mathematics</option>
+                        <option value="physics">Physics</option>
+                        <option value="circuits">Circuits</option>
+                        <option value="cs">Computer Science</option>
+                    </select>
+                </label>
+                <div class="formula-list" id="formulaList"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="cgpaModal" role="dialog" aria-modal="true" aria-labelledby="cgpaTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-chart-simple modal-icon"></i>
+                <h2 id="cgpaTitle">SGPA Calculator</h2>
+                <p>Add credits and grade points to calculate SGPA.</p>
+            </div>
+            <div class="cgpa-content">
+                <div id="cgpaRows"></div>
+                <div class="converter-result" id="cgpaResult">SGPA: 0.00 / 10</div>
+                <div class="control-buttons">
+                    <button class="control-btn start-btn" id="addCgpaRowBtn" type="button"><i class="fas fa-plus"></i> Add Subject</button>
+                    <button class="control-btn reset-btn" id="resetCgpaBtn" type="button"><i class="fas fa-rotate-left"></i> Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="attendanceModal" role="dialog" aria-modal="true" aria-labelledby="attendanceTitle">
+        <div class="tool-modal-content">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close tool">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-user-check modal-icon"></i>
+                <h2 id="attendanceTitle">Attendance Planner</h2>
+                <p>Check how many classes you need for your target.</p>
+            </div>
+            <div class="attendance-tool">
+                <label>Total classes<input id="attendanceTotal" type="number" min="0" value="0"></label>
+                <label>Attended<input id="attendancePresent" type="number" min="0" value="0"></label>
+                <label>Target %<input id="attendanceTarget" type="number" min="1" max="100" value="75"></label>
+                <div class="attendance-result" id="attendanceResult">
+                    <strong>0.00%</strong>
+                    <span>Add total and attended classes.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tool-modal" id="toolHubAccessModal" role="dialog" aria-modal="true" aria-labelledby="toolHubAccessTitle">
+        <div class="tool-modal-content toolhub-pay-card">
+            <button class="tool-close" data-tool-close type="button" aria-label="Close payment">&times;</button>
+            <div class="modal-header">
+                <i class="fas fa-shield-halved modal-icon"></i>
+                <h2 id="toolHubAccessTitle">Unlock Tool Hub</h2>
+                <p>Pay securely through Razorpay to access Tool Hub tools.</p>
+            </div>
+            <div class="toolhub-payment-box">
+                <div class="toolhub-price" id="toolHubPriceText">Rs. 100.00</div>
+                <div class="toolhub-order-summary">
+                    <div>
+                        <span>Order ID</span>
+                        <strong id="toolHubOrderId">#TH-TODAY</strong>
+                    </div>
+                    <b>Secure</b>
+                    <div class="toolhub-order-meta">
+                        <strong>Gateway</strong>
+                        <strong>Razorpay</strong>
+                    </div>
+                </div>
+                <div class="toolhub-method-grid">
+                    <button class="toolhub-method active" type="button" data-payment-method="upi">
+                        <i class="fas fa-mobile-screen"></i><span><strong>UPI</strong><small>PhonePe, GPay, Paytm</small></span>
+                    </button>
+                    <button class="toolhub-method" type="button" data-payment-method="card">
+                        <i class="fas fa-credit-card"></i><span><strong>Card</strong><small>Debit or credit card</small></span>
+                    </button>
+                    <button class="toolhub-method" type="button" data-payment-method="netbanking">
+                        <i class="fas fa-building-columns"></i><span><strong>Net Banking</strong><small>Bank checkout</small></span>
+                    </button>
+                    <button class="toolhub-method" type="button" data-payment-method="wallet">
+                        <i class="fas fa-wallet"></i><span><strong>Wallet</strong><small>Supported wallets</small></span>
+                    </button>
+                </div>
+                <div class="toolhub-method-panel active" data-payment-panel="upi">
+                    <div class="toolhub-upi-verify">
+                        <input id="toolHubCustomerUpi" type="text" placeholder="yourname@bank">
+                        <button id="toolHubVerifyUpi" type="button">Verify</button>
+                    </div>
+                    <div class="toolhub-method-status" id="toolHubUpiVerifyStatus">Enter UPI ID or continue directly to Razorpay.</div>
+                </div>
+                <div class="toolhub-method-panel" data-payment-panel="card">
+                    <p>Card details will be collected securely inside Razorpay checkout.</p>
+                </div>
+                <div class="toolhub-method-panel" data-payment-panel="netbanking">
+                    <p>Select your bank after Razorpay opens.</p>
+                </div>
+                <div class="toolhub-method-panel" data-payment-panel="wallet">
+                    <p>Choose a supported wallet after Razorpay opens.</p>
+                </div>
+                <button class="control-btn toolhub-gateway-pay" id="toolHubGatewayPayBtn" type="button">
+                    <i class="fas fa-shield-halved"></i> Pay Rs. 100 Securely
+                </button>
+                <div class="toolhub-method-status" id="toolHubGatewayStatus">Secure checkout unlocks Tool Hub after server verification.</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="footer-logo">EngiLearn</div>
+                <p>Complete engineering education platform with branches, videos, PYQs, live batches, and AI tools.</p>
+                <div class="social-links" aria-label="Social links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div>
+                <h4>Branches</h4>
+                <a href="#branches">Computer Science</a>
+                <a href="#branches">Electronics</a>
+                <a href="#branches">Mechanical</a>
+                <a href="#branches">Civil</a>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <a href="#branches">Branches</a>
+                <a href="#videos">Video Lectures</a>
+                <a href="#pyq">Question Papers</a>
+                <a href="#ai-tools">AI Tools</a>
+                <a href="pages/courses.html">Courses</a>
+            </div>
+            <div>
+                <h4>Support</h4>
+                <a href="#">Help Center</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 EngiLearn. All rights reserved. Website designed and developed by Ankit Tiwari.</p>
+    </footer>
+
+    <script src="assets/js/api.js?v=53"></script>
+    <script src="assets/js/theme-engine.js?v=7"></script>
+    <script src="assets/js/main.js?v=76-paid-fail-closed"></script>
+    <script src="assets/js/auth.js?v=38"></script>
+    <script src="assets/js/nav.js?v=3"></script>
+    <script src="assets/js/tools.js?v=25-server-entitlement"></script>
+    <script src="assets/js/animations.js?v=22"></script>
+  <script src="assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+
+
+

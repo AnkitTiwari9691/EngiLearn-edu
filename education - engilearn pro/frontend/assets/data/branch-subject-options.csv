@@ -1,0 +1,1747 @@
+Branch,Semester,Subject Code,Subject,Paper Count
+CSE,Semester 3,ES-301,Energy & Environmental Engineering,1
+CSE,Semester 3,CS-302,Discrete Structure,1
+CSE,Semester 3,CS-303,Data Structure,1
+CSE,Semester 3,CS-304,Digital Systems,1
+CSE,Semester 3,CS-305,Object Oriented Programming & Methodology,1
+CSE,Semester 4,BT-401,Mathematics III,1
+CSE,Semester 4,CS-402,Analysis & Design of Algorithms (ADA),1
+CSE,Semester 4,CS-403,Software Engineering,1
+CSE,Semester 4,CS-404,Computer Organization & Architecture (COA),1
+CSE,Semester 4,CS-405,Operating Systems (OS),1
+CSE,Semester 5,CS-501,Theory of Computation (TOC),1
+CSE,Semester 5,CS-502,Database Management Systems (DBMS),1
+CSE,Semester 5,CS-503(A),Data Analytics,1
+CSE,Semester 5,CS-503(B),Pattern Recognition,1
+CSE,Semester 5,CS-503(C),Cyber Security,1
+CSE,Semester 5,CS-504(A),Internet and Web Technology,1
+CSE,Semester 5,CS-504(B),Object Oriented Programming,1
+CSE,Semester 5,CS-504(C),Introduction to Database Management Systems,1
+CSE,Semester 6,CS-601,Machine Learning,1
+CSE,Semester 6,CS-602,Computer Networks,1
+CSE,Semester 6,CS-603(A),Advanced Computer Architecture,1
+CSE,Semester 6,CS-603(B),Computer Graphics & Visualization,1
+CSE,Semester 6,CS-603(C),Compiler Design,1
+CSE,Semester 6,CS-604(A),Knowledge Management,1
+CSE,Semester 6,CS-604(B),Project Management,1
+CSE,Semester 6,CS-604(C),Rural Technology & Community Development,1
+CSE,Semester 7,CS-701,Software Architectures,1
+CSE,Semester 7,CS-702(A),Computational Intelligence,1
+CSE,Semester 7,CS-702(B),Deep & Reinforcement Learning,1
+CSE,Semester 7,CS-702(C),Wireless & Mobile Computing,1
+CSE,Semester 7,CS-702(D),Big Data,1
+CSE,Semester 7,CS-703(A),Cryptography & Information Security,1
+CSE,Semester 7,CS-703(B),Data Mining & Warehousing,1
+CSE,Semester 7,CS-703(C),Agile Software Development,1
+CSE,Semester 7,CS-703(D),Disaster Management,1
+CSE,Semester 8,CS-801,Internet of Things (IoT),1
+CSE,Semester 8,CS-802(A),Blockchain Technologies,1
+CSE,Semester 8,CS-802(B),Cloud Computing,1
+CSE,Semester 8,CS-802(C),High Performance Computing,1
+CSE,Semester 8,CS-802(D),Object Oriented Software Engineering,1
+CSE,Semester 8,CS-803(A),Image Processing and Computer Vision,1
+CSE,Semester 8,CS-803(B),Game Theory with Engineering Applications,1
+CSE,Semester 8,CS-803(C),Internet of Things,1
+CSE,Semester 8,CS-803(D),Managing Innovation and Entrepreneurship,1
+IT,Semester 1,BT-101,Engineering Chemistry,1
+IT,Semester 1,BT-102,Mathematics-I,1
+IT,Semester 1,BT-103,English for Communication,1
+IT,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+IT,Semester 1,BT-105,Engineering Graphics,1
+IT,Semester 2,BT-201,Engineering Physics,1
+IT,Semester 2,BT-202,Mathematics-II,1
+IT,Semester 2,BT-203,Basic Mechanical Engineering,1
+IT,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+IT,Semester 2,BT-205,Basic Computer Engineering,1
+IT,Semester 3,ES-301,Energy & Environmental Engineering,1
+IT,Semester 3,IT-302,Discrete Structure,1
+IT,Semester 3,IT-303,Data Structure,1
+IT,Semester 3,IT-304,Object Oriented Programming & Methodology,1
+IT,Semester 3,IT-305,Digital Circuits & System,1
+IT,Semester 4,BT-401,Mathematics-III,1
+IT,Semester 4,IT-402,Analysis & Design of Algorithm,1
+IT,Semester 4,IT-403,Software Engineering,1
+IT,Semester 4,IT-404,Computer Organization & Architecture,1
+IT,Semester 4,IT-405,Operating Systems,1
+IT,Semester 5,IT-501,Operating System,1
+IT,Semester 5,IT-502,Computer Network,1
+IT,Semester 5,IT-503(A),Theory of Computation (Departmental Elective),1
+IT,Semester 5,IT-503(B),Microprocessor & Interfacing (Departmental Elective),1
+IT,Semester 5,IT-503(C),Principles of Programming Languages (Departmental Elective),1
+IT,Semester 5,IT-504(A),Artificial Intelligence (Open Elective),1
+IT,Semester 5,IT-504(B),E-Commerce & Governance (Open Elective),1
+IT,Semester 5,IT-504(C),Java Programming (Open Elective),1
+IT,Semester 6,IT-601,Computer Graphics & Multimedia,1
+IT,Semester 6,IT-602,Wireless & Mobile Computing,1
+IT,Semester 6,IT-603(A),Compiler Design,1
+IT,Semester 6,IT-603(B),Data Mining,1
+IT,Semester 6,IT-603(C),Embedded Systems,1
+IT,Semester 6,IT-604(A),Intellectual Property Rights (IPR),1
+IT,Semester 6,IT-604(B),Software Engineering,1
+IT,Semester 6,IT-604(C),Wireless Sensor Networks,1
+IT,Semester 7,IT-701,Soft Computing,1
+IT,Semester 7,IT-702(A),Cloud Computing,1
+IT,Semester 7,IT-702(B),Information Security,1
+IT,Semester 7,IT-702(C),Big Data Analytics,1
+IT,Semester 7,IT-703(A),Internet of Things (IoT),1
+IT,Semester 7,IT-703(B),Blockchain Technology,1
+IT,Semester 7,IT-703(C),Cyber Security,1
+IT,Semester 8,IT-801,Major Project - Phase II,1
+IT,Semester 8,IT-802,Comprehensive Viva-Voce,1
+IT,Semester 8,IT-803,Seminar,1
+IT,Semester 8,IT-804,Industrial Training / Internship,1
+ECE,Semester 1,BT-101,Engineering Chemistry,1
+ECE,Semester 1,BT-102,Mathematics-I,1
+ECE,Semester 1,BT-103,English for Communication,1
+ECE,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+ECE,Semester 1,BT-105,Engineering Graphics,1
+ECE,Semester 2,BT-201,Engineering Physics,1
+ECE,Semester 2,BT-202,Mathematics-II,1
+ECE,Semester 2,BT-203,Basic Mechanical Engineering,1
+ECE,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+ECE,Semester 2,BT-205,Basic Computer Engineering,1
+ECE,Semester 3,BT-301,Mathematics-III,1
+ECE,Semester 3,EC-302,Electronic Measurement & Instrumentation,1
+ECE,Semester 3,EC-303,Digital System Design,1
+ECE,Semester 3,EC-304,Electronic Devices,1
+ECE,Semester 3,EC-305,Network Analysis,1
+ECE,Semester 4,ES-401,Energy & Environmental Engineering,1
+ECE,Semester 4,EC-402,Signals & Systems,1
+ECE,Semester 4,EC-403,Analog Communication,1
+ECE,Semester 4,EC-404,Control System,1
+ECE,Semester 4,EC-405,Analog Circuits,1
+ECE,Semester 5,EC-501,Microprocessor & Its Applications,1
+ECE,Semester 5,EC-502,Digital Communication,1
+ECE,Semester 5,EC-503-(A/B/C),Any one Departmental Elective,1
+ECE,Semester 5,EC-504-(A/B/C),Any one Open Elective,1
+ECE,Semester 6,EC-601,Digital Signal Processing,1
+ECE,Semester 6,EC-602,Computer Architecture & Organization,1
+ECE,Semester 6,EC-603-(A/B/C),Any one Departmental Elective,1
+ECE,Semester 6,EC-604-(A/B/C),Any one Open Elective,1
+ECE,Semester 7,EC-701,VLSI Design,1
+ECE,Semester 7,EC-702-(A/B/C),Choose one Departmental Elective,1
+ECE,Semester 7,EC-703-(A/B/C),Choose one Open Elective,1
+ECE,Semester 8,EC-801,Optical Fibre Communication,1
+ECE,Semester 8,EC-802-(A/B/C),Choose one Departmental Elective,1
+ECE,Semester 8,EC-803-(A/B/C),Choose one Open Elective,1
+E-ALL,Semester 1,BT-101,Engineering Chemistry,1
+E-ALL,Semester 1,BT-102,Mathematics-I,1
+E-ALL,Semester 1,BT-103,English for Communication,1
+E-ALL,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+E-ALL,Semester 1,BT-105,Engineering Graphics,1
+E-ALL,Semester 2,BT-201,Engineering Physics,1
+E-ALL,Semester 2,BT-202,Mathematics-II,1
+E-ALL,Semester 2,BT-203,Basic Mechanical Engineering,1
+E-ALL,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+E-ALL,Semester 2,BT-205,Basic Computer Engineering,1
+E-ALL,Semester 3,BT-301,Mathematics-III,1
+E-ALL,Semester 3,EC-302,Electronic Measurement & Instrumentation,1
+E-ALL,Semester 3,EC-303,Digital System Design,1
+E-ALL,Semester 3,EC-304,Electronic Devices,1
+E-ALL,Semester 3,EC-305,Network Analysis,1
+E-ALL,Semester 4,ES-401,Energy & Environmental Engineering,1
+E-ALL,Semester 4,EC-402,Signals & Systems,1
+E-ALL,Semester 4,EC-403,Analog Communication,1
+E-ALL,Semester 4,EC-404,Control System,1
+E-ALL,Semester 4,EC-405,Analog Circuits,1
+E-ALL,Semester 5,EC-501,Microprocessor & Its Applications,1
+E-ALL,Semester 5,EC-502,Digital Communication,1
+E-ALL,Semester 5,EC-503-(A/B/C),Any one Departmental Elective,1
+E-ALL,Semester 5,EC-504-(A/B/C),Any one Open Elective,1
+E-ALL,Semester 6,EC-601,Digital Signal Processing,1
+E-ALL,Semester 6,EC-602,Computer Architecture & Organization,1
+E-ALL,Semester 6,EC-603-(A/B/C),Any one Departmental Elective,1
+E-ALL,Semester 6,EC-604-(A/B/C),Any one Open Elective,1
+E-ALL,Semester 7,EC-701,VLSI Design,1
+E-ALL,Semester 7,EC-702-(A/B/C),Choose one Departmental Elective,1
+E-ALL,Semester 7,EC-703-(A/B/C),Choose one Open Elective,1
+E-ALL,Semester 8,EC-801,Optical Fibre Communication,1
+E-ALL,Semester 8,EC-802-(A/B/C),Choose one Departmental Elective,1
+E-ALL,Semester 8,EC-803-(A/B/C),Choose one Open Elective,1
+ME,Semester 1,BT-101,Engineering Chemistry,1
+ME,Semester 1,BT-102,Mathematics-I,1
+ME,Semester 1,BT-103,English for Communication,1
+ME,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+ME,Semester 1,BT-105,Engineering Graphics,1
+ME,Semester 2,BT-201,Engineering Physics,1
+ME,Semester 2,BT-202,Mathematics-II,1
+ME,Semester 2,BT-203,Basic Mechanical Engineering,1
+ME,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+ME,Semester 2,BT-205,Basic Computer Engineering,1
+ME,Semester 3,ME-301,Thermodynamics,1
+ME,Semester 3,ME-302,Material Science,1
+ME,Semester 3,ME-303,Strength of Materials,1
+ME,Semester 3,ME-304,Manufacturing Process,1
+ME,Semester 3,ME-305,Fluid Mechanics,1
+ME,Semester 3,ME-306,Energy & Environmental Engineering,1
+ME,Semester 4,ME-401,Theory of Machines,1
+ME,Semester 4,ME-402,Applied Thermodynamics,1
+ME,Semester 4,ME-403,Machine Drawing,1
+ME,Semester 4,ME-404,Manufacturing Technology,1
+ME,Semester 4,ME-405,Hydraulic Machines,1
+ME,Semester 4,ME-406,Numerical Methods & Computer Programming,1
+ME,Semester 5,ME-501,Design of Machine Elements,1
+ME,Semester 5,ME-502,Heat & Mass Transfer,1
+ME,Semester 5,ME-503,Dynamics of Machines,1
+ME,Semester 5,ME-504,Industrial Engineering & Management,1
+ME,Semester 5,ME-505(A),Refrigeration & Air Conditioning,1
+ME,Semester 5,ME-505(B),Automobile Engineering,1
+ME,Semester 5,ME-505(C),Mechatronics,1
+ME,Semester 6,ME-601,Machine Design,1
+ME,Semester 6,ME-602,Finite Element Methods,1
+ME,Semester 6,ME-603,Internal Combustion Engines,1
+ME,Semester 6,ME-604,Turbo Machines,1
+ME,Semester 6,ME-605(A),Operations Research,1
+ME,Semester 6,ME-605(B),Computer Integrated Manufacturing (CIM),1
+ME,Semester 6,ME-605(C),Renewable Energy Sources,1
+ME,Semester 7,ME-701,Mechanical Vibrations,1
+ME,Semester 7,ME-702,CAD/CAM,1
+ME,Semester 7,ME-703(A),Advanced Manufacturing Technology,1
+ME,Semester 7,ME-703(B),Robotics,1
+ME,Semester 7,ME-703(C),Non-Conventional Manufacturing Process,1
+ME,Semester 7,ME-704(A),Power Plant Engineering,1
+ME,Semester 7,ME-704(B),Automobile Engineering-II,1
+ME,Semester 7,ME-704(C),Industrial Automation,1
+ME,Semester 8,ME-801(A),Computational Fluid Dynamics,1
+ME,Semester 8,ME-801(B),Advanced IC Engines,1
+ME,Semester 8,ME-801(C),Product Design & Development,1
+ME,Semester 8,ME-802(A),Total Quality Management,1
+ME,Semester 8,ME-802(B),Supply Chain Management,1
+ME,Semester 8,ME-802(C),Industrial Safety Engineering,1
+CIVIL,Semester 1,BT-101,Engineering Chemistry,1
+CIVIL,Semester 1,BT-102,Mathematics-I,1
+CIVIL,Semester 1,BT-103,English for Communication,1
+CIVIL,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+CIVIL,Semester 1,BT-105,Engineering Graphics,1
+CIVIL,Semester 2,BT-201,Engineering Physics,1
+CIVIL,Semester 2,BT-202,Mathematics-II,1
+CIVIL,Semester 2,BT-203,Basic Mechanical Engineering,1
+CIVIL,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+CIVIL,Semester 2,BT-205,Basic Computer Engineering,1
+CIVIL,Semester 3,CE-301,Strength of Materials,1
+CIVIL,Semester 3,CE-302,Building Materials,1
+CIVIL,Semester 3,CE-303,Surveying,1
+CIVIL,Semester 3,CE-304,Fluid Mechanics,1
+CIVIL,Semester 3,CE-305,Engineering Geology,1
+CIVIL,Semester 3,CE-306,Mathematics-III,1
+CIVIL,Semester 4,CE-401,Structural Analysis,1
+CIVIL,Semester 4,CE-402,Geotechnical Engineering-I,1
+CIVIL,Semester 4,CE-403,Hydraulics,1
+CIVIL,Semester 4,CE-404,Concrete Technology,1
+CIVIL,Semester 4,CE-405(A),Building Planning & Architecture,1
+CIVIL,Semester 4,CE-405(B),Engineering Geology,1
+CIVIL,Semester 4,CE-405(C),Disaster Management,1
+CIVIL,Semester 5,CE-501,Design of Reinforced Concrete Structures,1
+CIVIL,Semester 5,CE-502,Design of Steel Structures,1
+CIVIL,Semester 5,CE-503,Water Resources Engineering,1
+CIVIL,Semester 5,CE-504,Transportation Engineering-I,1
+CIVIL,Semester 5,CE-505(A),Environmental Engineering-I,1
+CIVIL,Semester 5,CE-505(B),Advanced Surveying,1
+CIVIL,Semester 5,CE-505(C),Construction Technology & Management,1
+CIVIL,Semester 6,CE-601,Design of Prestressed Concrete Structures,1
+CIVIL,Semester 6,CE-602,Environmental Engineering-II,1
+CIVIL,Semester 6,CE-603,Transportation Engineering-II,1
+CIVIL,Semester 6,CE-604,"Estimation, Costing & Valuation",1
+CIVIL,Semester 6,CE-605(A),Advanced Structural Analysis,1
+CIVIL,Semester 6,CE-605(B),Ground Water Engineering,1
+CIVIL,Semester 6,CE-605(C),Bridge Engineering,1
+CIVIL,Semester 7,CE-701,Foundation Engineering,1
+CIVIL,Semester 7,CE-702,Construction Planning & Management,1
+CIVIL,Semester 7,CE-703(A),Earthquake Resistant Design,1
+CIVIL,Semester 7,CE-703(B),Advanced Highway Engineering,1
+CIVIL,Semester 7,CE-703(C),Remote Sensing & GIS,1
+CIVIL,Semester 7,CE-704(A),Finite Element Method,1
+CIVIL,Semester 7,CE-704(B),Pavement Design,1
+CIVIL,Semester 7,CE-704(C),Solid & Hazardous Waste Management,1
+CIVIL,Semester 8,CE-801(A),Advanced Reinforced Concrete Design,1
+CIVIL,Semester 8,CE-801(B),Advanced Foundation Engineering,1
+CIVIL,Semester 8,CE-801(C),Traffic Engineering & Management,1
+CIVIL,Semester 8,CE-802(A),Repair & Rehabilitation of Structures,1
+CIVIL,Semester 8,CE-802(B),Irrigation Engineering,1
+CIVIL,Semester 8,CE-802(C),Environmental Impact Assessment,1
+EEE,Semester 1,BT-101,Engineering Chemistry,1
+EEE,Semester 1,BT-102,Mathematics-I,1
+EEE,Semester 1,BT-103,English for Communication,1
+EEE,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+EEE,Semester 1,BT-105,Engineering Graphics,1
+EEE,Semester 2,BT-201,Engineering Physics,1
+EEE,Semester 2,BT-202,Mathematics-II,1
+EEE,Semester 2,BT-203,Basic Mechanical Engineering,1
+EEE,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+EEE,Semester 2,BT-205,Basic Computer Engineering,1
+EEE,Semester 3,EE-301,Electrical Measurements & Measuring Instruments,1
+EEE,Semester 3,EE-302,Network Analysis,1
+EEE,Semester 3,EE-303,Analog Electronics,1
+EEE,Semester 3,EE-304,Electrical Machines-I,1
+EEE,Semester 3,EE-305,Engineering Mathematics-III,1
+EEE,Semester 4,EE-401,Power System-I,1
+EEE,Semester 4,EE-402,Control Systems,1
+EEE,Semester 4,EE-403,Digital Electronics,1
+EEE,Semester 4,EE-404,Electrical Machines-II,1
+EEE,Semester 4,EE-405,Engineering Mathematics-IV,1
+EEE,Semester 5,EE-501,Power Electronics,1
+EEE,Semester 5,EE-502,Power System-II,1
+EEE,Semester 5,EE-503,Microprocessors & Microcontrollers,1
+EEE,Semester 5,EE-504,Electrical Machine Design,1
+EEE,Semester 5,EE-505(A),High Voltage Engineering,1
+EEE,Semester 5,EE-505(B),Utilization of Electrical Energy,1
+EEE,Semester 5,EE-505(C),Electrical & Hybrid Vehicles,1
+EEE,Semester 6,EE-601,Power System Analysis,1
+EEE,Semester 6,EE-602,Power System Protection,1
+EEE,Semester 6,EE-603,Digital Signal Processing,1
+EEE,Semester 6,EE-604,Switchgear & Protection,1
+EEE,Semester 6,EE-605(A),Flexible AC Transmission Systems (FACTS),1
+EEE,Semester 6,EE-605(B),Renewable Energy Sources,1
+EEE,Semester 6,EE-605(C),Industrial Drives & Control,1
+EEE,Semester 7,EE-701,Power System Operation & Control,1
+EEE,Semester 7,EE-702,Electrical Drives,1
+EEE,Semester 7,EE-703(A),HVDC Transmission,1
+EEE,Semester 7,EE-703(B),Energy Management & Auditing,1
+EEE,Semester 7,EE-703(C),Smart Grid Technology,1
+EEE,Semester 7,EE-704,Departmental Elective / Open Elective (as per RGPV scheme),1
+EEE,Semester 8,EE-801(A),Power Quality,1
+EEE,Semester 8,EE-801(B),Embedded Systems,1
+EEE,Semester 8,EE-801(C),Electric & Hybrid Vehicles,1
+EEE,Semester 8,EE-802(A),Distribution System Engineering,1
+EEE,Semester 8,EE-802(B),Artificial Intelligence Applications in Electrical Engineering,1
+EEE,Semester 8,EE-802(C),Energy Conservation & Management,1
+E-ALL,Semester 3,EE-301,Electrical Measurements & Measuring Instruments,1
+E-ALL,Semester 3,EE-302,Network Analysis,1
+E-ALL,Semester 3,EE-303,Analog Electronics,1
+E-ALL,Semester 3,EE-304,Electrical Machines-I,1
+E-ALL,Semester 3,EE-305,Engineering Mathematics-III,1
+E-ALL,Semester 4,EE-401,Power System-I,1
+E-ALL,Semester 4,EE-402,Control Systems,1
+E-ALL,Semester 4,EE-403,Digital Electronics,1
+E-ALL,Semester 4,EE-404,Electrical Machines-II,1
+E-ALL,Semester 4,EE-405,Engineering Mathematics-IV,1
+E-ALL,Semester 5,EE-501,Power Electronics,1
+E-ALL,Semester 5,EE-502,Power System-II,1
+E-ALL,Semester 5,EE-503,Microprocessors & Microcontrollers,1
+E-ALL,Semester 5,EE-504,Electrical Machine Design,1
+E-ALL,Semester 5,EE-505(A),High Voltage Engineering,1
+E-ALL,Semester 5,EE-505(B),Utilization of Electrical Energy,1
+E-ALL,Semester 5,EE-505(C),Electrical & Hybrid Vehicles,1
+E-ALL,Semester 6,EE-601,Power System Analysis,1
+E-ALL,Semester 6,EE-602,Power System Protection,1
+E-ALL,Semester 6,EE-603,Digital Signal Processing,1
+E-ALL,Semester 6,EE-604,Switchgear & Protection,1
+E-ALL,Semester 6,EE-605(A),Flexible AC Transmission Systems (FACTS),1
+E-ALL,Semester 6,EE-605(B),Renewable Energy Sources,1
+E-ALL,Semester 6,EE-605(C),Industrial Drives & Control,1
+E-ALL,Semester 7,EE-701,Power System Operation & Control,1
+E-ALL,Semester 7,EE-702,Electrical Drives,1
+E-ALL,Semester 7,EE-703(A),HVDC Transmission,1
+E-ALL,Semester 7,EE-703(B),Energy Management & Auditing,1
+E-ALL,Semester 7,EE-703(C),Smart Grid Technology,1
+E-ALL,Semester 7,EE-704,Departmental Elective / Open Elective (as per RGPV scheme),1
+E-ALL,Semester 8,EE-801(A),Power Quality,1
+E-ALL,Semester 8,EE-801(B),Embedded Systems,1
+E-ALL,Semester 8,EE-801(C),Electric & Hybrid Vehicles,1
+E-ALL,Semester 8,EE-802(A),Distribution System Engineering,1
+E-ALL,Semester 8,EE-802(B),Artificial Intelligence Applications in Electrical Engineering,1
+E-ALL,Semester 8,EE-802(C),Energy Conservation & Management,1
+DS,Semester 1,BT-101,Engineering Chemistry,1
+DS,Semester 1,BT-102,Mathematics-I,1
+DS,Semester 1,BT-103,English for Communication,1
+DS,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+DS,Semester 1,BT-105,Engineering Graphics,1
+DS,Semester 2,BT-201,Engineering Physics,1
+DS,Semester 2,BT-202,Mathematics-II,1
+DS,Semester 2,BT-203,Basic Mechanical Engineering,1
+DS,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+DS,Semester 2,BT-205,Basic Computer Engineering,1
+DS,Semester 3,BT-301,Mathematics-III,1
+DS,Semester 3,DS-302,Data Structures,1
+DS,Semester 3,DS-303,Digital Systems,1
+DS,Semester 3,DS-304,Discrete Mathematics,1
+DS,Semester 3,DS-305,Object Oriented Programming & Methodology,1
+DS,Semester 4,BT-401,Mathematics-IV,1
+DS,Semester 4,DS-402,Design & Analysis of Algorithms,1
+DS,Semester 4,DS-403,Computer Organization & Architecture,1
+DS,Semester 4,DS-404,Database Management Systems,1
+DS,Semester 4,DS-405,Theory of Computation,1
+DS,Semester 5,CD-501,Computational Mathematics,1
+DS,Semester 5,CD-502,Compiler Design,1
+DS,Semester 5,CD-503,Cloud Computing,1
+DS,Semester 5,CD-504,Artificial Intelligence,1
+DS,Semester 5,CD-505-(A/B/C),Departmental Elective (any one):,1
+DS,Semester 5,CD-505(A),Web Engineering,1
+DS,Semester 5,CD-505(B),Machine Learning,1
+DS,Semester 5,CD-505(C),Computational Intelligence,1
+DS,Semester 6,CD-601,Deep Learning,1
+DS,Semester 6,CD-602,Computer Networks,1
+DS,Semester 6,CD-603-(A/B/C),Departmental Elective (any one):,1
+DS,Semester 6,CD-603(A),Big Data Analytics,1
+DS,Semester 6,CD-603(B),Data Acquisition,1
+DS,Semester 6,CD-603(C),Advanced Database Management System,1
+DS,Semester 6,CD-604-(A/B/C),Open Elective (any one):,1
+DS,Semester 6,CD-604(A),Information Extraction and Retrieval,1
+DS,Semester 6,CD-604(B),Agile Software Development,1
+DS,Semester 6,CD-604(C),Natural Language Processing,1
+DS,Semester 7,CD-701,Data Engineering,1
+DS,Semester 7,CD-702-(A/B/C/D),Departmental Elective (any one):,1
+DS,Semester 7,CD-702(A),Data Analytics & Visualization,1
+DS,Semester 7,CD-702(B),Internet of Things (IoT),1
+DS,Semester 7,CD-702(C),Cloud Computing,1
+DS,Semester 7,CD-702(D),Blockchain Technology,1
+DS,Semester 7,CD-703-(A/B/C/D),Open Elective (any one):,1
+DS,Semester 7,CD-703(A),Cryptography & Information Security,1
+DS,Semester 7,CD-703(B),Data Mining & Warehousing,1
+DS,Semester 7,CD-703(C),Agile Software Development,1
+DS,Semester 7,CD-703(D),Disaster Management,1
+DS,Semester 7,CD-704-(A/B/C/D),Departmental Elective (any one):,1
+DS,Semester 7,CD-704(A),Advanced Statistics for Data Science,1
+DS,Semester 7,CD-704(B),Explainable AI,1
+DS,Semester 7,CD-704(C),Bioinformatics,1
+DS,Semester 7,CD-704(D),Business Intelligence & Analytics,1
+DS,Semester 8,CD-801,Major Project / Internship Evaluation (no written theory paper),1
+DS,Semester 8,CD-802-(A/B/C/D),Departmental Elective (any one):,1
+DS,Semester 8,CD-802(A),Reinforcement Learning,1
+DS,Semester 8,CD-802(B),Project Management,1
+DS,Semester 8,CD-802(C),Computational Statistics,1
+DS,Semester 8,CD-802(D),Machine Learning for Data Science,1
+DS,Semester 8,CD-803-(A/B/C/D),Open Elective (any one):,1
+DS,Semester 8,CD-803(A),Blockchain Technologies,1
+DS,Semester 8,CD-803(B),Time-Series Analysis,1
+DS,Semester 8,CD-803(C),Quantum Computing,1
+DS,Semester 8,CD-803(D),Human-Computer Interaction,1
+SD,Semester 1,BT-101,Engineering Chemistry,1
+SD,Semester 1,BT-102,Mathematics-I,1
+SD,Semester 1,BT-103,English for Communication,1
+SD,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+SD,Semester 1,BT-105,Engineering Graphics,1
+SD,Semester 2,BT-201,Engineering Physics,1
+SD,Semester 2,BT-202,Mathematics-II,1
+SD,Semester 2,BT-203,Basic Mechanical Engineering,1
+SD,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+SD,Semester 2,BT-205,Basic Computer Engineering,1
+SD,Semester 3,BT-301,Mathematics-III,1
+SD,Semester 3,DS-302,Data Structures,1
+SD,Semester 3,DS-303,Digital Systems,1
+SD,Semester 3,DS-304,Discrete Mathematics,1
+SD,Semester 3,DS-305,Object Oriented Programming & Methodology,1
+SD,Semester 4,BT-401,Mathematics-IV,1
+SD,Semester 4,DS-402,Design & Analysis of Algorithms,1
+SD,Semester 4,DS-403,Computer Organization & Architecture,1
+SD,Semester 4,DS-404,Database Management Systems,1
+SD,Semester 4,DS-405,Theory of Computation,1
+SD,Semester 5,CD-501,Computational Mathematics,1
+SD,Semester 5,CD-502,Compiler Design,1
+SD,Semester 5,CD-503,Cloud Computing,1
+SD,Semester 5,CD-504,Artificial Intelligence,1
+SD,Semester 5,CD-505-(A/B/C),Departmental Elective (any one):,1
+SD,Semester 5,CD-505(A),Web Engineering,1
+SD,Semester 5,CD-505(B),Machine Learning,1
+SD,Semester 5,CD-505(C),Computational Intelligence,1
+SD,Semester 6,CD-601,Deep Learning,1
+SD,Semester 6,CD-602,Computer Networks,1
+SD,Semester 6,CD-603-(A/B/C),Departmental Elective (any one):,1
+SD,Semester 6,CD-603(A),Big Data Analytics,1
+SD,Semester 6,CD-603(B),Data Acquisition,1
+SD,Semester 6,CD-603(C),Advanced Database Management System,1
+SD,Semester 6,CD-604-(A/B/C),Open Elective (any one):,1
+SD,Semester 6,CD-604(A),Information Extraction and Retrieval,1
+SD,Semester 6,CD-604(B),Agile Software Development,1
+SD,Semester 6,CD-604(C),Natural Language Processing,1
+SD,Semester 7,CD-701,Data Engineering,1
+SD,Semester 7,CD-702-(A/B/C/D),Departmental Elective (any one):,1
+SD,Semester 7,CD-702(A),Data Analytics & Visualization,1
+SD,Semester 7,CD-702(B),Internet of Things (IoT),1
+SD,Semester 7,CD-702(C),Cloud Computing,1
+SD,Semester 7,CD-702(D),Blockchain Technology,1
+SD,Semester 7,CD-703-(A/B/C/D),Open Elective (any one):,1
+SD,Semester 7,CD-703(A),Cryptography & Information Security,1
+SD,Semester 7,CD-703(B),Data Mining & Warehousing,1
+SD,Semester 7,CD-703(C),Agile Software Development,1
+SD,Semester 7,CD-703(D),Disaster Management,1
+SD,Semester 7,CD-704-(A/B/C/D),Departmental Elective (any one):,1
+SD,Semester 7,CD-704(A),Advanced Statistics for Data Science,1
+SD,Semester 7,CD-704(B),Explainable AI,1
+SD,Semester 7,CD-704(C),Bioinformatics,1
+SD,Semester 7,CD-704(D),Business Intelligence & Analytics,1
+SD,Semester 8,CD-801,Major Project / Internship Evaluation (no written theory paper),1
+SD,Semester 8,CD-802-(A/B/C/D),Departmental Elective (any one):,1
+SD,Semester 8,CD-802(A),Reinforcement Learning,1
+SD,Semester 8,CD-802(B),Project Management,1
+SD,Semester 8,CD-802(C),Computational Statistics,1
+SD,Semester 8,CD-802(D),Machine Learning for Data Science,1
+SD,Semester 8,CD-803-(A/B/C/D),Open Elective (any one):,1
+SD,Semester 8,CD-803(A),Blockchain Technologies,1
+SD,Semester 8,CD-803(B),Time-Series Analysis,1
+SD,Semester 8,CD-803(C),Quantum Computing,1
+SD,Semester 8,CD-803(D),Human-Computer Interaction,1
+CYBER,Semester 1,BT-101,Engineering Chemistry,1
+CYBER,Semester 1,BT-102,Mathematics-I,1
+CYBER,Semester 1,BT-103,English for Communication,1
+CYBER,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+CYBER,Semester 1,BT-105,Engineering Graphics,1
+CYBER,Semester 2,BT-201,Engineering Physics,1
+CYBER,Semester 2,BT-202,Mathematics-II,1
+CYBER,Semester 2,BT-203,Basic Mechanical Engineering,1
+CYBER,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+CYBER,Semester 2,BT-205,Basic Computer Engineering,1
+CYBER,Semester 3,CY-301,Technical Communication,1
+CYBER,Semester 3,CY-302,Discrete Structures,1
+CYBER,Semester 3,CY-303,Data Structures,1
+CYBER,Semester 3,CY-304,Digital Systems,1
+CYBER,Semester 3,CY-305,Object Oriented Programming & Methodology,1
+CYBER,Semester 4,CY-401,Mathematics-III,1
+CYBER,Semester 4,CY-402,Analysis & Design of Algorithms,1
+CYBER,Semester 4,CY-403,Computer Organization & Architecture,1
+CYBER,Semester 4,CY-404,Operating Systems,1
+CYBER,Semester 4,CY-405,Database Management Systems (DBMS),1
+CYBER,Semester 5,CY-501,OS Internals for Security Support,1
+CYBER,Semester 5,CY-502,Design and Analysis of Algorithms,1
+CYBER,Semester 5,CY-503,Network Security,1
+CYBER,Semester 5,CY-504(A),Cyber Law and Intellectual Property Rights,1
+CYBER,Semester 5,CY-504(B),Internet of Things,1
+CYBER,Semester 5,CY-504(C),Computer Organization and Architecture,1
+CYBER,Semester 6,CY-601,Cryptography and Network Security,1
+CYBER,Semester 6,CY-602,Computer Networks,1
+CYBER,Semester 6,CY-603,Departmental Elective,1
+CYBER,Semester 6,CY-603(A),Machine Learning,1
+CYBER,Semester 6,CY-603(B),Advanced Computer Architecture,1
+CYBER,Semester 6,CY-603(C),Compiler Design,1
+CYBER,Semester 6,CY-604,Open Elective,1
+CYBER,Semester 6,CY-604(A),Knowledge Management,1
+CYBER,Semester 6,CY-604(B),Project Management,1
+CYBER,Semester 6,CY-604(C),Rural Technology & Community Development,1
+CYBER,Semester 7,CY-701,Information Security Risk Management,1
+CYBER,Semester 7,CY-702,Digital Forensics,1
+CYBER,Semester 7,CY-703,(Departmental Elective,1
+CYBER,Semester 7,CY-703(A),Ethical Hacking,1
+CYBER,Semester 7,CY-703(B),Cyber Security Policies & Standards,1
+CYBER,Semester 7,CY-703(C),Data Engineering,1
+CYBER,Semester 7,CY-703(D),Cloud Computing,1
+CYBER,Semester 8,CD-801,Major Project / Internship Evaluation (no written theory paper),1
+CYBER,Semester 8,CD-802-(A/B/C/D),Departmental Elective (any one):,1
+CYBER,Semester 8,CD-802(A),Reinforcement Learning,1
+CYBER,Semester 8,CD-802(B),Project Management,1
+CYBER,Semester 8,CD-802(C),Computational Statistics,1
+CYBER,Semester 8,CD-802(D),Machine Learning for Data Science,1
+CYBER,Semester 8,CD-803-(A/B/C/D),Open Elective (any one):,1
+CYBER,Semester 8,CD-803(A),Blockchain Technologies,1
+CYBER,Semester 8,CD-803(B),Time-Series Analysis,1
+CYBER,Semester 8,CD-803(C),Quantum Computing,1
+CYBER,Semester 8,CD-803(D),Human-Computer Interaction,1
+CY,Semester 1,BT-101,Engineering Chemistry,1
+CY,Semester 1,BT-102,Mathematics-I,1
+CY,Semester 1,BT-103,English for Communication,1
+CY,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+CY,Semester 1,BT-105,Engineering Graphics,1
+CY,Semester 2,BT-201,Engineering Physics,1
+CY,Semester 2,BT-202,Mathematics-II,1
+CY,Semester 2,BT-203,Basic Mechanical Engineering,1
+CY,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+CY,Semester 2,BT-205,Basic Computer Engineering,1
+CY,Semester 3,CY-301,Technical Communication,1
+CY,Semester 3,CY-302,Discrete Structures,1
+CY,Semester 3,CY-303,Data Structures,1
+CY,Semester 3,CY-304,Digital Systems,1
+CY,Semester 3,CY-305,Object Oriented Programming & Methodology,1
+CY,Semester 4,CY-401,Mathematics-III,1
+CY,Semester 4,CY-402,Analysis & Design of Algorithms,1
+CY,Semester 4,CY-403,Computer Organization & Architecture,1
+CY,Semester 4,CY-404,Operating Systems,1
+CY,Semester 4,CY-405,Database Management Systems (DBMS),1
+CY,Semester 5,CY-501,OS Internals for Security Support,1
+CY,Semester 5,CY-502,Design and Analysis of Algorithms,1
+CY,Semester 5,CY-503,Network Security,1
+CY,Semester 5,CY-504(A),Cyber Law and Intellectual Property Rights,1
+CY,Semester 5,CY-504(B),Internet of Things,1
+CY,Semester 5,CY-504(C),Computer Organization and Architecture,1
+CY,Semester 6,CY-601,Cryptography and Network Security,1
+CY,Semester 6,CY-602,Computer Networks,1
+CY,Semester 6,CY-603,Departmental Elective,1
+CY,Semester 6,CY-603(A),Machine Learning,1
+CY,Semester 6,CY-603(B),Advanced Computer Architecture,1
+CY,Semester 6,CY-603(C),Compiler Design,1
+CY,Semester 6,CY-604,Open Elective,1
+CY,Semester 6,CY-604(A),Knowledge Management,1
+CY,Semester 6,CY-604(B),Project Management,1
+CY,Semester 6,CY-604(C),Rural Technology & Community Development,1
+CY,Semester 7,CY-701,Information Security Risk Management,1
+CY,Semester 7,CY-702,Digital Forensics,1
+CY,Semester 7,CY-703,(Departmental Elective,1
+CY,Semester 7,CY-703(A),Ethical Hacking,1
+CY,Semester 7,CY-703(B),Cyber Security Policies & Standards,1
+CY,Semester 7,CY-703(C),Data Engineering,1
+CY,Semester 7,CY-703(D),Cloud Computing,1
+CY,Semester 8,CD-801,Major Project / Internship Evaluation (no written theory paper),1
+CY,Semester 8,CD-802-(A/B/C/D),Departmental Elective (any one):,1
+CY,Semester 8,CD-802(A),Reinforcement Learning,1
+CY,Semester 8,CD-802(B),Project Management,1
+CY,Semester 8,CD-802(C),Computational Statistics,1
+CY,Semester 8,CD-802(D),Machine Learning for Data Science,1
+CY,Semester 8,CD-803-(A/B/C/D),Open Elective (any one):,1
+CY,Semester 8,CD-803(A),Blockchain Technologies,1
+CY,Semester 8,CD-803(B),Time-Series Analysis,1
+CY,Semester 8,CD-803(C),Quantum Computing,1
+CY,Semester 8,CD-803(D),Human-Computer Interaction,1
+CHEM,Semester 1,BT-101,Engineering Chemistry,1
+CHEM,Semester 1,BT-102,Mathematics-I,1
+CHEM,Semester 1,BT-103,English for Communication,1
+CHEM,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+CHEM,Semester 1,BT-105,Engineering Graphics,1
+CHEM,Semester 2,BT-201,Engineering Physics,1
+CHEM,Semester 2,BT-202,Mathematics-II,1
+CHEM,Semester 2,BT-203,Basic Mechanical Engineering,1
+CHEM,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+CHEM,Semester 2,BT-205,Basic Computer Engineering,1
+CHEM,Semester 3,BT-301,Mathematics-III,1
+CHEM,Semester 3,CM-302,Chemical Engineering Thermodynamics,1
+CHEM,Semester 3,CM-303,Advance Engineering Chemistry,1
+CHEM,Semester 3,CM-304,Material & Energy Balance,1
+CHEM,Semester 3,CM-305,Chemical Instrumentation,1
+CHEM,Semester 4,BT-401,Mathematics-III,1
+CHEM,Semester 4,CM-402,Fluid Mechanics,1
+CHEM,Semester 4,CM-403,Heat Transfer,1
+CHEM,Semester 4,CM-404,Mechanical Operations,1
+CHEM,Semester 4,CM-405,Chemical Engineering Process Calculations / Chemical Process Calculations*,1
+CHEM,Semester 5,CM-501,Mass Transfer-I,1
+CHEM,Semester 5,CM-502,Chemical Reaction Engineering-I,1
+CHEM,Semester 5,CM-503(A),Computation Methods in Chemical Engineering,1
+CHEM,Semester 5,CM-503(B),Pulp & Paper Technology,1
+CHEM,Semester 5,CM-503(C),Pharmaceutical Technology,1
+CHEM,Semester 5,CM-504(A),Organic Process Technology,1
+CHEM,Semester 5,CM-504(B),Fuel Cell Technology,1
+CHEM,Semester 5,CM-504(C),Energy Management,1
+CHEM,Semester 6,CM-601,Mass Transfer-II,1
+CHEM,Semester 6,CM-602,Chemical Reaction Engineering-II,1
+CHEM,Semester 6,CM-603,Process Dynamics & Control,1
+CHEM,Semester 6,CM-604(A),Polymer Technology,1
+CHEM,Semester 6,CM-604(B),Petrochemical Technology,1
+CHEM,Semester 6,CM-604(C),Fertilizer Technology,1
+CHEM,Semester 6,CM-605(A),Environmental Engineering,1
+CHEM,Semester 6,CM-605(B),Food Technology,1
+CHEM,Semester 6,CM-605(C),Safety & Hazard Management,1
+CHEM,Semester 7,CM-701,Process Equipment Design,1
+CHEM,Semester 7,CM-702,Chemical Process Industries,1
+CHEM,Semester 7,CM-703(A),Transport Phenomena,1
+CHEM,Semester 7,CM-703(B),Biochemical Engineering,1
+CHEM,Semester 7,CM-703(C),Corrosion Engineering,1
+CHEM,Semester 7,CM-704(A),Membrane Technology,1
+CHEM,Semester 7,CM-704(B),Nanotechnology,1
+CHEM,Semester 7,CM-704(C),Industrial Pollution Control,1
+CHEM,Semester 8,CM-801(A),Petroleum Refinery Engineering,1
+CHEM,Semester 8,CM-801(B),Process Plant Utilities,1
+CHEM,Semester 8,CM-801(C),Advanced Separation Processes,1
+CHEM,Semester 8,CM-802(A),Process Economics & Plant Design,1
+CHEM,Semester 8,CM-802(B),Energy Conservation in Process Industries,1
+CHEM,Semester 8,CM-802(C),Industrial Waste Management,1
+AUTO,Semester 1,BT-101,Engineering Mathematics-I,1
+AUTO,Semester 1,BT-102,Engineering Chemistry,1
+AUTO,Semester 1,BT-103,English for Communication,1
+AUTO,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+AUTO,Semester 1,BT-105,Engineering Graphics,1
+AUTO,Semester 2,BT-201,Engineering Mathematics-II,1
+AUTO,Semester 2,BT-202,Engineering Physics,1
+AUTO,Semester 2,BT-203,Basic Mechanical Engineering,1
+AUTO,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+AUTO,Semester 2,BT-205,Basic Computer Engineering,1
+AUTO,Semester 3,BT-301,Mathematics-III,1
+AUTO,Semester 3,AU-302,Engineering Thermodynamics,1
+AUTO,Semester 3,AU-303,Strength of Materials,1
+AUTO,Semester 3,AU-304,Manufacturing Technology,1
+AUTO,Semester 3,AU-305,Automobile Engineering Materials,1
+AUTO,Semester 4,BT-401,Mathematics-IV,1
+AUTO,Semester 4,AU-402,Fluid Mechanics & Hydraulic Machines,1
+AUTO,Semester 4,AU-403,Theory of Machines,1
+AUTO,Semester 4,AU-404,Applied Thermodynamics,1
+AUTO,Semester 4,AU-405,Machine Drawing & Design,1
+AUTO,Semester 5,AU-501,Internal Combustion Engines,1
+AUTO,Semester 5,AU-502,Automobile Transmission,1
+AUTO,Semester 5,AU-503(A),Vehicle Body Engineering,1
+AUTO,Semester 5,AU-503(B),Tractor & Farm Machinery,1
+AUTO,Semester 5,AU-503(C),Vehicle Maintenance,1
+AUTO,Semester 5,AU-504(A),Automotive Electrical & Electronics,1
+AUTO,Semester 5,AU-504(B),Two & Three Wheeler Technology,1
+AUTO,Semester 5,AU-504(C),Automobile Air Conditioning,1
+AUTO,Semester 6,AU-601,Vehicle Dynamics,1
+AUTO,Semester 6,AU-602,Automobile Chassis Design,1
+AUTO,Semester 6,AU-603,Automobile Pollution & Control,1
+AUTO,Semester 6,AU-604(A),Automotive Safety,1
+AUTO,Semester 6,AU-604(B),Alternative Fuels & Energy Systems,1
+AUTO,Semester 6,AU-604(C),Automotive Aerodynamics,1
+AUTO,Semester 7,AU-701,Automotive Engine Management Systems,1
+AUTO,Semester 7,AU-702,Electric & Hybrid Vehicles,1
+AUTO,Semester 7,AU-703(A),Vehicle Testing & Homologation,1
+AUTO,Semester 7,AU-703(B),Transport Management,1
+AUTO,Semester 7,AU-703(C),Automotive Robotics,1
+AUTO,Semester 7,AU-704,Industrial Management & Entrepreneurship,1
+AUTO,Semester 8,AU-801,Automobile System Design,1
+AUTO,Semester 8,AU-802,Recent Trends in Automobile Engineering,1
+AUTO,Semester 8,AU-803(A),Advanced Automotive Electronics,1
+AUTO,Semester 8,AU-803(B),Intelligent Transportation Systems,1
+AUTO,Semester 8,AU-803(C),Automotive Mechatronics,1
+PRODUCTION,Semester 1,BT-101,Engineering Mathematics-I,1
+PRODUCTION,Semester 1,BT-102,Engineering Chemistry,1
+PRODUCTION,Semester 1,BT-103,English for Communication,1
+PRODUCTION,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+PRODUCTION,Semester 1,BT-105,Engineering Graphics,1
+PRODUCTION,Semester 2,BT-201,Engineering Mathematics-II,1
+PRODUCTION,Semester 2,BT-202,Engineering Physics,1
+PRODUCTION,Semester 2,BT-203,Basic Mechanical Engineering,1
+PRODUCTION,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+PRODUCTION,Semester 2,BT-205,Basic Computer Engineering,1
+PRODUCTION,Semester 3,BT-301,Mathematics-III,1
+PRODUCTION,Semester 3,PR-302,Manufacturing Process-I,1
+PRODUCTION,Semester 3,PR-303,Strength of Materials,1
+PRODUCTION,Semester 3,PR-304,Engineering Materials,1
+PRODUCTION,Semester 3,PR-305,Metrology & Measurement,1
+PRODUCTION,Semester 4,BT-401,Mathematics-IV,1
+PRODUCTION,Semester 4,PR-402,Manufacturing Process-II,1
+PRODUCTION,Semester 4,PR-403,Theory of Machines,1
+PRODUCTION,Semester 4,PR-404,Machine Design-I,1
+PRODUCTION,Semester 4,PR-405,Industrial Engineering,1
+PRODUCTION,Semester 5,PR-501,Production Planning & Control,1
+PRODUCTION,Semester 5,PR-502,Machine Tool Design,1
+PRODUCTION,Semester 5,PR-503(A),Operations Research,1
+PRODUCTION,Semester 5,PR-503(B),Quality Engineering,1
+PRODUCTION,Semester 5,PR-503(C),Tool Engineering,1
+PRODUCTION,Semester 5,PR-504(A),Heat Treatment Technology,1
+PRODUCTION,Semester 5,PR-504(B),Non-Conventional Manufacturing Processes,1
+PRODUCTION,Semester 5,PR-504(C),Automation in Manufacturing,1
+PRODUCTION,Semester 6,PR-601,CAD/CAM,1
+PRODUCTION,Semester 6,PR-602,Machine Design-II,1
+PRODUCTION,Semester 6,PR-603,Metal Forming Technology,1
+PRODUCTION,Semester 6,PR-604(A),Flexible Manufacturing Systems,1
+PRODUCTION,Semester 6,PR-604(B),Robotics in Manufacturing,1
+PRODUCTION,Semester 6,PR-604(C),Total Quality Management,1
+PRODUCTION,Semester 7,PR-701,Production Management,1
+PRODUCTION,Semester 7,PR-702,CIM (Computer Integrated Manufacturing),1
+PRODUCTION,Semester 7,PR-703(A),Supply Chain Management,1
+PRODUCTION,Semester 7,PR-703(B),Lean Manufacturing,1
+PRODUCTION,Semester 7,PR-703(C),Advanced Manufacturing Technology,1
+PRODUCTION,Semester 7,PR-704,Entrepreneurship & Industrial Management,1
+PRODUCTION,Semester 8,PR-801,Advanced Production Engineering,1
+PRODUCTION,Semester 8,PR-802,Modern Manufacturing Systems,1
+PRODUCTION,Semester 8,PR-803(A),Reliability Engineering,1
+PRODUCTION,Semester 8,PR-803(B),Product Design & Development,1
+PRODUCTION,Semester 8,PR-803(C),Six Sigma & Quality Systems,1
+AERO,Semester 1,BT-101,Engineering Mathematics-I,1
+AERO,Semester 1,BT-102,Engineering Chemistry,1
+AERO,Semester 1,BT-103,English for Communication,1
+AERO,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+AERO,Semester 1,BT-105,Engineering Graphics,1
+AERO,Semester 2,BT-201,Engineering Mathematics-II,1
+AERO,Semester 2,BT-202,Engineering Physics,1
+AERO,Semester 2,BT-203,Basic Mechanical Engineering,1
+AERO,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+AERO,Semester 2,BT-205,Basic Computer Engineering,1
+AERO,Semester 3,BT-301,Mathematics-III,1
+AERO,Semester 3,AE-302,Aerodynamics-I,1
+AERO,Semester 3,AE-303,Aircraft Structures-I,1
+AERO,Semester 3,AE-304,Aircraft Propulsion-I,1
+AERO,Semester 3,AE-305,Engineering Thermodynamics,1
+AERO,Semester 4,BT-401,Mathematics-IV,1
+AERO,Semester 4,AE-402,Aerodynamics-II,1
+AERO,Semester 4,AE-403,Aircraft Structures-II,1
+AERO,Semester 4,AE-404,Aircraft Propulsion-II,1
+AERO,Semester 4,AE-405,Flight Mechanics-I,1
+AERO,Semester 5,AE-501,Aircraft Design-I,1
+AERO,Semester 5,AE-502,Aircraft Systems & Instruments,1
+AERO,Semester 5,AE-503(A),Gas Dynamics,1
+AERO,Semester 5,AE-503(B),Helicopter Engineering,1
+AERO,Semester 5,AE-503(C),Rocket Propulsion,1
+AERO,Semester 5,AE-504(A),Aerospace Materials,1
+AERO,Semester 5,AE-504(B),Space Technology,1
+AERO,Semester 5,AE-504(C),Aircraft Production Technology,1
+AERO,Semester 6,AE-601,Flight Mechanics-II,1
+AERO,Semester 6,AE-602,Aircraft Design-II,1
+AERO,Semester 6,AE-603,Aircraft Stability & Control,1
+AERO,Semester 6,AE-604(A),Computational Fluid Dynamics,1
+AERO,Semester 6,AE-604(B),Aircraft Maintenance Engineering,1
+AERO,Semester 6,AE-604(C),Avionics,1
+AERO,Semester 7,AE-701,Aerospace Vehicle Design,1
+AERO,Semester 7,AE-702,Experimental Aerodynamics,1
+AERO,Semester 7,AE-703(A),Finite Element Methods,1
+AERO,Semester 7,AE-703(B),Unmanned Aerial Vehicles (UAV),1
+AERO,Semester 7,AE-703(C),Missile Technology,1
+AERO,Semester 7,AE-704,Industrial Management & Entrepreneurship,1
+AERO,Semester 8,AE-801,Advanced Aerospace Engineering,1
+AERO,Semester 8,AE-802,Recent Trends in Aeronautical Engineering,1
+AERO,Semester 8,AE-803(A),Aircraft Certification & Airworthiness,1
+AERO,Semester 8,AE-803(B),Spacecraft Systems,1
+AERO,Semester 8,AE-803(C),Advanced Avionics,1
+BME,Semester 1,BT-101,Engineering Mathematics-I,1
+BME,Semester 1,BT-102,Engineering Chemistry,1
+BME,Semester 1,BT-103,English for Communication,1
+BME,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+BME,Semester 1,BT-105,Engineering Graphics,1
+BME,Semester 2,BT-201,Engineering Mathematics-II,1
+BME,Semester 2,BT-202,Engineering Physics,1
+BME,Semester 2,BT-203,Basic Mechanical Engineering,1
+BME,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+BME,Semester 2,BT-205,Basic Computer Engineering,1
+BME,Semester 3,BT-301,Mathematics-III,1
+BME,Semester 3,BM-302,Human Anatomy & Physiology,1
+BME,Semester 3,BM-303,Biomedical Instrumentation,1
+BME,Semester 3,BM-304,Electronic Devices & Circuits,1
+BME,Semester 3,BM-305,Signals & Systems,1
+BME,Semester 4,BT-401,Mathematics-IV,1
+BME,Semester 4,BM-402,Medical Electronics,1
+BME,Semester 4,BM-403,Sensors & Transducers,1
+BME,Semester 4,BM-404,Digital Signal Processing,1
+BME,Semester 4,BM-405,Biomaterials,1
+BME,Semester 5,BM-501,Medical Imaging Systems,1
+BME,Semester 5,BM-502,Biomedical Signal Processing,1
+BME,Semester 5,BM-503(A),Artificial Organs,1
+BME,Semester 5,BM-503(B),Rehabilitation Engineering,1
+BME,Semester 5,BM-503(C),Bioinformatics,1
+BME,Semester 5,BM-504(A),Hospital Engineering,1
+BME,Semester 5,BM-504(B),Diagnostic & Therapeutic Equipment,1
+BME,Semester 5,BM-504(C),Biomedical Optics,1
+BME,Semester 6,BM-601,Biomechanics,1
+BME,Semester 6,BM-602,Medical Image Processing,1
+BME,Semester 6,BM-603,Biomedical Microprocessors,1
+BME,Semester 6,BM-604(A),Neural Engineering,1
+BME,Semester 6,BM-604(B),Embedded Systems for Biomedical Applications,1
+BME,Semester 6,BM-604(C),Telemedicine,1
+BME,Semester 7,BM-701,Biomedical Engineering Design,1
+BME,Semester 7,BM-702,Biomedical Instrumentation-II,1
+BME,Semester 7,BM-703(A),Tissue Engineering,1
+BME,Semester 7,BM-703(B),Clinical Engineering,1
+BME,Semester 7,BM-703(C),Nanotechnology in Medicine,1
+BME,Semester 7,BM-704,Industrial Management & Entrepreneurship,1
+BME,Semester 8,BM-801,Advanced Biomedical Engineering,1
+BME,Semester 8,BM-802,Recent Trends in Biomedical Engineering,1
+BME,Semester 8,BM-803(A),Medical Robotics,1
+BME,Semester 8,BM-803(B),Healthcare Technology Management,1
+BME,Semester 8,BM-803(C),Biomedical Data Analytics,1
+IO,Semester 1,BT-101,Engineering Mathematics-I,1
+IO,Semester 1,BT-102,Engineering Chemistry,1
+IO,Semester 1,BT-103,English for Communication,1
+IO,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+IO,Semester 1,BT-105,Engineering Graphics,1
+IO,Semester 2,BT-201,Engineering Mathematics-II,1
+IO,Semester 2,BT-202,Engineering Physics,1
+IO,Semester 2,BT-203,Basic Mechanical Engineering,1
+IO,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+IO,Semester 2,BT-205,Basic Computer Engineering,1
+IO,Semester 3,BT-301,Mathematics-III,1
+IO,Semester 3,IE-302,Digital Electronics,1
+IO,Semester 3,IE-303,Data Structures,1
+IO,Semester 3,IE-304,Computer Organization & Architecture,1
+IO,Semester 3,IE-305,Electronic Devices & Circuits,1
+IO,Semester 4,BT-401,Mathematics-IV,1
+IO,Semester 4,IE-402,Microprocessors & Microcontrollers,1
+IO,Semester 4,IE-403,Embedded Systems,1
+IO,Semester 4,IE-404,Operating Systems,1
+IO,Semester 4,IE-405,Computer Networks,1
+IO,Semester 5,IE-501,Internet of Things,1
+IO,Semester 5,IE-502,Wireless Sensor Networks,1
+IO,Semester 5,IE-503(A),ARM Processor Architecture,1
+IO,Semester 5,IE-503(B),Real Time Operating Systems,1
+IO,Semester 5,IE-503(C),FPGA Design,1
+IO,Semester 5,IE-504(A),Cloud Computing,1
+IO,Semester 5,IE-504(B),Cyber Security,1
+IO,Semester 5,IE-504(C),VLSI Design,1
+IO,Semester 6,IE-601,IoT System Design,1
+IO,Semester 6,IE-602,Embedded Linux,1
+IO,Semester 6,IE-603,Industrial IoT,1
+IO,Semester 6,IE-604(A),Edge Computing,1
+IO,Semester 6,IE-604(B),Machine Learning for IoT,1
+IO,Semester 6,IE-604(C),Robotics & Automation,1
+IO,Semester 7,IE-701,Advanced Embedded Systems,1
+IO,Semester 7,IE-702,IoT Security,1
+IO,Semester 7,IE-703(A),Smart Cities & Smart Infrastructure,1
+IO,Semester 7,IE-703(B),Automotive Embedded Systems,1
+IO,Semester 7,IE-703(C),Wearable Computing,1
+IO,Semester 7,IE-704,Entrepreneurship & Industrial Management,1
+IO,Semester 8,IE-801,Advanced IoT Applications,1
+IO,Semester 8,IE-802,Recent Trends in IoT & Embedded Systems,1
+IO,Semester 8,IE-803(A),AI for IoT,1
+IO,Semester 8,IE-803(B),Internet of Medical Things (IoMT),1
+IO,Semester 8,IE-803(C),Advanced Embedded System Design,1
+POWER,Semester 1,BT-101,Engineering Mathematics-I,1
+POWER,Semester 1,BT-102,Engineering Chemistry,1
+POWER,Semester 1,BT-103,English for Communication,1
+POWER,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+POWER,Semester 1,BT-105,Engineering Graphics,1
+POWER,Semester 2,BT-201,Engineering Mathematics-II,1
+POWER,Semester 2,BT-202,Engineering Physics,1
+POWER,Semester 2,BT-203,Basic Mechanical Engineering,1
+POWER,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+POWER,Semester 2,BT-205,Basic Computer Engineering,1
+POWER,Semester 3,BT-301,Mathematics-III,1
+POWER,Semester 3,PE-302,Network Analysis,1
+POWER,Semester 3,PE-303,Electrical Machines-I,1
+POWER,Semester 3,PE-304,Electronic Devices & Circuits,1
+POWER,Semester 3,PE-305,Digital Electronics,1
+POWER,Semester 4,BT-401,Mathematics-IV,1
+POWER,Semester 4,PE-402,Electrical Machines-II,1
+POWER,Semester 4,PE-403,Analog Electronics,1
+POWER,Semester 4,PE-404,Power Systems-I,1
+POWER,Semester 4,PE-405,Control Systems,1
+POWER,Semester 5,PE-501,Power Electronics,1
+POWER,Semester 5,PE-502,Microprocessors & Microcontrollers,1
+POWER,Semester 5,PE-503(A),Electrical Drives,1
+POWER,Semester 5,PE-503(B),High Voltage Engineering,1
+POWER,Semester 5,PE-503(C),Industrial Electronics,1
+POWER,Semester 5,PE-504(A),Signals & Systems,1
+POWER,Semester 5,PE-504(B),Renewable Energy Systems,1
+POWER,Semester 5,PE-504(C),Embedded Systems,1
+POWER,Semester 6,PE-601,Advanced Power Electronics,1
+POWER,Semester 6,PE-602,Power System-II,1
+POWER,Semester 6,PE-603,Digital Control Systems,1
+POWER,Semester 6,PE-604(A),FACTS Devices,1
+POWER,Semester 6,PE-604(B),Electric Drives & Control,1
+POWER,Semester 6,PE-604(C),HVDC Transmission,1
+POWER,Semester 7,PE-701,Power Quality,1
+POWER,Semester 7,PE-702,Electric & Hybrid Vehicles,1
+POWER,Semester 7,PE-703(A),Smart Grid,1
+POWER,Semester 7,PE-703(B),Flexible AC Transmission Systems,1
+POWER,Semester 7,PE-703(C),Power Semiconductor Devices,1
+POWER,Semester 7,PE-704,Industrial Management & Entrepreneurship,1
+POWER,Semester 8,PE-801,Advanced Electrical Drives,1
+POWER,Semester 8,PE-802,Recent Trends in Power Electronics,1
+POWER,Semester 8,PE-803(A),Renewable Energy Integration,1
+POWER,Semester 8,PE-803(B),Energy Management Systems,1
+POWER,Semester 8,PE-803(C),Industrial Automation,1
+MECHATRONICS,Semester 1,BT-101,Engineering Mathematics-I,1
+MECHATRONICS,Semester 1,BT-102,Engineering Chemistry,1
+MECHATRONICS,Semester 1,BT-103,English for Communication,1
+MECHATRONICS,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+MECHATRONICS,Semester 1,BT-105,Engineering Graphics,1
+MECHATRONICS,Semester 2,BT-201,Engineering Mathematics-II,1
+MECHATRONICS,Semester 2,BT-202,Engineering Physics,1
+MECHATRONICS,Semester 2,BT-203,Basic Mechanical Engineering,1
+MECHATRONICS,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+MECHATRONICS,Semester 2,BT-205,Basic Computer Engineering,1
+MECHATRONICS,Semester 3,BT-301,Mathematics-III,1
+MECHATRONICS,Semester 3,MT-302,Engineering Mechanics,1
+MECHATRONICS,Semester 3,MT-303,Strength of Materials,1
+MECHATRONICS,Semester 3,MT-304,Electrical Machines,1
+MECHATRONICS,Semester 3,MT-305,Electronic Devices & Circuits,1
+MECHATRONICS,Semester 4,BT-401,Mathematics-IV,1
+MECHATRONICS,Semester 4,MT-402,Theory of Machines,1
+MECHATRONICS,Semester 4,MT-403,Analog & Digital Electronics,1
+MECHATRONICS,Semester 4,MT-404,Microprocessors & Microcontrollers,1
+MECHATRONICS,Semester 4,MT-405,Fluid Power Engineering,1
+MECHATRONICS,Semester 5,MT-501,Mechatronics System Design,1
+MECHATRONICS,Semester 5,MT-502,Industrial Automation,1
+MECHATRONICS,Semester 5,MT-503(A),Robotics,1
+MECHATRONICS,Semester 5,MT-503(B),PLC & SCADA,1
+MECHATRONICS,Semester 5,MT-503(C),Sensors & Transducers,1
+MECHATRONICS,Semester 5,MT-504(A),Control Systems,1
+MECHATRONICS,Semester 5,MT-504(B),Embedded Systems,1
+MECHATRONICS,Semester 5,MT-504(C),Computer Integrated Manufacturing,1
+MECHATRONICS,Semester 6,MT-601,Robotics & Automation,1
+MECHATRONICS,Semester 6,MT-602,CNC Machines & Programming,1
+MECHATRONICS,Semester 6,MT-603,Industrial Drives,1
+MECHATRONICS,Semester 6,MT-604(A),Artificial Intelligence,1
+MECHATRONICS,Semester 6,MT-604(B),Machine Vision,1
+MECHATRONICS,Semester 6,MT-604(C),Internet of Things for Mechatronics,1
+MECHATRONICS,Semester 7,MT-701,Advanced Mechatronics,1
+MECHATRONICS,Semester 7,MT-702,Intelligent Manufacturing Systems,1
+MECHATRONICS,Semester 7,MT-703(A),Autonomous Robots,1
+MECHATRONICS,Semester 7,MT-703(B),Flexible Manufacturing Systems,1
+MECHATRONICS,Semester 7,MT-703(C),MEMS & Microsystems,1
+MECHATRONICS,Semester 7,MT-704,Entrepreneurship & Industrial Management,1
+MECHATRONICS,Semester 8,MT-801,Advanced Robotics,1
+MECHATRONICS,Semester 8,MT-802,Recent Trends in Mechatronics,1
+MECHATRONICS,Semester 8,MT-803(A),Human Robot Interaction,1
+MECHATRONICS,Semester 8,MT-803(B),Smart Manufacturing,1
+MECHATRONICS,Semester 8,MT-803(C),Advanced Control Engineering,1
+RM,Semester 1,BT-101,Engineering Mathematics-I,1
+RM,Semester 1,BT-102,Engineering Chemistry,1
+RM,Semester 1,BT-103,English for Communication,1
+RM,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+RM,Semester 1,BT-105,Engineering Graphics,1
+RM,Semester 2,BT-201,Engineering Mathematics-II,1
+RM,Semester 2,BT-202,Engineering Physics,1
+RM,Semester 2,BT-203,Basic Mechanical Engineering,1
+RM,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+RM,Semester 2,BT-205,Basic Computer Engineering,1
+RM,Semester 3,BT-301,Mathematics-III,1
+RM,Semester 3,MT-302,Engineering Mechanics,1
+RM,Semester 3,MT-303,Strength of Materials,1
+RM,Semester 3,MT-304,Electrical Machines,1
+RM,Semester 3,MT-305,Electronic Devices & Circuits,1
+RM,Semester 4,BT-401,Mathematics-IV,1
+RM,Semester 4,MT-402,Theory of Machines,1
+RM,Semester 4,MT-403,Analog & Digital Electronics,1
+RM,Semester 4,MT-404,Microprocessors & Microcontrollers,1
+RM,Semester 4,MT-405,Fluid Power Engineering,1
+RM,Semester 5,MT-501,Mechatronics System Design,1
+RM,Semester 5,MT-502,Industrial Automation,1
+RM,Semester 5,MT-503(A),Robotics,1
+RM,Semester 5,MT-503(B),PLC & SCADA,1
+RM,Semester 5,MT-503(C),Sensors & Transducers,1
+RM,Semester 5,MT-504(A),Control Systems,1
+RM,Semester 5,MT-504(B),Embedded Systems,1
+RM,Semester 5,MT-504(C),Computer Integrated Manufacturing,1
+RM,Semester 6,MT-601,Robotics & Automation,1
+RM,Semester 6,MT-602,CNC Machines & Programming,1
+RM,Semester 6,MT-603,Industrial Drives,1
+RM,Semester 6,MT-604(A),Artificial Intelligence,1
+RM,Semester 6,MT-604(B),Machine Vision,1
+RM,Semester 6,MT-604(C),Internet of Things for Mechatronics,1
+RM,Semester 7,MT-701,Advanced Mechatronics,1
+RM,Semester 7,MT-702,Intelligent Manufacturing Systems,1
+RM,Semester 7,MT-703(A),Autonomous Robots,1
+RM,Semester 7,MT-703(B),Flexible Manufacturing Systems,1
+RM,Semester 7,MT-703(C),MEMS & Microsystems,1
+RM,Semester 7,MT-704,Entrepreneurship & Industrial Management,1
+RM,Semester 8,MT-801,Advanced Robotics,1
+RM,Semester 8,MT-802,Recent Trends in Mechatronics,1
+RM,Semester 8,MT-803(A),Human Robot Interaction,1
+RM,Semester 8,MT-803(B),Smart Manufacturing,1
+RM,Semester 8,MT-803(C),Advanced Control Engineering,1
+INSTRUMENTATION,Semester 1,BT-101,Engineering Mathematics-I,1
+INSTRUMENTATION,Semester 1,BT-102,Engineering Chemistry,1
+INSTRUMENTATION,Semester 1,BT-103,English for Communication,1
+INSTRUMENTATION,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+INSTRUMENTATION,Semester 1,BT-105,Engineering Graphics,1
+INSTRUMENTATION,Semester 2,BT-201,Engineering Mathematics-II,1
+INSTRUMENTATION,Semester 2,BT-202,Engineering Physics,1
+INSTRUMENTATION,Semester 2,BT-203,Basic Mechanical Engineering,1
+INSTRUMENTATION,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+INSTRUMENTATION,Semester 2,BT-205,Basic Computer Engineering,1
+INSTRUMENTATION,Semester 3,BT-301,Mathematics-III,1
+INSTRUMENTATION,Semester 3,IN-302,Electrical Circuits & Networks,1
+INSTRUMENTATION,Semester 3,IN-303,Electronic Devices & Circuits,1
+INSTRUMENTATION,Semester 3,IN-304,Digital Electronics,1
+INSTRUMENTATION,Semester 3,IN-305,Sensors & Transducers,1
+INSTRUMENTATION,Semester 4,BT-401,Mathematics-IV,1
+INSTRUMENTATION,Semester 4,IN-402,Analog Electronics,1
+INSTRUMENTATION,Semester 4,IN-403,Industrial Instrumentation,1
+INSTRUMENTATION,Semester 4,IN-404,Control Systems,1
+INSTRUMENTATION,Semester 4,IN-405,Signals & Systems,1
+INSTRUMENTATION,Semester 5,IN-501,Process Control,1
+INSTRUMENTATION,Semester 5,IN-502,Microprocessors & Microcontrollers,1
+INSTRUMENTATION,Semester 5,IN-503(A),Biomedical Instrumentation,1
+INSTRUMENTATION,Semester 5,IN-503(B),Analytical Instrumentation,1
+INSTRUMENTATION,Semester 5,IN-503(C),Digital Signal Processing,1
+INSTRUMENTATION,Semester 5,IN-504(A),Industrial Automation,1
+INSTRUMENTATION,Semester 5,IN-504(B),PLC & SCADA,1
+INSTRUMENTATION,Semester 5,IN-504(C),Embedded Systems,1
+INSTRUMENTATION,Semester 6,IN-601,Advanced Process Control,1
+INSTRUMENTATION,Semester 6,IN-602,Computer Control of Processes,1
+INSTRUMENTATION,Semester 6,IN-603,Power Plant Instrumentation,1
+INSTRUMENTATION,Semester 6,IN-604(A),Robotics & Automation,1
+INSTRUMENTATION,Semester 6,IN-604(B),Optical Instrumentation,1
+INSTRUMENTATION,Semester 6,IN-604(C),Wireless Instrumentation,1
+INSTRUMENTATION,Semester 7,IN-701,Distributed Control Systems,1
+INSTRUMENTATION,Semester 7,IN-702,Industrial Safety & Instrumentation,1
+INSTRUMENTATION,Semester 7,IN-703(A),Virtual Instrumentation,1
+INSTRUMENTATION,Semester 7,IN-703(B),MEMS & Microsystems,1
+INSTRUMENTATION,Semester 7,IN-703(C),IoT for Instrumentation,1
+INSTRUMENTATION,Semester 7,IN-704,Industrial Management & Entrepreneurship,1
+INSTRUMENTATION,Semester 8,IN-801,Advanced Instrumentation Engineering,1
+INSTRUMENTATION,Semester 8,IN-802,Recent Trends in Instrumentation,1
+INSTRUMENTATION,Semester 8,IN-803(A),Smart Sensors & Measurement Systems,1
+INSTRUMENTATION,Semester 8,IN-803(B),Industrial IoT,1
+INSTRUMENTATION,Semester 8,IN-803(C),Artificial Intelligence in Instrumentation,1
+ENV,Semester 1,BT-101,Engineering Mathematics-I,1
+ENV,Semester 1,BT-102,Engineering Chemistry,1
+ENV,Semester 1,BT-103,English for Communication,1
+ENV,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+ENV,Semester 1,BT-105,Engineering Graphics,1
+ENV,Semester 2,BT-201,Engineering Mathematics-II,1
+ENV,Semester 2,BT-202,Engineering Physics,1
+ENV,Semester 2,BT-203,Basic Mechanical Engineering,1
+ENV,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+ENV,Semester 2,BT-205,Basic Computer Engineering,1
+ENV,Semester 3,BT-301,Mathematics-III,1
+ENV,Semester 3,EV-302,Environmental Chemistry,1
+ENV,Semester 3,EV-303,Fluid Mechanics,1
+ENV,Semester 3,EV-304,Engineering Geology,1
+ENV,Semester 3,EV-305,Environmental Microbiology,1
+ENV,Semester 4,BT-401,Mathematics-IV,1
+ENV,Semester 4,EV-402,Water Supply Engineering,1
+ENV,Semester 4,EV-403,Wastewater Engineering,1
+ENV,Semester 4,EV-404,Air Pollution & Control,1
+ENV,Semester 4,EV-405,Solid Waste Management,1
+ENV,Semester 5,EV-501,Environmental Impact Assessment,1
+ENV,Semester 5,EV-502,Industrial Waste Management,1
+ENV,Semester 5,EV-503(A),Noise Pollution & Control,1
+ENV,Semester 5,EV-503(B),Hazardous Waste Management,1
+ENV,Semester 5,EV-503(C),Environmental Biotechnology,1
+ENV,Semester 5,EV-504(A),Environmental Modeling,1
+ENV,Semester 5,EV-504(B),Groundwater Engineering,1
+ENV,Semester 5,EV-504(C),Renewable Energy Systems,1
+ENV,Semester 6,EV-601,Water & Wastewater Treatment,1
+ENV,Semester 6,EV-602,Environmental Management,1
+ENV,Semester 6,EV-603,Remote Sensing & GIS,1
+ENV,Semester 6,EV-604(A),Climate Change & Sustainable Development,1
+ENV,Semester 6,EV-604(B),Industrial Safety & Environmental Engineering,1
+ENV,Semester 6,EV-604(C),Environmental Laws & Policies,1
+ENV,Semester 7,EV-701,Environmental Systems Engineering,1
+ENV,Semester 7,EV-702,Resource Conservation & Recycling,1
+ENV,Semester 7,EV-703(A),Green Building Technology,1
+ENV,Semester 7,EV-703(B),Disaster Management,1
+ENV,Semester 7,EV-703(C),Energy & Environment,1
+ENV,Semester 7,EV-704,Industrial Management & Entrepreneurship,1
+ENV,Semester 8,EV-801,Advanced Environmental Engineering,1
+ENV,Semester 8,EV-802,Recent Trends in Environmental Engineering,1
+ENV,Semester 8,EV-803(A),Sustainable Infrastructure,1
+ENV,Semester 8,EV-803(B),Environmental Risk Assessment,1
+ENV,Semester 8,EV-803(C),Cleaner Production Technology,1
+ARCH,Semester 1,AR-101,Architectural Design-I,1
+ARCH,Semester 1,AR-102,Building Materials & Construction-I,1
+ARCH,Semester 1,AR-103,Architectural Graphics-I,1
+ARCH,Semester 1,AR-104,Theory of Structures-I,1
+ARCH,Semester 1,AR-105,History of Architecture-I,1
+ARCH,Semester 2,AR-201,Architectural Design-II,1
+ARCH,Semester 2,AR-202,Building Materials & Construction-II,1
+ARCH,Semester 2,AR-203,Architectural Graphics-II,1
+ARCH,Semester 2,AR-204,Theory of Structures-II,1
+ARCH,Semester 2,AR-205,History of Architecture-II,1
+ARCH,Semester 3,AR-301,Architectural Design-III,1
+ARCH,Semester 3,AR-302,Building Construction-III,1
+ARCH,Semester 3,AR-303,Climatology,1
+ARCH,Semester 3,AR-304,Theory of Structures-III,1
+ARCH,Semester 3,AR-305,History of Architecture-III,1
+ARCH,Semester 4,AR-401,Architectural Design-IV,1
+ARCH,Semester 4,AR-402,Building Construction-IV,1
+ARCH,Semester 4,AR-403,Building Services-I,1
+ARCH,Semester 4,AR-404,Theory of Structures-IV,1
+ARCH,Semester 4,AR-405,Estimation & Costing,1
+ARCH,Semester 5,AR-501,Architectural Design-V,1
+ARCH,Semester 5,AR-502,Building Services-II,1
+ARCH,Semester 5,AR-503,Landscape Architecture,1
+ARCH,Semester 5,AR-504,Specifications & Contracts,1
+ARCH,Semester 5,AR-505,Interior Design,1
+ARCH,Semester 6,AR-601,Architectural Design-VI,1
+ARCH,Semester 6,AR-602,Housing,1
+ARCH,Semester 6,AR-603,Urban Planning,1
+ARCH,Semester 6,AR-604,Quantity Surveying & Valuation,1
+ARCH,Semester 6,AR-605,Professional Practice-I,1
+ARCH,Semester 7,AR-701,Architectural Design-VII,1
+ARCH,Semester 7,AR-702,Town Planning,1
+ARCH,Semester 7,AR-703,Advanced Building Construction,1
+ARCH,Semester 7,AR-704,Building Management,1
+ARCH,Semester 7,AR-705,Professional Practice-II,1
+ARCH,Semester 8,AR-801,Architectural Design-VIII,1
+ARCH,Semester 8,AR-802,Environmental Planning,1
+ARCH,Semester 8,AR-803,Advanced Building Services,1
+ARCH,Semester 8,AR-804,Disaster Management,1
+ARCH,Semester 8,AR-805,Research Methodology,1
+MM,Semester 1,BT-101,Engineering Mathematics-I,1
+MM,Semester 1,BT-102,Engineering Chemistry,1
+MM,Semester 1,BT-103,English for Communication,1
+MM,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+MM,Semester 1,BT-105,Engineering Graphics,1
+MM,Semester 2,BT-201,Engineering Mathematics-II,1
+MM,Semester 2,BT-202,Engineering Physics,1
+MM,Semester 2,BT-203,Basic Mechanical Engineering,1
+MM,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+MM,Semester 2,BT-205,Basic Computer Engineering,1
+MM,Semester 3,BT-301,Mathematics-III,1
+MM,Semester 3,ML-302,Physical Metallurgy,1
+MM,Semester 3,ML-303,Engineering Thermodynamics,1
+MM,Semester 3,ML-304,Metallurgical Analysis,1
+MM,Semester 3,ML-305,Engineering Materials,1
+MM,Semester 4,BT-401,Mathematics-IV,1
+MM,Semester 4,ML-402,Mechanical Metallurgy,1
+MM,Semester 4,ML-403,Extractive Metallurgy-I,1
+MM,Semester 4,ML-404,Phase Transformations,1
+MM,Semester 4,ML-405,"Fuel, Furnace & Refractories",1
+MM,Semester 5,ML-501,Iron Making,1
+MM,Semester 5,ML-502,Steel Making,1
+MM,Semester 5,ML-503(A),Foundry Technology,1
+MM,Semester 5,ML-503(B),Welding Technology,1
+MM,Semester 5,ML-503(C),Powder Metallurgy,1
+MM,Semester 5,ML-504(A),Heat Treatment Technology,1
+MM,Semester 5,ML-504(B),Corrosion Engineering,1
+MM,Semester 5,ML-504(C),Non-Ferrous Metallurgy,1
+MM,Semester 6,ML-601,Extractive Metallurgy-II,1
+MM,Semester 6,ML-602,Mechanical Behaviour of Materials,1
+MM,Semester 6,ML-603,Materials Characterization,1
+MM,Semester 6,ML-604(A),Composite Materials,1
+MM,Semester 6,ML-604(B),Surface Engineering,1
+MM,Semester 6,ML-604(C),Nano Materials,1
+MM,Semester 7,ML-701,Advanced Physical Metallurgy,1
+MM,Semester 7,ML-702,Materials Processing,1
+MM,Semester 7,ML-703(A),Failure Analysis,1
+MM,Semester 7,ML-703(B),Industrial Metallurgy,1
+MM,Semester 7,ML-703(C),Advanced Materials,1
+MM,Semester 7,ML-704,Industrial Management & Entrepreneurship,1
+MM,Semester 8,ML-801,Modern Metallurgical Engineering,1
+MM,Semester 8,ML-802,Recent Trends in Metallurgy,1
+MM,Semester 8,ML-803(A),Biomaterials,1
+MM,Semester 8,ML-803(B),Energy Materials,1
+MM,Semester 8,ML-803(C),Materials Selection & Design,1
+MI,Semester 1,BT-101,Engineering Mathematics-I,1
+MI,Semester 1,BT-102,Engineering Chemistry,1
+MI,Semester 1,BT-103,English for Communication,1
+MI,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+MI,Semester 1,BT-105,Engineering Graphics,1
+MI,Semester 2,BT-201,Engineering Mathematics-II,1
+MI,Semester 2,BT-202,Engineering Physics,1
+MI,Semester 2,BT-203,Basic Mechanical Engineering,1
+MI,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+MI,Semester 2,BT-205,Basic Computer Engineering,1
+MI,Semester 3,BT-301,Mathematics-III,1
+MI,Semester 3,MN-302,Introduction to Mining Engineering,1
+MI,Semester 3,MN-303,Mine Surveying-I,1
+MI,Semester 3,MN-304,Mining Geology,1
+MI,Semester 3,MN-305,Rock Mechanics,1
+MI,Semester 4,BT-401,Mathematics-IV,1
+MI,Semester 4,MN-402,Surface Mining,1
+MI,Semester 4,MN-403,Underground Coal Mining,1
+MI,Semester 4,MN-404,Mine Surveying-II,1
+MI,Semester 4,MN-405,Mine Ventilation,1
+MI,Semester 5,MN-501,Mine Environmental Engineering,1
+MI,Semester 5,MN-502,Mine Machinery,1
+MI,Semester 5,MN-503(A),Drilling & Blasting,1
+MI,Semester 5,MN-503(B),Mineral Processing,1
+MI,Semester 5,MN-503(C),Mine Safety Engineering,1
+MI,Semester 5,MN-504(A),Underground Metal Mining,1
+MI,Semester 5,MN-504(B),Mine Management,1
+MI,Semester 5,MN-504(C),Tunnelling Engineering,1
+MI,Semester 6,MN-601,Mine Planning & Design,1
+MI,Semester 6,MN-602,Mine Economics,1
+MI,Semester 6,MN-603,Mine Transportation,1
+MI,Semester 6,MN-604(A),Rock Excavation Engineering,1
+MI,Semester 6,MN-604(B),Advanced Mine Ventilation,1
+MI,Semester 6,MN-604(C),Geo-Mechanics,1
+MI,Semester 7,MN-701,Mine Systems Engineering,1
+MI,Semester 7,MN-702,Mine Legislation,1
+MI,Semester 7,MN-703(A),Computer Applications in Mining,1
+MI,Semester 7,MN-703(B),Mine Automation,1
+MI,Semester 7,MN-703(C),Remote Sensing & GIS in Mining,1
+MI,Semester 7,MN-704,Industrial Management & Entrepreneurship,1
+MI,Semester 8,MN-801,Advanced Mining Engineering,1
+MI,Semester 8,MN-802,Recent Trends in Mining Engineering,1
+MI,Semester 8,MN-803(A),Sustainable Mining,1
+MI,Semester 8,MN-803(B),Mine Disaster Management,1
+MI,Semester 8,MN-803(C),Advanced Mineral Exploration,1
+TX,Semester 1,BT-101,Engineering Mathematics-I,1
+TX,Semester 1,BT-102,Engineering Chemistry,1
+TX,Semester 1,BT-103,English for Communication,1
+TX,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+TX,Semester 1,BT-105,Engineering Graphics,1
+TX,Semester 2,BT-201,Engineering Mathematics-II,1
+TX,Semester 2,BT-202,Engineering Physics,1
+TX,Semester 2,BT-203,Basic Mechanical Engineering,1
+TX,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+TX,Semester 2,BT-205,Basic Computer Engineering,1
+TX,Semester 3,BT-301,Mathematics-III,1
+TX,Semester 3,TT-302,Fibre Science & Technology,1
+TX,Semester 3,TT-303,Yarn Manufacturing Technology-I,1
+TX,Semester 3,TT-304,Textile Testing,1
+TX,Semester 3,TT-305,Textile Raw Materials,1
+TX,Semester 4,BT-401,Mathematics-IV,1
+TX,Semester 4,TT-402,Yarn Manufacturing Technology-II,1
+TX,Semester 4,TT-403,Fabric Manufacturing Technology,1
+TX,Semester 4,TT-404,Textile Physics,1
+TX,Semester 4,TT-405,Textile Chemical Processing-I,1
+TX,Semester 5,TT-501,Textile Chemical Processing-II,1
+TX,Semester 5,TT-502,Knitting Technology,1
+TX,Semester 5,TT-503(A),Weaving Technology,1
+TX,Semester 5,TT-503(B),Nonwoven Technology,1
+TX,Semester 5,TT-503(C),Textile Machinery,1
+TX,Semester 5,TT-504(A),Garment Manufacturing Technology,1
+TX,Semester 5,TT-504(B),Textile Quality Control,1
+TX,Semester 5,TT-504(C),Technical Textiles,1
+TX,Semester 6,TT-601,Textile Design,1
+TX,Semester 6,TT-602,Textile Finishing,1
+TX,Semester 6,TT-603,Apparel Technology,1
+TX,Semester 6,TT-604(A),Textile Management,1
+TX,Semester 6,TT-604(B),Industrial Engineering in Textiles,1
+TX,Semester 6,TT-604(C),Computer Applications in Textiles,1
+TX,Semester 7,TT-701,Advanced Textile Technology,1
+TX,Semester 7,TT-702,Textile Engineering Economics,1
+TX,Semester 7,TT-703(A),Fashion Technology,1
+TX,Semester 7,TT-703(B),Textile Composite Materials,1
+TX,Semester 7,TT-703(C),Smart Textiles,1
+TX,Semester 7,TT-704,Industrial Management & Entrepreneurship,1
+TX,Semester 8,TT-801,Modern Textile Technology,1
+TX,Semester 8,TT-802,Recent Trends in Textile Engineering,1
+TX,Semester 8,TT-803(A),Sustainable Textile Technology,1
+TX,Semester 8,TT-803(B),Advanced Garment Engineering,1
+TX,Semester 8,TT-803(C),Technical & Functional Textiles,1
+PETROLEUM,Semester 1,BT-101,Engineering Mathematics-I,1
+PETROLEUM,Semester 1,BT-102,Engineering Chemistry,1
+PETROLEUM,Semester 1,BT-103,English for Communication,1
+PETROLEUM,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+PETROLEUM,Semester 1,BT-105,Engineering Graphics,1
+PETROLEUM,Semester 2,BT-201,Engineering Mathematics-II,1
+PETROLEUM,Semester 2,BT-202,Engineering Physics,1
+PETROLEUM,Semester 2,BT-203,Basic Mechanical Engineering,1
+PETROLEUM,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+PETROLEUM,Semester 2,BT-205,Basic Computer Engineering,1
+PETROLEUM,Semester 3,BT-301,Mathematics-III,1
+PETROLEUM,Semester 3,PT-302,Petroleum Geology,1
+PETROLEUM,Semester 3,PT-303,Fluid Mechanics,1
+PETROLEUM,Semester 3,PT-304,Engineering Thermodynamics,1
+PETROLEUM,Semester 3,PT-305,Drilling Engineering-I,1
+PETROLEUM,Semester 4,BT-401,Mathematics-IV,1
+PETROLEUM,Semester 4,PT-402,Reservoir Engineering-I,1
+PETROLEUM,Semester 4,PT-403,Drilling Engineering-II,1
+PETROLEUM,Semester 4,PT-404,Well Logging & Formation Evaluation,1
+PETROLEUM,Semester 4,PT-405,Petroleum Production Engineering-I,1
+PETROLEUM,Semester 5,PT-501,Petroleum Production Engineering-II,1
+PETROLEUM,Semester 5,PT-502,Reservoir Engineering-II,1
+PETROLEUM,Semester 5,PT-503(A),Natural Gas Engineering,1
+PETROLEUM,Semester 5,PT-503(B),Offshore Drilling Technology,1
+PETROLEUM,Semester 5,PT-503(C),Petroleum Refining Technology,1
+PETROLEUM,Semester 5,PT-504(A),Enhanced Oil Recovery,1
+PETROLEUM,Semester 5,PT-504(B),Pipeline Engineering,1
+PETROLEUM,Semester 5,PT-504(C),Petroleum Economics,1
+PETROLEUM,Semester 6,PT-601,Reservoir Simulation,1
+PETROLEUM,Semester 6,PT-602,Well Testing,1
+PETROLEUM,Semester 6,PT-603,Petroleum Exploration,1
+PETROLEUM,Semester 6,PT-604(A),Offshore Production Engineering,1
+PETROLEUM,Semester 6,PT-604(B),"Health, Safety & Environment in Petroleum Industry",1
+PETROLEUM,Semester 6,PT-604(C),Unconventional Oil & Gas Resources,1
+PETROLEUM,Semester 7,PT-701,Advanced Drilling Engineering,1
+PETROLEUM,Semester 7,PT-702,Petroleum Reservoir Management,1
+PETROLEUM,Semester 7,PT-703(A),LNG Technology,1
+PETROLEUM,Semester 7,PT-703(B),Oil & Gas Processing,1
+PETROLEUM,Semester 7,PT-703(C),Energy Engineering,1
+PETROLEUM,Semester 7,PT-704,Industrial Management & Entrepreneurship,1
+PETROLEUM,Semester 8,PT-801,Advanced Petroleum Engineering,1
+PETROLEUM,Semester 8,PT-802,Recent Trends in Petroleum Engineering,1
+PETROLEUM,Semester 8,PT-803(A),Deepwater Drilling Technology,1
+PETROLEUM,Semester 8,PT-803(B),Carbon Capture & Storage,1
+PETROLEUM,Semester 8,PT-803(C),Petroleum Asset Management,1
+FT,Semester 1,BT-101,Engineering Mathematics-I,1
+FT,Semester 1,BT-102,Engineering Chemistry,1
+FT,Semester 1,BT-103,English for Communication,1
+FT,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+FT,Semester 1,BT-105,Engineering Graphics,1
+FT,Semester 2,BT-201,Engineering Mathematics-II,1
+FT,Semester 2,BT-202,Engineering Physics,1
+FT,Semester 2,BT-203,Basic Mechanical Engineering,1
+FT,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+FT,Semester 2,BT-205,Basic Computer Engineering,1
+FT,Semester 3,BT-301,Mathematics-III,1
+FT,Semester 3,FT-302,Food Chemistry,1
+FT,Semester 3,FT-303,Food Microbiology,1
+FT,Semester 3,FT-304,Engineering Properties of Food,1
+FT,Semester 3,FT-305,Food Biochemistry,1
+FT,Semester 4,BT-401,Mathematics-IV,1
+FT,Semester 4,FT-402,Food Processing Technology-I,1
+FT,Semester 4,FT-403,Food Preservation Technology,1
+FT,Semester 4,FT-404,Heat & Mass Transfer,1
+FT,Semester 4,FT-405,Food Analysis & Instrumentation,1
+FT,Semester 5,FT-501,Food Processing Technology-II,1
+FT,Semester 5,FT-502,Dairy Technology,1
+FT,Semester 5,FT-503(A),Fruit & Vegetable Processing,1
+FT,Semester 5,FT-503(B),"Cereal, Pulse & Oilseed Technology",1
+FT,Semester 5,FT-503(C),"Meat, Fish & Poultry Processing",1
+FT,Semester 5,FT-504(A),Food Packaging Technology,1
+FT,Semester 5,FT-504(B),Food Plant Engineering,1
+FT,Semester 5,FT-504(C),Food Quality Assurance,1
+FT,Semester 6,FT-601,Food Process Engineering,1
+FT,Semester 6,FT-602,Food Safety & Standards,1
+FT,Semester 6,FT-603,Refrigeration & Cold Storage,1
+FT,Semester 6,FT-604(A),Functional Foods & Nutraceuticals,1
+FT,Semester 6,FT-604(B),Bakery & Confectionery Technology,1
+FT,Semester 6,FT-604(C),Beverage Technology,1
+FT,Semester 7,FT-701,Food Product Development,1
+FT,Semester 7,FT-702,Food Biotechnology,1
+FT,Semester 7,FT-703(A),Food Supply Chain Management,1
+FT,Semester 7,FT-703(B),Quality Management Systems,1
+FT,Semester 7,FT-703(C),Food Waste Management,1
+FT,Semester 7,FT-704,Industrial Management & Entrepreneurship,1
+FT,Semester 8,FT-801,Advanced Food Technology,1
+FT,Semester 8,FT-802,Recent Trends in Food Technology,1
+FT,Semester 8,FT-803(A),Food Nanotechnology,1
+FT,Semester 8,FT-803(B),Food Toxicology,1
+FT,Semester 8,FT-803(C),Food Business Management,1
+ROBOTICS,Semester 1,BT-101,Engineering Mathematics-I,1
+ROBOTICS,Semester 1,BT-102,Engineering Chemistry,1
+ROBOTICS,Semester 1,BT-103,English for Communication,1
+ROBOTICS,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+ROBOTICS,Semester 1,BT-105,Engineering Graphics,1
+ROBOTICS,Semester 2,BT-201,Engineering Mathematics-II,1
+ROBOTICS,Semester 2,BT-202,Engineering Physics,1
+ROBOTICS,Semester 2,BT-203,Basic Mechanical Engineering,1
+ROBOTICS,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+ROBOTICS,Semester 2,BT-205,Basic Computer Engineering,1
+ROBOTICS,Semester 3,BT-301,Mathematics-III,1
+ROBOTICS,Semester 3,RB-302,Engineering Mechanics,1
+ROBOTICS,Semester 3,RB-303,Electronic Devices & Circuits,1
+ROBOTICS,Semester 3,RB-304,Data Structures,1
+ROBOTICS,Semester 3,RB-305,Digital Electronics,1
+ROBOTICS,Semester 4,BT-401,Mathematics-IV,1
+ROBOTICS,Semester 4,RB-402,Microprocessors & Microcontrollers,1
+ROBOTICS,Semester 4,RB-403,Control Systems,1
+ROBOTICS,Semester 4,RB-404,Sensors & Actuators,1
+ROBOTICS,Semester 4,RB-405,Kinematics of Machines,1
+ROBOTICS,Semester 5,RB-501,Robotics Engineering,1
+ROBOTICS,Semester 5,RB-502,Embedded Systems,1
+ROBOTICS,Semester 5,RB-503(A),Industrial Robotics,1
+ROBOTICS,Semester 5,RB-503(B),Artificial Intelligence,1
+ROBOTICS,Semester 5,RB-503(C),Machine Vision,1
+ROBOTICS,Semester 5,RB-504(A),PLC & SCADA,1
+ROBOTICS,Semester 5,RB-504(B),Mechatronics,1
+ROBOTICS,Semester 5,RB-504(C),Computer Vision,1
+ROBOTICS,Semester 6,RB-601,Robot Dynamics & Control,1
+ROBOTICS,Semester 6,RB-602,Autonomous Mobile Robots,1
+ROBOTICS,Semester 6,RB-603,Internet of Things,1
+ROBOTICS,Semester 6,RB-604(A),Machine Learning,1
+ROBOTICS,Semester 6,RB-604(B),Human Robot Interaction,1
+ROBOTICS,Semester 6,RB-604(C),Industrial Automation,1
+ROBOTICS,Semester 7,RB-701,Advanced Robotics,1
+ROBOTICS,Semester 7,RB-702,Intelligent Robotic Systems,1
+ROBOTICS,Semester 7,RB-703(A),Swarm Robotics,1
+ROBOTICS,Semester 7,RB-703(B),Medical Robotics,1
+ROBOTICS,Semester 7,RB-703(C),UAV & Drone Technology,1
+ROBOTICS,Semester 7,RB-704,Industrial Management & Entrepreneurship,1
+ROBOTICS,Semester 8,RB-801,Advanced Robot Design,1
+ROBOTICS,Semester 8,RB-802,Recent Trends in Robotics Engineering,1
+ROBOTICS,Semester 8,RB-803(A),Collaborative Robotics (Cobots),1
+ROBOTICS,Semester 8,RB-803(B),Robotic Process Automation (RPA),1
+ROBOTICS,Semester 8,RB-803(C),AI Applications in Robotics,1
+NANO,Semester 1,BT-101,Engineering Mathematics-I,1
+NANO,Semester 1,BT-102,Engineering Chemistry,1
+NANO,Semester 1,BT-103,English for Communication,1
+NANO,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+NANO,Semester 1,BT-105,Engineering Graphics,1
+NANO,Semester 2,BT-201,Engineering Mathematics-II,1
+NANO,Semester 2,BT-202,Engineering Physics,1
+NANO,Semester 2,BT-203,Basic Mechanical Engineering,1
+NANO,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+NANO,Semester 2,BT-205,Basic Computer Engineering,1
+NANO,Semester 3,BT-301,Mathematics-III,1
+NANO,Semester 3,NT-302,Introduction to Nanotechnology,1
+NANO,Semester 3,NT-303,Solid State Physics,1
+NANO,Semester 3,NT-304,Materials Science,1
+NANO,Semester 3,NT-305,Engineering Chemistry for Nanotechnology,1
+NANO,Semester 4,BT-401,Mathematics-IV,1
+NANO,Semester 4,NT-402,Nano Materials,1
+NANO,Semester 4,NT-403,Quantum Mechanics,1
+NANO,Semester 4,NT-404,Nano Fabrication Techniques,1
+NANO,Semester 4,NT-405,Nano Characterization Techniques,1
+NANO,Semester 5,NT-501,Nano Electronics,1
+NANO,Semester 5,NT-502,Nano Biotechnology,1
+NANO,Semester 5,NT-503(A),Carbon Nanomaterials,1
+NANO,Semester 5,NT-503(B),Nano Photonics,1
+NANO,Semester 5,NT-503(C),Nano Sensors,1
+NANO,Semester 5,NT-504(A),Thin Film Technology,1
+NANO,Semester 5,NT-504(B),MEMS & NEMS,1
+NANO,Semester 5,NT-504(C),Computational Nanotechnology,1
+NANO,Semester 6,NT-601,Nanocomposites,1
+NANO,Semester 6,NT-602,Nano Device Engineering,1
+NANO,Semester 6,NT-603,Nano Toxicology & Safety,1
+NANO,Semester 6,NT-604(A),Biomedical Nanotechnology,1
+NANO,Semester 6,NT-604(B),Energy Nanotechnology,1
+NANO,Semester 6,NT-604(C),Polymer Nanotechnology,1
+NANO,Semester 7,NT-701,Advanced Nanotechnology,1
+NANO,Semester 7,NT-702,Nano Manufacturing,1
+NANO,Semester 7,NT-703(A),Nano Medicine,1
+NANO,Semester 7,NT-703(B),Environmental Nanotechnology,1
+NANO,Semester 7,NT-703(C),Nano Robotics,1
+NANO,Semester 7,NT-704,Industrial Management & Entrepreneurship,1
+NANO,Semester 8,NT-801,Recent Trends in Nanotechnology,1
+NANO,Semester 8,NT-802,Nanotechnology Applications,1
+NANO,Semester 8,NT-803(A),Advanced Functional Nanomaterials,1
+NANO,Semester 8,NT-803(B),Nano Energy Systems,1
+NANO,Semester 8,NT-803(C),Nano Product Design,1
+MARINE,Semester 1,BT-101,Engineering Mathematics-I,1
+MARINE,Semester 1,BT-102,Engineering Chemistry,1
+MARINE,Semester 1,BT-103,English for Communication,1
+MARINE,Semester 1,BT-104,Basic Electrical & Electronics Engineering,1
+MARINE,Semester 1,BT-105,Engineering Graphics,1
+MARINE,Semester 2,BT-201,Engineering Mathematics-II,1
+MARINE,Semester 2,BT-202,Engineering Physics,1
+MARINE,Semester 2,BT-203,Basic Mechanical Engineering,1
+MARINE,Semester 2,BT-204,Basic Civil Engineering & Mechanics,1
+MARINE,Semester 2,BT-205,Basic Computer Engineering,1
+MARINE,Semester 3,BT-301,Mathematics-III,1
+MARINE,Semester 3,MR-302,Applied Mechanics,1
+MARINE,Semester 3,MR-303,Engineering Thermodynamics,1
+MARINE,Semester 3,MR-304,Marine Engineering Drawing,1
+MARINE,Semester 3,MR-305,Electrical Technology,1
+MARINE,Semester 4,BT-401,Mathematics-IV,1
+MARINE,Semester 4,MR-402,Marine Boilers,1
+MARINE,Semester 4,MR-403,Marine Diesel Engines,1
+MARINE,Semester 4,MR-404,Fluid Mechanics & Hydraulic Machines,1
+MARINE,Semester 4,MR-405,Marine Electrical Technology,1
+MARINE,Semester 5,MR-501,Naval Architecture,1
+MARINE,Semester 5,MR-502,Marine Auxiliary Machinery,1
+MARINE,Semester 5,MR-503(A),Ship Construction,1
+MARINE,Semester 5,MR-503(B),Marine Heat Engines,1
+MARINE,Semester 5,MR-503(C),Marine Refrigeration & Air Conditioning,1
+MARINE,Semester 5,MR-504(A),Marine Automation,1
+MARINE,Semester 5,MR-504(B),Marine Pollution & Control,1
+MARINE,Semester 5,MR-504(C),Marine Materials,1
+MARINE,Semester 6,MR-601,Marine Power Plant,1
+MARINE,Semester 6,MR-602,Marine Control Systems,1
+MARINE,Semester 6,MR-603,Marine Electrical Machines,1
+MARINE,Semester 6,MR-604(A),Marine Safety & Regulations,1
+MARINE,Semester 6,MR-604(B),Ship Operation & Maintenance,1
+MARINE,Semester 6,MR-604(C),Offshore Engineering,1
+MARINE,Semester 7,MR-701,Advanced Marine Engineering,1
+MARINE,Semester 7,MR-702,Ship Design & Stability,1
+MARINE,Semester 7,MR-703(A),Port & Harbour Engineering,1
+MARINE,Semester 7,MR-703(B),Marine Renewable Energy,1
+MARINE,Semester 7,MR-703(C),Marine Robotics,1
+MARINE,Semester 7,MR-704,Industrial Management & Entrepreneurship,1
+MARINE,Semester 8,MR-801,Modern Marine Engineering,1
+MARINE,Semester 8,MR-802,Recent Trends in Marine Engineering,1
+MARINE,Semester 8,MR-803(A),LNG & Gas Carrier Technology,1
+MARINE,Semester 8,MR-803(B),Marine Energy Management,1
+MARINE,Semester 8,MR-803(C),Smart Ship Technology,1
+3DAG,Semester 3,AG-303,Data Structures,5
+3DAG,Semester 3,AG-305,Digital Circuits and Systems,2
+3DAG,Semester 3,ES-301,Energy and Environmental Engineering,2
+3DAG,Semester 4,AG-405,Database Management System,3
+3DAG,Semester 4,BT-401,Mathematics- III,2
+3DAG,Semester 4,IT-402,Computer Architecture,3
+3DAG,Semester 4,IT-403,Analysis and Design of Algorithm,4
+AB,Semester 3,BT-301,Mathematics-III,1
+AB,Semester 3,ES-301,Energy and Environmental Engineering,1
+AB,Semester 3,RM-302,Thermo fluid Engineering,1
+AB,Semester 3,RM-303,Kinematics of Machines,1
+AB,Semester 3,RM-304,Strength of Material,1
+AB,Semester 3,RM-305,Manufacturing Technology,1
+AB,Semester 4,AB-402,Robotics Engineering,1
+AB,Semester 4,AB-403,Industrial Automation,1
+AB,Semester 4,AB-404,Machine Drawing and Design,1
+AB,Semester 4,AB-405,Materials Technology,1
+AB,Semester 4,ES-401,Energy and Environmental Engineering,2
+AB,Semester 7,AB-701,Computer Integrated Manufacturing,1
+AB,Semester 7,AB-702-A,Farm Automation,1
+AB,Semester 7,AB-703-B,Industry 4,1
+AD,Semester 3,AD-301,Technical Communication,6
+AD,Semester 3,AD-302,Introduction to Probability and Statistics,1
+AD,Semester 3,AD-302,Probability and Statistics for Data Science,4
+AD,Semester 3,AD-303,Data Structure and Algorithms,1
+AD,Semester 3,AD-303,Data Structures,6
+AD,Semester 3,AD-304,Artificial Intelligence,6
+AD,Semester 3,AD-305,Object Oriented Programming and Methodology,7
+AD,Semester 3,BT-301,Mathematics-III,1
+AD,Semester 3,ES-301,Energy and Environmental Engineering,3
+AD,Semester 3,SD-302,Discrete Structure,2
+AD,Semester 4,AD-402,Database Management Systems,3
+AD,Semester 4,AD-403,Software Engineering with Agile Methodology,3
+AD,Semester 4,AD-404,Computer Organization and Architecture,1
+AD,Semester 4,AD-404,Data Science,4
+AD,Semester 4,AD-405,Operating Systems,4
+AD,Semester 4,AL-403,Software Engineering,1
+AD,Semester 4,BT-401,Mathematics- III,2
+AD,Semester 4,ES-401,Energy and Environmental Engineering,1
+AD,Semester 5,AD-501,Theory of Computation,2
+AD,Semester 5,AD-502,Machine Learning,2
+AD,Semester 5,AD-503-A,Internet and Web Technology,2
+AD,Semester 5,AD-504-A,Management Information System,2
+AD,Semester 6,AD-601,Deep Learning,3
+AD,Semester 6,AD-602,Computer Networks,3
+AD,Semester 6,AD-603-A,Data Mining and Warehousing,3
+AD,Semester 6,AD-604-A,Internet of Things,1
+AD,Semester 6,AD-604-C,Compiler Design,1
+AD,Semester 7,AD-701,For Computer Vision,1
+AD,Semester 7,AD-702-A,Cloud Computing,1
+AD,Semester 7,AD-702-C,Computational Intelligence,1
+AD,Semester 7,AD-703-A,Data Visualization,1
+AD,Semester 8,AD-801,Big Data,1
+AD,Semester 8,AD-802-B,Reinforcement Learning,1
+AD,Semester 8,AD-803,Managing Innovation and Entrepreneurship,2
+AIML,Semester 3,AL-301,Technical Communication,9
+AIML,Semester 3,AL-302,Introduction to Probability and Statistics,13
+AIML,Semester 3,AL-303,Data Structures,5
+AIML,Semester 3,AL-304,Artificial Intelligence,11
+AIML,Semester 3,AL-305,Object Oriented Programming and Methodology,9
+AIML,Semester 4,AL-401,Introduction to Discrete Structure and Linear Algebra,10
+AIML,Semester 4,AL-402,Analysis and Design of Algorithms,9
+AIML,Semester 4,AL-403,Software Engineering,8
+AIML,Semester 4,AL-404,Computer Organization and Architecture,11
+AIML,Semester 4,AL-405,Machine Learning,7
+AI,Semester 5,AI-501,Operating Systems,1
+AI,Semester 5,AI-502,Database Management Systems,1
+AI,Semester 6,AL-601,Theory of Computation,1
+AIML,Semester 5,AL-501,Operating Systems,3
+AIML,Semester 5,AL-502,Database Management Systems,2
+AIML,Semester 5,AL-503,Verify_from_rgpv,1
+AIML,Semester 5,AL-503-A,Information Retrieval,1
+AIML,Semester 5,AL-503-B,Deep Learning,2
+AIML,Semester 5,AL-504-A,In Health Care,1
+AIML,Semester 5,AL-504-B,Natural Language Processing,3
+AIML,Semester 5,IO-502,Database Management System,1
+AIML,Semester 6,AL-601,Theory of Computation,4
+AIML,Semester 6,AL-602,Computer Networks,4
+AIML,Semester 6,AL-603-B,Data and Visual Analytics,2
+AIML,Semester 6,AL-604-A,Cloud Computing,3
+AIML,Semester 6,AL-604-C,Intelligent Systems for Robotics,1
+AIML,Semester 7,AL-701,Computer Vision,2
+AIML,Semester 7,AL-702-A,In Gaming,1
+AIML,Semester 7,AL-702-B,Advanced Machine Learning,1
+AIML,Semester 7,AL-702-C,Predictive Analytics,1
+AIML,Semester 7,AL-702-D,Machine Learning for Data Science,1
+AIML,Semester 7,AL-703-B,Augmented and Virtual Reality,1
+AIML,Semester 7,AL-703-C,Agile Software Development,1
+AIML,Semester 7,AL-703-D,Internet and Web Technology,1
+AIML,Semester 8,AL-801,Business Intelligence,1
+AIML,Semester 8,AL-802-A,Blockchain Technologies,1
+AIML,Semester 8,AL-803,Managing Innovation and Entrepreneurship,2
+AIML,Semester 8,AL-803-A,Introduction to IoT,1
+CD,Semester 3,AD-301,Technical Communication,5
+CD,Semester 3,AD-304,Artificial Intelligence,2
+CD,Semester 3,AL-302,Introduction to Probability and Statistics,2
+CD,Semester 3,BT-301,Mathematics-III,1
+CD,Semester 3,CD-302,Introduction to Probability and Statistics,4
+CD,Semester 3,CD-304,Database Management System,2
+CD,Semester 3,CS-304,Digital Systems,1
+CD,Semester 3,ES-301,Energy and Environmental Engineering,3
+CD,Semester 3,SD-302,Discrete Structure,3
+CD,Semester 3,SD-303,Data Structures,5
+CD,Semester 3,SD-305,Object Oriented Programming and Methodology,6
+CD,Semester 4,AL-401,Introduction to Discrete Structure and Linear Algebra,3
+CD,Semester 4,CD-401,Introduction to Discrete Structure,1
+CD,Semester 4,CD-401,Introduction to Discrete Structure and Linear Algebra,2
+CD,Semester 4,CD-404,Computer Organization and Architecture,1
+CD,Semester 4,CD-404,Introduction to Data Science,3
+CD,Semester 4,ES-401,Energy and Environmental Engineering,2
+CD,Semester 4,SD-402,Analysis and Design of Algorithms,6
+CD,Semester 4,SD-403,Software Engineering,6
+CD,Semester 4,SD-405,Operating Systems,4
+CD,Semester 5,CD-501,Theory of Computation,2
+CD,Semester 5,CD-502,Machine Learning,2
+CD,Semester 5,CD-503-B,Pattern Recognition,2
+CD,Semester 5,CD-503-C,Introduction to Toolkits for Data Science,1
+CD,Semester 5,CD-504-A,Computer Graphics and Visualization,1
+CD,Semester 5,CD-504-C,Computer Organization and Architecture,2
+CD,Semester 6,CD-601,Deep Learning,3
+CD,Semester 6,CD-603-A,Big Data Analytics,2
+CD,Semester 6,CD-603-C,Advanced Database Management System,1
+CD,Semester 6,CD-603-C,Compiler Design,1
+CD,Semester 6,CD-604,Natural Language Processing,1
+CD,Semester 6,CD-604-B,Agile Software Development,1
+CD,Semester 6,CD-604-C,Natural Language Processing,1
+CD,Semester 6,CS-602,Computer Networks,4
+CD,Semester 7,CD-701,Data Engineering,2
+CD,Semester 7,CD-702-A,Data Analytics and Visualization,2
+CD,Semester 7,CD-703-A,Cryptography and Information Security,1
+CD,Semester 8,CD-801,Compiler Design,1
+COMMON,Semester 1,BT-101,Engineering Chemistry,13
+COMMON,Semester 1,BT-102,Mathematics 1,13
+COMMON,Semester 1,BT-103,English for Communication,13
+COMMON,Semester 1,BT-104,Basic Electrical and Electronics Engineering,12
+COMMON,Semester 1,BT-105,Engineering Graphics,12
+COMMON,Semester 2,BT-201,Engineering Physics,13
+COMMON,Semester 2,BT-202,Mathematics 2,10
+COMMON,Semester 2,BT-203,Basic Mechanical Engineering,13
+COMMON,Semester 2,BT-204,Basic Civil Engineering and Engineering Mechanics,12
+COMMON,Semester 2,BT-205,Basic Computer Engineering,12
+CSBS,Semester 1,CB-101,Discrete Mathematics,2
+CSBS,Semester 1,CB-102,"Introductory Topics in Statistics, Probability and Calculus",3
+CSBS,Semester 1,CB-103,Fundamentals of Computer Science,2
+CSBS,Semester 1,CB-104,Principles of Electrical Engineering,3
+CSBS,Semester 1,CB-105,Fundamentals of Physics,3
+CSBS,Semester 1,CB-106,Business Communication and Value Science-I,1
+CSBS,Semester 2,CB-202,Statistical Method,2
+CSBS,Semester 2,CB-203,Data Structures and Algorithms,2
+CSBS,Semester 2,CB-204,Principles of Electronics,2
+CSBS,Semester 2,CB-205,Fundamentals of Economics,2
+CSBS,Semester 2,CB-206,Business Communication and Value Science-II,2
+CSBS,Semester 3,CB-301,Formal Language and Automata Theory,1
+CSBS,Semester 3,CB-302,Computer Organization and Architecture,1
+CSBS,Semester 3,CB-303,Object Oriented Programming,1
+CSBS,Semester 3,CB-304,Computational Statistics,1
+CSBS,Semester 3,CB-305,Dbms,1
+CSBS,Semester 3,ES-301,Energy and Environmental Engineering,1
+CSBS,Semester 4,CB-401,Operating Systems,1
+CSBS,Semester 4,CB-402,Design And Analysis of Algorithms,1
+CSBS,Semester 4,CB-403,Software Engineering,1
+CSBS,Semester 4,CB-404,"Introduction to Innovation, IP Management and Entrepreneurship",1
+CSBS,Semester 4,CB-405,Design Thinking,2
+CSBS,Semester 5,CB-501,Software Design with Uml,1
+CSBS,Semester 5,CB-502,Compiler Design,1
+CSBS,Semester 5,CB-503,Fundamentals of Management,1
+CSBS,Semester 5,CB-504,Business Strategy,1
+CSBS,Semester 5,CB-505,Business Communication and Value Science - III,1
+CSBS,Semester 5,CB-506-B,Cloud Microservices and Applications,1
+CSBS,Semester 6,CB-601,Computer Networks,2
+CSBS,Semester 6,CB-602,Information Security,2
+CSBS,Semester 6,CB-603,Artificial Intelligence,1
+CSBS,Semester 6,CB-605,Business Communication and Value Science 4,1
+CSBS,Semester 6,CB-606-B,Modern Web Applications,1
+CSE-IOT,Semester 3,CS-304,Digital Systems,1
+CSE-IOT,Semester 3,SD-302,Discrete Structure,1
+CSE-IOT,Semester 4,AL-403,Software Engineering,2
+CSE-IOT,Semester 4,ES-401,Energy and Environmental Engineering,1
+CSE-IOT,Semester 4,IO-404,Computer Organization and Architecture,2
+CSE-IOT,Semester 4,IO-405,Database Management System,2
+CSE-IOT,Semester 4,IT-402,Computer Architecture,1
+CSE-IOT,Semester 4,IT-403,Analysis and Design of Algorithm,1
+CSIT,Semester 3,CS-304,Digital Systems,4
+CSIT,Semester 3,CSIT-302,Discrete Structure,8
+CSIT,Semester 3,CSIT-303,Data Structure,5
+CSIT,Semester 3,CSIT-304,Digital Circuits and System,4
+CSIT,Semester 3,CSIT-305,Object Oriented Programming and Methodology,3
+CSIT,Semester 3,ES-301,Energy and Environmental Engineering,1
+CSIT,Semester 4,AL-404,Computer Organization and Architecture,5
+CSIT,Semester 4,BT-401,Mathematics- III,4
+CSIT,Semester 4,CI-402,Analog and Digital Communication,3
+CSIT,Semester 4,CT-404,Computer Organisation and Architecture,1
+CSIT,Semester 4,CT-404,Computer Organization and Architecture,3
+CSIT,Semester 4,CT-405,Database Management System,4
+CSIT,Semester 4,IT-403,Analysis and Design of Algorithm,5
+CSIT,Semester 5,CI-502,Operating System,1
+CSIT,Semester 5,CI-503,It A Theory of Computation,1
+CSIT,Semester 5,CI-503-A,Theory of Computation,1
+CSIT,Semester 5,CI-503-B,Microprocessor and Interfacing,1
+CSIT,Semester 5,CI-503-C,Principles of Programming Languages,1
+CSIT,Semester 5,CI-504-B,Artificial Intelligence,2
+CSIT,Semester 5,CI-504-C,Web Technology and E Commerce,1
+CSIT,Semester 5,CSIT-501,Computer Networking,1
+CSIT,Semester 5,CT-503-A,Theory of Computation,1
+CSIT,Semester 5,CT-504-B,Artificial Intelligence,1
+CSIT,Semester 6,CI-603-A,Wireless and Mobile Computing,1
+CSIT,Semester 6,CI-603-B,Computer Graphics and Multimedia,1
+CSIT,Semester 6,CI-604-A,Cryptography and Network Security,1
+CSIT,Semester 6,CSIT-601,Software Engineering and Agile,1
+CSIT,Semester 6,CSIT-602,Machine Learning,1
+CSIT,Semester 8,CI-802-D,Block Chain Technology,1
+CSIT,Semester 8,CI-803-C,Cyber Laws and Forensics,1
+CSIT,Semester 8,CSIT-801,Data Science,1
+IS,Semester 3,AD-301,Technical Communication,5
+IS,Semester 3,AD-304,Artificial Intelligence,2
+IS,Semester 3,AD-305,Object Oriented Programming and Methodology,6
+IS,Semester 3,AG-303,Data Structures,5
+IS,Semester 3,BT-301,Mathematics-III,1
+IS,Semester 3,ES-301,Energy and Environmental Engineering,3
+IS,Semester 3,IS-302,Discrete Structures,2
+IS,Semester 3,IS-303,Data Structure,1
+IS,Semester 3,IS-304,Computer Networks,1
+IS,Semester 3,IS-304,Introduction to Information Security,2
+IS,Semester 3,IS-305,Object Oriented Programming and Methodology,1
+IS,Semester 4,AL-403,Software Engineering,1
+IS,Semester 4,AL-404,Computer Organization and Architecture,5
+IS,Semester 4,ES-401,Energy and Environmental Engineering,2
+IS,Semester 4,IO-401,"Probability, Statistics and Linear Algebra",1
+IS,Semester 4,IO-403,Operating Systems,1
+IS,Semester 4,IS-402,Fundamentals of Iot,1
+IS,Semester 4,IS-404,Computer Organization and Architecture,3
+IS,Semester 5,IO-502,Database Management System,1
+IS,Semester 5,IS-501,Foundation of Blockchain Technology,2
+IS,Semester 5,IS-501,Foundations of Block Chain Technology,1
+IS,Semester 5,IS-502,Database Management Systems,1
+IS,Semester 5,IS-503-A,Security Assessment and Risk Analysis,1
+IS,Semester 5,IS-504,Cyber Security Operations,1
+IS,Semester 6,IS-601,Data Analytics in Iot and Blockchain,1
+IS,Semester 6,IS-601,Data Nanlytics in Iot and Blockchain,1
+IS,Semester 6,IS-602,Internet and Web Technology,2
+IS,Semester 6,IS-603-A,Cyber Security,1
+IS,Semester 6,IS-604-B,Theory of Computation,1
+IS,Semester 8,IS-801,Artificial Intelligence,1
+IS,Semester 8,IS-802-C,Big Data,1
+IS,Semester 8,IS-803,Managing Innovation and Entrepreneurship,2
+IS,Semester 8,IS-803-B,Image Processing and Computer Vision,1
+OTHERS,Semester 3,BT-301,Mathematics-III,5
+OTHERS,Semester 3,ES-301,Energy and Environmental Engineering,8
+OTHERS,Semester 3,ES-301,Energy and Environmental Engineering V2,1
+OTHERS,Semester 4,BT-401,Mathematics- III,8
+OTHERS,Semester 4,ES-3001,"Energy, Environment, Ecology and Society",2
+OTHERS,Semester 4,ES-401,Energy and Environmental Engineering,9
+OTHERS,Semester 5,AT-501,Unit Operation in Post Harvest Management,1
+OTHERS,Semester 5,AT-502,Farm Machinery 2,1
+OTHERS,Semester 5,AT-503-A,Operations Research,1
+OTHERS,Semester 5,AT-504-B,Ic Engines,1
+OTHERS,Semester 5,BE-501,Data Communication,1
+OTHERS,Semester 6,BT-603,Metal Cutting and Cnc Machine,5
+OTHERS,Semester 6,BT-603,Metal Cutting and Cnc Machines,3
+OTHERS,Semester 7,AT-701,Post Harvest Management and Processing,1
+OTHERS,Semester 7,AT-702-B,Farm Machinery Design,1
+OTHERS,Semester 7,AT-703-C,Instrumentation,1
+OTHERS,Semester 7,BT-703-B,Mis Erp and E Business,1
+OTHERS,Semester 8,BT-801-B,Simulation and Process Modelling,1
+OTHERS,Semester 8,BT-801-D,Simulation and Process Modelling,1

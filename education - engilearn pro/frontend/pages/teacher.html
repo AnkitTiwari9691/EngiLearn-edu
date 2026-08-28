@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard - EngiLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="../assets/css/lms.css?v=22">
+    
+    <link rel="stylesheet" href="../assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="../assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="lms-body" data-theme="light">
+    <header class="header">
+        <nav class="nav-container" aria-label="Teacher navigation">
+            <a class="logo" href="../index.html"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="teacher.html">Dashboard</a></li>
+                <li><a href="#students">Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="lms-shell">
+        <aside class="lms-sidebar">
+            <div class="lms-user">
+                <strong id="teacherName">Teacher</strong>
+                <span id="teacherScope">Assigned class loading...</span>
+            </div>
+            <button class="lms-tab active" data-lms-tab="overview" type="button"><i class="fas fa-chart-line"></i> Overview</button>
+            <button class="lms-tab" data-lms-tab="students" type="button"><i class="fas fa-users"></i> Students</button>
+            <button class="lms-tab" data-lms-tab="assignments" type="button"><i class="fas fa-file-pen"></i> Assignments</button>
+            <button class="lms-tab" data-lms-tab="attendance" type="button"><i class="fas fa-calendar-check"></i> Attendance</button>
+            <button class="lms-tab" data-lms-tab="marks" type="button"><i class="fas fa-square-poll-vertical"></i> Marks</button>
+            <button class="lms-tab" id="teacherLogout" type="button"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </aside>
+
+        <main class="lms-main">
+            <section class="lms-hero">
+                <div>
+                    <p class="lms-kicker">Teacher Workspace</p>
+                    <h1 id="teacherGreeting">Welcome back</h1>
+                    <p>Manage assigned students, assignments, attendance, and marks.</p>
+                </div>
+            </section>
+
+            <section class="lms-stats" aria-label="Teacher stats">
+                <div class="lms-stat"><span>Students</span><strong id="teacherStudentCount">0</strong></div>
+                <div class="lms-stat"><span>Subjects</span><strong id="teacherSubjectCount">0</strong></div>
+                <div class="lms-stat"><span>Assignments</span><strong id="teacherAssignmentCount">0</strong></div>
+                <div class="lms-stat"><span>Submissions</span><strong id="teacherSubmissionCount">0</strong></div>
+            </section>
+
+            <section class="lms-section active" id="overview">
+                <div class="lms-panel">
+                    <h2>Assigned Students</h2>
+                    <div class="lms-grid" id="teacherStudentCards"></div>
+                </div>
+                <div class="lms-panel">
+                    <h2>Recent Assignments</h2>
+                    <div class="lms-grid" id="teacherAssignmentCards"></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="students">
+                <div class="lms-panel">
+                    <h2>Student Records</h2>
+                    <div class="lms-table-wrap">
+                        <table class="lms-table">
+                            <thead><tr><th>Name</th><th>Email</th><th>Branch</th><th>Semester</th><th>Status</th></tr></thead>
+                            <tbody id="teacherStudentRows"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="assignments">
+                <div class="lms-panel">
+                    <h2>Upload Assignment</h2>
+                    <form class="lms-form" id="teacherAssignmentForm">
+                        <input name="title" placeholder="Assignment title" required>
+                        <input name="subject" placeholder="Subject" required>
+                        <input name="deadline" type="date" required>
+                        <textarea name="description" placeholder="Description"></textarea>
+                        <input name="file" type="file">
+                        <button class="lms-btn" type="submit"><i class="fas fa-upload"></i> Save Assignment</button>
+                    </form>
+                </div>
+                <div class="lms-panel">
+                    <h2>Submissions</h2>
+                    <div class="lms-table-wrap">
+                        <table class="lms-table">
+                            <thead><tr><th>Student</th><th>Assignment</th><th>Status</th><th>Date</th></tr></thead>
+                            <tbody id="teacherSubmissionRows"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="attendance">
+                <div class="lms-panel">
+                    <h2>Mark Attendance</h2>
+                    <form class="lms-form" id="teacherAttendanceForm">
+                        <select name="studentId" id="attendanceStudent" required></select>
+                        <input name="subject" placeholder="Subject" required>
+                        <input name="date" type="date" required>
+                        <select name="status"><option>Present</option><option>Absent</option></select>
+                        <button class="lms-btn" type="submit"><i class="fas fa-check"></i> Save Attendance</button>
+                    </form>
+                    <div class="lms-grid" id="attendanceCards"></div>
+                </div>
+            </section>
+
+            <section class="lms-section" id="marks">
+                <div class="lms-panel">
+                    <h2>Upload Marks</h2>
+                    <form class="lms-form" id="teacherMarksForm">
+                        <select name="studentId" id="marksStudent" required></select>
+                        <input name="subject" placeholder="Subject" required>
+                        <input name="exam" placeholder="Exam name" required>
+                        <input name="score" type="number" min="0" placeholder="Score" required>
+                        <input name="maxScore" type="number" min="1" placeholder="Max score" value="100" required>
+                        <button class="lms-btn" type="submit"><i class="fas fa-save"></i> Save Marks</button>
+                    </form>
+                    <div class="lms-grid" id="marksCards"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../assets/js/api.js?v=53"></script>
+    <script src="../assets/js/nav.js?v=3"></script>
+    <script src="../assets/js/lms-teacher.js?v=1"></script>
+    <script src="../assets/js/theme-engine.js?v=7"></script>
+  <script src="../assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+

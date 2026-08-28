@@ -1,0 +1,20 @@
+{
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.file": "index.html",
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/api",
+        "proxyUri": "http://127.0.0.1:5021/api"
+    },
+    "liveServer.settings.ignoreFiles": [
+        "**/backend/**",
+        "**/node_modules/**",
+        "**/.git/**"
+    ],
+    "fiveServer.ignore": [
+        "**/backend/**",
+        "**/node_modules/**",
+        "**/.git/**"
+    ]
+}

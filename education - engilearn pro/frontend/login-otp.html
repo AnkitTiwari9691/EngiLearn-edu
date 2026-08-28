@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Login - EngiLearn</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css?v=scrollfix1">
+    <link rel="stylesheet" href="css/style.css?v=50">
+    
+    <link rel="stylesheet" href="./assets/css/theme-engine.css?v=43">
+  <link rel="stylesheet" href="assets/css/seo-enhancements.css?v=1">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4DBNS2P3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1W4DBNS2P3');
+    </script></head>
+<body class="auth-page auth-v2-page auth-login-nothing auth-otp-page" data-theme="light">
+    <main class="auth-v2-shell">
+        <section class="auth-v2-panel">
+            <a class="auth-brand auth-v2-brand" href="index.html"><i class="fas fa-graduation-cap"></i> EngiLearn</a>
+            <div class="auth-v2-copy">
+                <span class="auth-kicker">Passwordless Access</span>
+                <h1>Sign in with a short-lived OTP.</h1>
+                <p>OTP is sent to your registered email or mobile number.</p>
+            </div>
+            <div class="auth-v2-metrics">
+                <span><strong>JWT</strong> access</span>
+                <span><strong>HTTP</strong> cookie</span>
+                <span><strong>RBAC</strong> redirect</span>
+            </div>
+        </section>
+
+        <section class="auth-v2-card">
+            <div class="auth-card-head">
+                <span class="auth-card-icon"><i class="fas fa-key"></i></span>
+                <div>
+                    <h2>Login With OTP</h2>
+                    <p>Check your email or mobile number, then enter the OTP below.</p>
+                </div>
+            </div>
+            <div id="authAlert"></div>
+            <div class="otp-status-panel" id="otpStatusPanel" hidden>
+                <strong id="otpStatusTitle">OTP Ready</strong>
+                <span id="otpStatusText">Enter the OTP below.</span>
+                <span id="otpTimer">05:00</span>
+            </div>
+            <form class="auth-form" id="sendLoginOtpForm">
+                <label>Role
+                                        <select id="role" name="role">
+                        <option value="">Automatic role detection</option>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Admin">Admin</option>
+                    </select>
+                </label>
+                <label>Email or Mobile
+                    <input id="identifier" name="identifier" required placeholder="email@example.com or mobile number">
+                </label>
+                <button class="auth-submit" type="submit"><i class="fas fa-paper-plane"></i> Send OTP</button>
+            </form>
+            <form class="auth-form auth-complete-form" id="verifyLoginOtpForm" hidden>
+                <div class="otp-grid">
+                    <input data-otp maxlength="1" inputmode="numeric">
+                    <input data-otp maxlength="1" inputmode="numeric">
+                    <input data-otp maxlength="1" inputmode="numeric">
+                    <input data-otp maxlength="1" inputmode="numeric">
+                    <input data-otp maxlength="1" inputmode="numeric">
+                    <input data-otp maxlength="1" inputmode="numeric">
+                </div>
+                <button class="auth-submit" type="submit"><i class="fas fa-unlock"></i> Verify & Login</button>
+            </form>
+            <button class="auth-secondary" id="resendOtp" type="button">Resend OTP</button>
+            <div class="auth-v2-actions">
+                <a href="login.html"><i class="fas fa-lock"></i> Password login</a>
+                <a href="signup.html"><i class="fas fa-user-plus"></i> Signup</a>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/api.js?v=53"></script>
+    <script src="js/toast.js?v=1"></script>
+    <script src="js/auth.js?v=53"></script>
+    <script src="js/loginOtp.js?v=56"></script>
+    <script src="./assets/js/theme-engine.js?v=7"></script>
+  <script src="assets/js/seo-enhancements.js?v=1" defer></script>
+</body>
+</html>
+
+
